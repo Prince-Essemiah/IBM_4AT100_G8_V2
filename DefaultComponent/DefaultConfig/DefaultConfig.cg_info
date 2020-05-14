@@ -1,0 +1,23 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 2;
+	- value = "DefaultComponent\\DefaultConfig\\TUesla.cpp" 3.31.2020::15:17:39
+	"DefaultComponent\\DefaultConfig\\TUesla.h" 3.31.2020::15:17:39
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 1;
+	- value = "GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7" "GUID 685a9f72-6564-4ad2-b344-804e36789f33"
+	
+}
+- size = 1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\TUesla.sbsx";
+	- _subsystem = "TUesla";
+	- _name = "TUesla";
+	- _id = GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d;
+}
+- genTime = 3.31.2020::15:17:39;
+
