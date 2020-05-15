@@ -11,10 +11,10 @@
 			<_id type="a">GUID 0b5d63f4-6f26-48e6-8a61-6abb1bc76075</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NonFunctionalReqPkg</_name>
-			<_modifiedTimeWeak type="a">4.1.2020::13:16:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::17:4:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.15.2020::7:53:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.15.2020::8:28:58</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">4.1.2020::13:16:32</weakCGTime>
+			<weakCGTime type="a">5.15.2020::7:53:5</weakCGTime>
 			<strongCGTime type="a">4.1.2020::13:16:32</strongCGTime>
 			<_defaultComposite type="s">GUID b7c0d6bc-03ab-40cc-b101-7bc463355942</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -241,7 +241,106 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">3</size>
+									<size type="a">6</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Aggregation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Association</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Composition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 									<IPropertyMetaclass type="e">
 										<_Name type="a">ContainArrow</_Name>
 										<Properties type="c">
@@ -401,8 +500,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.1.2020::13:16:32</_modifiedTime>
-			<_lastModifiedTime type="a">4.1.2020::13:16:32</_lastModifiedTime>
+			<_modifiedTime type="a">5.15.2020::8:5:4</_modifiedTime>
+			<_lastModifiedTime type="a">5.15.2020::8:5:4</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
