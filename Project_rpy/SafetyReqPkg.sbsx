@@ -11,10 +11,10 @@
 			<_id type="a">GUID c982dd4b-a706-432c-9057-84a8f5a568fe</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SafetyReqPkg</_name>
-			<_modifiedTimeWeak type="a">5.15.2020::7:53:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.15.2020::8:28:58</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.26.2020::8:19:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.26.2020::8:42:39</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">5.15.2020::7:53:5</weakCGTime>
+			<weakCGTime type="a">5.26.2020::8:19:12</weakCGTime>
 			<strongCGTime type="a">3.31.2020::23:17:41</strongCGTime>
 			<_defaultComposite type="s">GUID c0d759f1-0cf7-401a-8832-768f0bac33f5</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -106,7 +106,7 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">6</size>
+									<size type="a">7</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Aggregation</_Name>
 										<Properties type="c">
@@ -215,6 +215,45 @@
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DefaultTransition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">5</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
@@ -365,8 +404,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.15.2020::8:5:4</_modifiedTime>
-			<_lastModifiedTime type="a">5.15.2020::8:5:4</_lastModifiedTime>
+			<_modifiedTime type="a">5.26.2020::8:19:12</_modifiedTime>
+			<_lastModifiedTime type="a">5.26.2020::8:19:12</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
