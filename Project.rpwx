@@ -85,8 +85,8 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
@@ -107,10 +107,10 @@
 								<_hid type="a">GUID d14b7580-1989-42ca-9995-03093c190d32</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1866 695 </_DownRight>
+						<_UpLeft type="a">0 20 </_UpLeft>
+						<_DownRight type="a">1108 576 </_DownRight>
 						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -245,7 +245,7 @@
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\Users\bthem\Documents\TUe\19-20\Q4\4AT100 Automotive Systems Engineering Project\IBM\IBM_4AT100_G8_V2\Project</_fullName>
+			<_fullName type="a">D:\OneDrive\Studies\TUe\Year 1\Q4\4AT100\Model\IBM_4AT100_G8_V2\Project</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
