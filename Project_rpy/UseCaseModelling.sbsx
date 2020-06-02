@@ -11,16 +11,28 @@
 			<_id type="a">GUID 1c238f57-135e-48fa-9b00-d8eb696fc1bb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UseCaseModelling</_name>
-			<_modifiedTimeWeak type="a">5.26.2020::8:11:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.26.2020::8:11:8</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.26.2020::8:11:8</weakCGTime>
+			<_modifiedTimeWeak type="a">6.1.2020::21:16:48</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.1.2020::21:18:56</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">6.1.2020::21:16:48</weakCGTime>
 			<strongCGTime type="a">5.26.2020::8:11:1</strongCGTime>
 			<_defaultComposite type="s">GUID ce682e2c-521d-4467-a7a9-de296ece066c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 302fa4a5-6f3a-4469-9867-d1e0a97c9069</value>
+				<value>GUID 9cf947ba-f6e1-42ba-ab70-cf544acd3833</value>
+				<value>GUID 06c33686-ce69-4cc9-88c3-c155a269ec74</value>
+				<value>GUID 5c47df96-bce8-4230-87bd-b5bcb1e2e464</value>
 				<value>GUID ce682e2c-521d-4467-a7a9-de296ece066c</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -28,12 +40,24 @@
 			<fileName type="a">SetCoordinates</fileName>
 			<_id type="a">GUID 302fa4a5-6f3a-4469-9867-d1e0a97c9069</_id>
 		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">DCTParksTrailerPB</fileName>
+			<_id type="a">GUID 9cf947ba-f6e1-42ba-ab70-cf544acd3833</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">DCTReverseParkLD</fileName>
+			<_id type="a">GUID 06c33686-ce69-4cc9-88c3-c155a269ec74</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">StopCrash</fileName>
+			<_id type="a">GUID 5c47df96-bce8-4230-87bd-b5bcb1e2e464</_id>
+		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID ce682e2c-521d-4467-a7a9-de296ece066c</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">

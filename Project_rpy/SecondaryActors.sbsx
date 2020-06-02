@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SecondaryActors</_name>
+			<_modifiedTimeWeak type="a">6.2.2020::11:25:15</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:26:17</_modifiedTime>
+			<weakCGTime type="a">6.2.2020::11:25:15</weakCGTime>
+			<strongCGTime type="a">6.1.2020::20:10:47</strongCGTime>
+			<_defaultComposite type="s">GUID 86d11af1-2929-4d0b-8874-443144cd8061</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">6.2.2020::7:43:43</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 86d11af1-2929-4d0b-8874-443144cd8061</value>
+				<value>GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</value>
+				<value>GUID 47ee9a14-9ef5-457a-8054-606c83a0c81a</value>
+				<value>GUID 8b2623dc-7365-4fcb-aec8-f39ffddec048</value>
+				<value>GUID 4e711e10-dce3-49ec-9f32-e09ca6f0bab3</value>
+				<value>GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</value>
+				<value>GUID 10ba2027-e2b4-4ff2-97ea-5a5e61491ef8</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 86d11af1-2929-4d0b-8874-443144cd8061</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Sensors</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::11:26:49</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">AutonomousDriving</_hname>
+					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:26:49</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">6.2.2020::11:26:49</weakCGTime>
+			<strongCGTime type="a">6.1.2020::20:12:49</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 2fd7bed1-4205-4a8d-b8aa-2b4aed2dc395</value>
+				<value>GUID 21dd70c0-0d19-4f1a-bfc5-7dc6def68d24</value>
+				<value>GUID 404c9f3b-1f7b-45c8-b655-b8cf3ec24d91</value>
+				<value>GUID 19293590-56a6-481d-bf3b-331f943d6a95</value>
+				<value>GUID b2d632c7-d2b3-49d5-a497-ae5070541e3c</value>
+				<value>GUID 94dc9453-f499-47db-82bb-5035266eceac</value>
+				<value>GUID b1e87f50-1608-4152-a9a0-1673585efc63</value>
+				<value>GUID 0e308a13-3fd6-4949-8288-94dd832fea3e</value>
+				<value>GUID 951f329f-e045-4872-90a5-aeb63ac64218</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 2fd7bed1-4205-4a8d-b8aa-2b4aed2dc395</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Sensors_TUesla</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:39:42</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">3</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 21dd70c0-0d19-4f1a-bfc5-7dc6def68d24</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 404c9f3b-1f7b-45c8-b655-b8cf3ec24d91</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 94dc9453-f499-47db-82bb-5035266eceac</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID 3b665cbd-63c5-4e44-a1ce-e510f0c180ce</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID 3b665cbd-63c5-4e44-a1ce-e510f0c180ce</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:48:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:37</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 01e39ffe-13ea-443a-8f63-f67df1b39a81</value>
+				<value>GUID 7a04bdde-ba3e-4568-9e96-f85439df3b74</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 01e39ffe-13ea-443a-8f63-f67df1b39a81</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 0e308a13-3fd6-4949-8288-94dd832fea3e</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID 7a04bdde-ba3e-4568-9e96-f85439df3b74</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 21dd70c0-0d19-4f1a-bfc5-7dc6def68d24</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Obstacles</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:48</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 404c9f3b-1f7b-45c8-b655-b8cf3ec24d91</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OtherDCT</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:57</_modifiedTime>
+		</IInformationItem>
+		<IClass type="e">
+			<_id type="a">GUID 19293590-56a6-481d-bf3b-331f943d6a95</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Camera</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.1.2020::21:41:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Actors.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
+					<_hname type="a">SystemContext</_hname>
+					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.1.2020::21:41:12</_modifiedTime>
+			<weakCGTime type="a">6.1.2020::21:41:12</weakCGTime>
+			<strongCGTime type="a">6.1.2020::21:41:12</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 072a30e1-47be-4268-915c-667b67badff9</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID 072a30e1-47be-4268-915c-667b67badff9</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID b2d632c7-d2b3-49d5-a497-ae5070541e3c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Lidar</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.1.2020::21:42:51</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Actors.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
+					<_hname type="a">SystemContext</_hname>
+					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.1.2020::21:42:51</_modifiedTime>
+			<weakCGTime type="a">6.1.2020::21:42:51</weakCGTime>
+			<strongCGTime type="a">6.1.2020::21:42:51</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 1f6c7ebd-53ba-4bb9-ba0e-9f39faf2c3e0</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID 1f6c7ebd-53ba-4bb9-ba0e-9f39faf2c3e0</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IInformationItem type="e">
+			<_id type="a">GUID 94dc9453-f499-47db-82bb-5035266eceac</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DCTVelocity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:48:19</_modifiedTime>
+		</IInformationItem>
+		<IClass type="e">
+			<_id type="a">GUID b1e87f50-1608-4152-a9a0-1673585efc63</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Velocity</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::11:25:15</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Actors.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
+					<_hname type="a">SystemContext</_hname>
+					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:25:15</_modifiedTime>
+			<weakCGTime type="a">6.2.2020::11:25:15</weakCGTime>
+			<strongCGTime type="a">6.2.2020::11:25:15</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 4e8d8f1c-9f81-4e31-b7d8-709f4c3079a2</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID 4e8d8f1c-9f81-4e31-b7d8-709f4c3079a2</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 0e308a13-3fd6-4949-8288-94dd832fea3e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:29:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:29:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsSensors</_hname>
+					<_hid type="a">GUID 8d945891-60a8-447e-9af9-e05f5989730c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 951f329f-e045-4872-90a5-aeb63ac64218</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPathPlanning</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::11:26:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">PathPlanning</_hname>
+					<_hid type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">PathPlanning</_hclass>
+					<_hname type="a">itsSensors</_hname>
+					<_hid type="a">GUID 14c39d13-d261-464b-b5d7-f38927bde14f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 47ee9a14-9ef5-457a-8054-606c83a0c81a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Cargo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.1.2020::21:12:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::21:12:14</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">6.1.2020::21:12:14</weakCGTime>
+			<strongCGTime type="a">6.1.2020::20:12:55</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 6588742b-5a23-4622-a56e-27e3d4b657f4</value>
+				<value>GUID 95167f99-afb3-4388-9faa-34d5b5f0f2e1</value>
+				<value>GUID 014e64fc-149d-4907-afa2-aaffeb1b883e</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 6588742b-5a23-4622-a56e-27e3d4b657f4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Cargo_TUesla</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:21</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 95167f99-afb3-4388-9faa-34d5b5f0f2e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47ee9a14-9ef5-457a-8054-606c83a0c81a</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID eb6605e4-f1e9-4948-b9a2-278f5e384240</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID eb6605e4-f1e9-4948-b9a2-278f5e384240</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:48:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:17</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID b58e250a-39c2-4b3a-85ec-1f2dc1182249</value>
+				<value>GUID dfee33fc-b9a0-4830-8718-3e3db0ec78c9</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID b58e250a-39c2-4b3a-85ec-1f2dc1182249</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 014e64fc-149d-4907-afa2-aaffeb1b883e</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID dfee33fc-b9a0-4830-8718-3e3db0ec78c9</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 95167f99-afb3-4388-9faa-34d5b5f0f2e1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CargoType</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:48:30</_modifiedTime>
+		</IInformationItem>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 014e64fc-149d-4907-afa2-aaffeb1b883e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:29:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:29:15</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsCargo</_hname>
+					<_hid type="a">GUID fc74fa95-9d10-4e30-8510-bb55c5b2db47</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 8b2623dc-7365-4fcb-aec8-f39ffddec048</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EnvironmentSensors</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::8:49:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:49:58</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">6.2.2020::8:49:58</weakCGTime>
+			<strongCGTime type="a">6.2.2020::8:49:58</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID b9ddbad3-9e63-49e6-93b6-2accf644e997</value>
+				<value>GUID b524c954-16d9-43d7-8e6e-f64afb3b02ef</value>
+				<value>GUID 0574f035-362e-463b-8662-fb75e2197b98</value>
+				<value>GUID df470efd-ce3d-40e4-8021-eaa83406f78f</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID b9ddbad3-9e63-49e6-93b6-2accf644e997</_id>
+			<_name type="a">LightIntensity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:50:13</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID b524c954-16d9-43d7-8e6e-f64afb3b02ef</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 0574f035-362e-463b-8662-fb75e2197b98</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 8b2623dc-7365-4fcb-aec8-f39ffddec048</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID d75f5023-caa9-4a6a-a023-e4a19407f7af</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID d75f5023-caa9-4a6a-a023-e4a19407f7af</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:56:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:56:37</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID be18b297-7122-4200-ad03-031272966764</value>
+				<value>GUID 56324341-e166-45c7-a48a-3ccdf554a16a</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID be18b297-7122-4200-ad03-031272966764</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID df470efd-ce3d-40e4-8021-eaa83406f78f</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID 56324341-e166-45c7-a48a-3ccdf554a16a</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID b524c954-16d9-43d7-8e6e-f64afb3b02ef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Temperature</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:56:54</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 0574f035-362e-463b-8662-fb75e2197b98</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LightIntensity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:50:42</_modifiedTime>
+		</IInformationItem>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID df470efd-ce3d-40e4-8021-eaa83406f78f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.2.2020::8:49:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:49:58</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsEnvironmentSensors</_hname>
+					<_hid type="a">GUID 82a9e6d2-12bc-47d1-82e0-44d1e1ddfbea</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 4e711e10-dce3-49ec-9f32-e09ca6f0bab3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DCT</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::11:27:40</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">AutonomousDriving</_hname>
+					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:27:40</_modifiedTime>
+			<_lastID type="a">11</_lastID>
+			<weakCGTime type="a">6.2.2020::11:27:40</weakCGTime>
+			<strongCGTime type="a">6.1.2020::20:13:5</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 95cd1beb-8a8d-4994-9634-b4fdaeaa5438</value>
+				<value>GUID 0fe54caf-2ec2-4f74-9130-74b83e7d681c</value>
+				<value>GUID 522aba81-c99f-42c3-903e-0467188b3fb1</value>
+				<value>GUID 3ebec619-fb34-4170-ab8d-51a639206c60</value>
+				<value>GUID 0e283351-bd98-45dc-b094-6913afb92865</value>
+				<value>GUID 3ae71e44-ec7a-4f62-b704-deef2e77e8ca</value>
+				<value>GUID ef036169-4e56-49ce-9e93-a1fed58780dc</value>
+				<value>GUID e323fc78-48e8-4d3d-b407-3309ff0990d9</value>
+				<value>GUID 284296aa-f92b-421e-bed3-649a9c39b3be</value>
+				<value>GUID 4792372c-29c7-4b52-911d-8ff517ee80b1</value>
+				<value>GUID d766d813-f119-41ea-a8ca-7f16d28aebf9</value>
+				<value>GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</value>
+				<value>GUID 61b36e69-6f21-4476-a1dc-f9b4cccbd693</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 95cd1beb-8a8d-4994-9634-b4fdaeaa5438</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TUesla_DCT</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:39:59</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">7</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 0fe54caf-2ec2-4f74-9130-74b83e7d681c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 522aba81-c99f-42c3-903e-0467188b3fb1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 3ae71e44-ec7a-4f62-b704-deef2e77e8ca</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID ef036169-4e56-49ce-9e93-a1fed58780dc</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID e323fc78-48e8-4d3d-b407-3309ff0990d9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 4792372c-29c7-4b52-911d-8ff517ee80b1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID d766d813-f119-41ea-a8ca-7f16d28aebf9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 4e711e10-dce3-49ec-9f32-e09ca6f0bab3</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID ba38982d-8c7a-4243-8659-fa293885e51b</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID ba38982d-8c7a-4243-8659-fa293885e51b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:46:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:46:58</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 289e5c3f-37c5-4c4e-9184-0604e08bd1a3</value>
+				<value>GUID 94ad4a98-491f-4e70-b691-9aed3adf760f</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 289e5c3f-37c5-4c4e-9184-0604e08bd1a3</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID 94ad4a98-491f-4e70-b691-9aed3adf760f</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 0fe54caf-2ec2-4f74-9130-74b83e7d681c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SteeringAngle</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:47:23</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 522aba81-c99f-42c3-903e-0467188b3fb1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Velocity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:47:47</_modifiedTime>
+		</IInformationItem>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 3ebec619-fb34-4170-ab8d-51a639206c60</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCT_TUesla</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:27:39</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 0e283351-bd98-45dc-b094-6913afb92865</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 284296aa-f92b-421e-bed3-649a9c39b3be</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 4e711e10-dce3-49ec-9f32-e09ca6f0bab3</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID 4207ed6e-ec23-4b72-b35b-a3cd1c33ac21</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID 4207ed6e-ec23-4b72-b35b-a3cd1c33ac21</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:47:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:47:44</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID c3fbf354-19c2-4568-a8b2-bc10d69d4d1c</value>
+				<value>GUID ee591ea9-7cba-4663-bf5c-5189f1fe70aa</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID c3fbf354-19c2-4568-a8b2-bc10d69d4d1c</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID ee591ea9-7cba-4663-bf5c-5189f1fe70aa</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 0e283351-bd98-45dc-b094-6913afb92865</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BatterySOC</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:47:56</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 3ae71e44-ec7a-4f62-b704-deef2e77e8ca</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Heating</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:49:36</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID ef036169-4e56-49ce-9e93-a1fed58780dc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Lighting</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:49:45</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID e323fc78-48e8-4d3d-b407-3309ff0990d9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CargoDoor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::21:44:55</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 284296aa-f92b-421e-bed3-649a9c39b3be</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CoupleStatus</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:27:49</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 4792372c-29c7-4b52-911d-8ff517ee80b1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EmergencyBrake</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:37:50</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID d766d813-f119-41ea-a8ca-7f16d28aebf9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OverrideManual</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::8:40:15</_modifiedTime>
+		</IInformationItem>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:22:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:22:30</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsDCT</_hname>
+					<_hid type="a">GUID 0655f284-21d2-4f84-a0b4-473819b2402d</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 61b36e69-6f21-4476-a1dc-f9b4cccbd693</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDrive</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::11:27:40</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">Drive</_hname>
+					<_hid type="a">GUID ee313e9a-5ba2-435f-ab40-6d1f1367c6eb</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">Drive</_hclass>
+					<_hname type="a">itsDCT</_hname>
+					<_hid type="a">GUID 093e4e3e-2765-4189-9f13-ea25b7b96697</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DCBoard</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::11:25:51</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">AutonomousDriving</_hname>
+					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:25:51</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">6.2.2020::11:25:51</weakCGTime>
+			<strongCGTime type="a">6.1.2020::20:13:27</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID f021fb10-fe99-4f0a-b8f6-b76016dbb9f2</value>
+				<value>GUID 70945a33-db41-4949-b594-833649d7a8a9</value>
+				<value>GUID 9cce1400-ab0a-49da-8572-f55f64d88fd7</value>
+				<value>GUID 26eafb40-d472-4141-bc97-2ddec91e1d1f</value>
+				<value>GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</value>
+				<value>GUID b9b281a5-4453-4a5d-a36e-1a860f0db496</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID f021fb10-fe99-4f0a-b8f6-b76016dbb9f2</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">TUesla_DCBoard</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:56:7</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 70945a33-db41-4949-b594-833649d7a8a9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID 07f03ca7-24ac-4b62-9ea7-a2bc69ff0a05</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID 07f03ca7-24ac-4b62-9ea7-a2bc69ff0a05</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:55:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:55:54</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 3b28d34c-3ac5-42cb-af2b-f4e192eca58c</value>
+				<value>GUID 3d66a4bb-03bf-4f35-80a6-791ce16ce4b3</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 3b28d34c-3ac5-42cb-af2b-f4e192eca58c</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID 3d66a4bb-03bf-4f35-80a6-791ce16ce4b3</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 70945a33-db41-4949-b594-833649d7a8a9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SelectPB</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:42:20</_modifiedTime>
+		</IInformationItem>
+		<IClass type="e">
+			<_id type="a">GUID 9cce1400-ab0a-49da-8572-f55f64d88fd7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TPABoard</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.1.2020::21:41:17</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Actors.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
+					<_hname type="a">SystemContext</_hname>
+					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.1.2020::21:41:17</_modifiedTime>
+			<weakCGTime type="a">6.1.2020::21:41:17</weakCGTime>
+			<strongCGTime type="a">6.1.2020::21:41:17</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID b2434dfb-d13e-4275-81ba-100cace8e29b</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID b2434dfb-d13e-4275-81ba-100cace8e29b</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 26eafb40-d472-4141-bc97-2ddec91e1d1f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EntranceBoard</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.1.2020::21:41:20</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Actors.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
+					<_hname type="a">SystemContext</_hname>
+					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.1.2020::21:41:20</_modifiedTime>
+			<weakCGTime type="a">6.1.2020::21:41:20</weakCGTime>
+			<strongCGTime type="a">6.1.2020::21:41:20</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID ce6e5565-4a19-4345-99b8-849ccc362368</value>
+			</AggregatesList>
+		</IClass>
+		<IGeneralization type="e">
+			<_id type="a">GUID ce6e5565-4a19-4345-99b8-849ccc362368</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:29:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:29:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsDCBoard</_hname>
+					<_hid type="a">GUID 0191f47a-36c4-4810-a0df-224504ca4abd</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID b9b281a5-4453-4a5d-a36e-1a860f0db496</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsParkingAssign</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::11:25:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">ParkingAssign</_hname>
+					<_hid type="a">GUID 084fa1f9-dbd6-4b42-90b1-a7e8bd335ce7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">ParkingAssign</_hclass>
+					<_hname type="a">itsDCBoard</_hname>
+					<_hid type="a">GUID 77924f04-39a8-4753-9836-7bddd9cf3a70</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 10ba2027-e2b4-4ff2-97ea-5a5e61491ef8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DCLocalizationSystem</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.2.2020::11:26:29</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">AutonomousDriving</_hname>
+					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.2.2020::11:26:29</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">6.2.2020::11:26:29</weakCGTime>
+			<strongCGTime type="a">6.2.2020::7:43:4</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID aed67b98-1743-45fe-b532-ac13b2482bcb</value>
+				<value>GUID 1b92a637-df28-4419-a6da-3641cb3550d1</value>
+				<value>GUID 7552f14b-5b2f-4868-ad1e-9fee936fdd0f</value>
+				<value>GUID 864e4ae5-e0dc-4775-a549-8275ed65433c</value>
+				<value>GUID bf01a1f1-5dec-4492-92a3-9935858a8fc3</value>
+				<value>GUID a0127094-e2b1-49a1-9530-f11a871a18b2</value>
+				<value>GUID 483684ea-f259-4312-9a35-3ddaaf8eec4b</value>
+			</AggregatesList>
+		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID aed67b98-1743-45fe-b532-ac13b2482bcb</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCLocalizationSystem_TUesla</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:43:4</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">3</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 1b92a637-df28-4419-a6da-3641cb3550d1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 7552f14b-5b2f-4868-ad1e-9fee936fdd0f</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 864e4ae5-e0dc-4775-a549-8275ed65433c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 10ba2027-e2b4-4ff2-97ea-5a5e61491ef8</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+			<AggregatesList type="e">
+				<value>GUID 8c4abe71-b3b3-499a-8bd8-fd44cfd1c6f5</value>
+			</AggregatesList>
+		</IInformationFlow>
+		<ITag type="e">
+			<_id type="a">GUID 8c4abe71-b3b3-499a-8bd8-fd44cfd1c6f5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">realization</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::20:50:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::20:50:39</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 936b8e9f-5227-491a-bec9-a1f57b5d9456</value>
+				<value>GUID 9dfd9860-bf55-42b7-93a2-bae1b2dd7d16</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 936b8e9f-5227-491a-bec9-a1f57b5d9456</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID bf01a1f1-5dec-4492-92a3-9935858a8fc3</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IType type="e">
+			<_id type="a">GUID 9dfd9860-bf55-42b7-93a2-bae1b2dd7d16</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">AssociationEnd</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IInformationItem type="e">
+			<_id type="a">GUID 1b92a637-df28-4419-a6da-3641cb3550d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PBinfo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:36:20</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 7552f14b-5b2f-4868-ad1e-9fee936fdd0f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LDinfo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:39:4</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 864e4ae5-e0dc-4775-a549-8275ed65433c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DCTPosition</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:40:0</_modifiedTime>
+		</IInformationItem>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bf01a1f1-5dec-4492-92a3-9935858a8fc3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTUesla</_name>
+			<_modifiedTimeWeak type="a">6.2.2020::7:43:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::7:43:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hname type="a">TUesla</_hname>
+					<_hid type="a">GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla</_hsubsystem>
+					<_hclass type="a">TUesla</_hclass>
+					<_hname type="a">itsDCLocalizationSystem</_hname>
+					<_hid type="a">GUID 1ccca8c2-f15e-4fca-ba05-01496587d705</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a0127094-e2b1-49a1-9530-f11a871a18b2</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsParkingAssign</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::11:25:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">ParkingAssign</_hname>
+					<_hid type="a">GUID 084fa1f9-dbd6-4b42-90b1-a7e8bd335ce7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">ParkingAssign</_hclass>
+					<_hname type="a">itsDCLocalizationSystem</_hname>
+					<_hid type="a">GUID 72043ff2-ac7e-46df-8e7d-bb6c5448efa0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 483684ea-f259-4312-9a35-3ddaaf8eec4b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPathPlanning</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.2.2020::11:26:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">PathPlanning</_hname>
+					<_hid type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">PathPlanning</_hclass>
+					<_hname type="a">itsDCLocalizationSystem</_hname>
+					<_hid type="a">GUID a615e03e-1bb3-4137-a51b-273f3412668c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
