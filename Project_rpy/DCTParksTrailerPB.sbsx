@@ -11,14 +11,14 @@
 			<_id type="a">GUID 9cf947ba-f6e1-42ba-ab70-cf544acd3833</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCTParksTrailerPB</_name>
-			<_modifiedTimeWeak type="a">6.1.2020::21:15:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::21:18:56</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.1.2020::21:15:24</weakCGTime>
+			<_modifiedTimeWeak type="a">6.4.2020::7:56:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.4.2020::11:24:53</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">6.4.2020::7:56:25</weakCGTime>
 			<strongCGTime type="a">5.31.2020::12:18:33</strongCGTime>
 			<_defaultComposite type="s">GUID 2481da1c-2c9f-447f-9d40-93a5ff2b4980</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">6.4.2020::7:56:25</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID cdc9e3f3-3fbf-4f4d-b81c-4e6f17d8c5b0</value>
 				<value>GUID 2481da1c-2c9f-447f-9d40-93a5ff2b4980</value>
@@ -36,7 +36,7 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">4</size>
+									<size type="a">5</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Action</_Name>
 										<Properties type="c">
@@ -161,6 +161,39 @@
 									</IPropertyMetaclass>
 									
 									<IPropertyMetaclass type="e">
+										<_Name type="a">Composition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
 										<_Name type="a">DiagramFrame</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
@@ -241,8 +274,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::20:18:44</_modifiedTime>
-			<_lastModifiedTime type="a">6.1.2020::20:18:44</_lastModifiedTime>
+			<_modifiedTime type="a">6.4.2020::7:57:37</_modifiedTime>
+			<_lastModifiedTime type="a">6.4.2020::7:57:37</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -533,7 +566,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.0925401 0 0 0.123886 195.815 191.242 </m_transform>
+			<m_transform type="a">0.0925401 0 0 0.123886 234.815 191.242 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -645,7 +678,7 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 288 196  245 196  </m_arrow>
+			<m_arrow type="a">2 288 196  284 196  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -798,16 +831,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::8:5:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.4.2020::7:56:22</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID cdc9e3f3-3fbf-4f4d-b81c-4e6f17d8c5b0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::20:18:44</_modifiedTime>
+			<_modifiedTime type="a">6.4.2020::7:56:22</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">6.2.2020::8:5:5</weakCGTime>
+			<weakCGTime type="a">6.4.2020::7:56:22</weakCGTime>
 			<strongCGTime type="a">5.31.2020::12:19:26</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1292,7 +1325,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">13</_defNumber>
-			<_version type="a">6.2.2020::10:5:5</_version>
+			<_version type="a">6.4.2020::9:34:52</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID cf18e068-585e-45e6-b15f-457f0040eff0</_diagram>
 			<_AnalysisMode type="a">1</_AnalysisMode>
@@ -1577,7 +1610,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID db8b42c9-a28b-4dc7-9be0-6948ba051d37</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1611,7 +1644,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID 0aea9aaa-8cfb-4a3b-9868-cc457de749be</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1645,7 +1678,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID 4f871c61-b433-4b2a-a9c8-588619d119a2</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -2285,7 +2318,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">2.63889 0 0 4.20455 20 20 </m_transform>
+			<m_transform type="a">2.7963 0 0 4.20455 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3867,7 +3900,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1073 525 </m_SourcePort>
+			<m_SourcePort type="a">1064 525 </m_SourcePort>
 			<m_TargetPort type="a">201 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -3929,7 +3962,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">-6 525 </m_SourcePort>
+			<m_SourcePort type="a">3 525 </m_SourcePort>
 			<m_TargetPort type="a">527 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">

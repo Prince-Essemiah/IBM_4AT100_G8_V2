@@ -11,7 +11,7 @@
 			<_id type="a">GUID 923b4146-83c1-4ae8-b986-bded0cd1d655</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usecases</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::11:35:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.4.2020::7:58:55</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:38:11</_modifiedTime>
+			<_modifiedTime type="a">6.4.2020::11:24:53</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">6.2.2020::11:35:12</weakCGTime>
+			<weakCGTime type="a">6.4.2020::7:58:55</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:13:16</strongCGTime>
 			<_defaultComposite type="s">GUID ecc752b4-303b-48ac-8f82-87ae653675a0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -480,8 +480,8 @@
 			</_properties>
 			<_name type="a">AutonomousDriving</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::11:35:12</_modifiedTime>
-			<_lastModifiedTime type="a">6.2.2020::11:35:12</_lastModifiedTime>
+			<_modifiedTime type="a">6.4.2020::7:58:58</_modifiedTime>
+			<_lastModifiedTime type="a">6.4.2020::7:58:58</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -642,7 +642,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">3.56481 0 0 3.80303 20 20 </m_transform>
+			<m_transform type="a">3.61111 0 0 3.80303 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -742,7 +742,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.412674 0 0 0.232993 762.95 382.74 </m_transform>
+			<m_transform type="a">0.412674 0 0 0.232993 712.699 382.74 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -918,7 +918,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">266246</m_drawBehavior>
-			<m_transform type="a">0.13881 0 0 0.112299 607.722 64.0535 </m_transform>
+			<m_transform type="a">0.13881 0 0 0.112299 642.722 46.0535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1125,7 +1125,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">-5 739 </m_SourcePort>
-			<m_TargetPort type="a">1117 617 </m_TargetPort>
+			<m_TargetPort type="a">1117 605 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -1649,8 +1649,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 1380 </m_SourcePort>
-			<m_TargetPort type="a">1096 387 </m_TargetPort>
+			<m_SourcePort type="a">-5 1380 </m_SourcePort>
+			<m_TargetPort type="a">1096 375 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -1888,7 +1888,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 712 </m_SourcePort>
+			<m_SourcePort type="a">-9 703 </m_SourcePort>
 			<m_TargetPort type="a">982 918 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -2111,8 +2111,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">122 883 </m_SourcePort>
-			<m_TargetPort type="a">925 147 </m_TargetPort>
+			<m_SourcePort type="a">115 883 </m_SourcePort>
+			<m_TargetPort type="a">925 131 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -2373,11 +2373,6 @@
 			<_id type="a">GUID 95084c51-1c32-4e4d-8b10-44cba695fb7b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ManualOverrideAutonomousMode</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">5.20.2020::13:59:29</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
@@ -2400,11 +2395,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -2439,11 +2429,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -2455,7 +2440,7 @@ Main Scenario:\par%0D
 			<_id type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PathPlanning</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::8:12:45</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.2.2020::11:27:18</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\lang1033\f0\fs20 Name: Path planning\par%0D
@@ -2615,11 +2600,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -2982,11 +2962,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -3044,11 +3019,6 @@ Alternative Flow\par%0D
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3068,11 +3038,6 @@ Alternative Flow\par%0D
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3107,11 +3072,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -3123,11 +3083,6 @@ Main Scenario:\par%0D
 			<_id type="a">GUID 6dd9bc19-342a-4642-bb69-cb59291546dc</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ObstacleDetection</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">5.20.2020::13:33:40</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
@@ -3153,11 +3108,6 @@ Main Scenario:\par%0D
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
