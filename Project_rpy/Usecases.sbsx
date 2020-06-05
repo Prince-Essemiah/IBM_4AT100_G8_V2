@@ -11,7 +11,7 @@
 			<_id type="a">GUID 923b4146-83c1-4ae8-b986-bded0cd1d655</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usecases</_name>
-			<_modifiedTimeWeak type="a">6.4.2020::7:58:55</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::21:58:44</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.4.2020::11:24:53</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::22:5:0</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">6.4.2020::7:58:55</weakCGTime>
+			<weakCGTime type="a">6.5.2020::21:58:44</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:13:16</strongCGTime>
 			<_defaultComposite type="s">GUID ecc752b4-303b-48ac-8f82-87ae653675a0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -32,7 +32,6 @@
 				<value>GUID d684d548-48e6-45e5-846c-594594d86f2c</value>
 				<value>GUID ecc752b4-303b-48ac-8f82-87ae653675a0</value>
 				<value>GUID 95084c51-1c32-4e4d-8b10-44cba695fb7b</value>
-				<value>GUID c7a3aff4-c590-4bbe-8f7b-45386fcfa641</value>
 				<value>GUID 9306e39c-999c-451e-a538-0f9d51a04dba</value>
 				<value>GUID 348bb10a-3bff-46b4-80b2-939dac749d3e</value>
 				<value>GUID 084fa1f9-dbd6-4b42-90b1-a7e8bd335ce7</value>
@@ -44,7 +43,6 @@
 				<value>GUID c3c40dbd-1b70-45ca-920f-2da6e110d4e7</value>
 				<value>GUID f9d7e949-79b4-4b44-ad5c-5f41e64b3a41</value>
 				<value>GUID c49fa9fe-7ab8-41ab-ab48-9e95b8c7efdf</value>
-				<value>GUID 6dd9bc19-342a-4642-bb69-cb59291546dc</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IUCDiagram type="e">
@@ -480,8 +478,8 @@
 			</_properties>
 			<_name type="a">AutonomousDriving</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.4.2020::7:58:58</_modifiedTime>
-			<_lastModifiedTime type="a">6.4.2020::7:58:58</_lastModifiedTime>
+			<_modifiedTime type="a">6.5.2020::11:58:9</_modifiedTime>
+			<_lastModifiedTime type="a">6.5.2020::11:58:9</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -541,7 +539,6 @@
 				<value>GUID 34978262-75b8-4809-9e64-7465b892726e</value>
 				<value>GUID 6bb90f57-4ded-41f8-8c07-e54dbb0dc095</value>
 				<value>GUID e47f8e6c-c927-4f31-bc00-29cfe4d20e9c</value>
-				<value>GUID e53a9b15-477a-4d68-876d-692ef979e669</value>
 				<value>GUID 0fcd3ec9-95d0-44e7-83bb-c7daafc026b9</value>
 				<value>GUID 4b3f66e2-9743-4236-8dc6-d09cb742a658</value>
 				<value>GUID 5774924d-fa89-4d27-b930-4c7cddde8c3f</value>
@@ -553,9 +550,10 @@
 				<value>GUID 8d1018f4-7e71-44ad-8e25-5f30725ccb32</value>
 				<value>GUID 39f67009-a0ee-44a4-8734-a880114ed6d9</value>
 				<value>GUID 51ec6a13-cbe8-4e01-9e4d-7cfde8509d12</value>
-				<value>GUID 72152de1-c9a5-4208-ab5e-c94bdee1117b</value>
 				<value>GUID 19041576-2a19-4f9e-b1e1-42d9a708d34b</value>
 				<value>GUID 46aad7ff-e8d6-4c6a-b3c3-80ffbce676ed</value>
+				<value>GUID 7015ec6c-4301-4a7a-9248-c712a251d843</value>
+				<value>GUID ddaa57a6-a4ab-473f-bdc2-b09bf78da50a</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -764,65 +762,6 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBasicClass>
-		<CGIInheritance type="e">
-			<_id type="a">GUID e53a9b15-477a-4d68-876d-692ef979e669</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID 56accf26-59c8-4aa2-b156-45fdeeb3f5c5</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">PathPlanning</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 6bb90f57-4ded-41f8-8c07-e54dbb0dc095</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID e47f8e6c-c927-4f31-bc00-29cfe4d20e9c</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">extend</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1071 770 </m_SourcePort>
-			<m_TargetPort type="a">99 210 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
 		<CGIBox type="e">
 			<_id type="a">GUID 0fcd3ec9-95d0-44e7-83bb-c7daafc026b9</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -2057,65 +1996,6 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBasicClass>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 72152de1-c9a5-4208-ab5e-c94bdee1117b</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID 9b088fa0-5c8a-4f90-b7eb-2255f2da8ef3</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Drive</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID e47f8e6c-c927-4f31-bc00-29cfe4d20e9c</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 51ec6a13-cbe8-4e01-9e4d-7cfde8509d12</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">extend</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">115 883 </m_SourcePort>
-			<m_TargetPort type="a">925 131 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
 		<CGIClass type="e">
 			<_id type="a">GUID 19041576-2a19-4f9e-b1e1-42d9a708d34b</_id>
 			<m_type type="a">87</m_type>
@@ -2355,6 +2235,124 @@
 			</m_targetQualifier>
 			<m_specificType type="a">symmetric_type</m_specificType>
 		</CGIAssociationEnd>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 7015ec6c-4301-4a7a-9248-c712a251d843</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hid type="a">GUID ec8a0c47-5b01-46ab-b217-32c1b5adb224</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">PathPlanning</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 51ec6a13-cbe8-4e01-9e4d-7cfde8509d12</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID e47f8e6c-c927-4f31-bc00-29cfe4d20e9c</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">extend</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">990 180 </m_SourcePort>
+			<m_TargetPort type="a">244 989 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID ddaa57a6-a4ab-473f-bdc2-b09bf78da50a</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hid type="a">GUID 6c96d33e-6c92-4afd-a0a2-b9271479001b</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">ParkingAssign</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID e47f8e6c-c927-4f31-bc00-29cfe4d20e9c</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 6bb90f57-4ded-41f8-8c07-e54dbb0dc095</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">extend</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">77 245 </m_SourcePort>
+			<m_TargetPort type="a">1018 877 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
 		<IClass type="e">
 			<_id type="a">GUID ecc752b4-303b-48ac-8f82-87ae653675a0</_id>
 			<_myState type="a">40960</_myState>
@@ -2375,55 +2373,28 @@
 			<_name type="a">ManualOverrideAutonomousMode</_name>
 			<_modifiedTimeWeak type="a">5.20.2020::13:59:29</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang1033\f0\fs20 Name: Disengaging autonomous mode\par%0D
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}}%0D
+\viewkind4\uc1\pard\lang1033\f0\fs20 Name: Manual Override Autonomous Mode \par%0D
 Primary Actors: DCLogisticEmployee\par%0D
-Goal: Disengage autonomous mode (in case of maintenance or safety)\par%0D
+Secondary Actors : DCT\par%0D
+Goal: Engage/Disengage autonomous mode (return to normal operation)\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. DCLogisticEmployee requests to disengage autonomous mode\par%0D
-2. Autonomous mode is disengaged\lang1043\f1\par%0D
+1. DCLogisticEmployee requests to ManualOverride[==true].\par%0D
+\pard\sa200\sl276\slmult1 2. TU/esla signals DCT  OverrideManual=[==true].\par%0D
+3. Autonomous mode is engaged\par%0D
+Alternative Flow\par%0D
+\pard 1. DCLogisticEmployee requests to ManualOverride[==false].\par%0D
+\pard\sa200\sl276\slmult1 2. TU/esla signals DCT  OverrideManual[==false].\par%0D
+3. Autonomous mode is disengaged\par%0D
+\pard\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:33:52</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::22:8:26</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">5.20.2020::13:59:29</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-		</IUseCase>
-		<IUseCase type="e">
-			<_id type="a">GUID c7a3aff4-c590-4bbe-8f7b-45386fcfa641</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">EngagingAutonomousMode</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang1033\f0\fs20 Name: Engaging autonomous mode\par%0D
-Primary Actors: DCLogisticEmployee\par%0D
-Goal: Engage autonomous mode (return to normal operation)\par%0D
-\par%0D
-Main Scenario:\par%0D
-1. DCLogisticEmployee requests to engage autonomous mode\par%0D
-\pard\sa200\sl276\slmult1 2. Autonomous mode is engaged\par%0D
-\pard\lang1043\f1\par%0D
-\lang1033\f0\par%0D
-}%0D
-</_textRTF>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">6.2.2020::11:33:39</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2440,27 +2411,27 @@ Main Scenario:\par%0D
 			<_id type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PathPlanning</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::11:27:18</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::11:36:0</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\lang1033\f0\fs20 Name: Path planning\par%0D
-\f1 Primary Actors:  DCLocalizationSystem, Sensors\f0\par%0D
+\f1 Primary Actors:  DCLocalizationSystem\f0\par%0D
 Goal: TU/esla plans path from current position to desired destination based on obstacles.\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. DCTPosition is received from DCLocalizationSystem.\par%0D
-2. The Selected destination coordinates are received by the PathPlanner\par%0D
-3. Obstacles and other DCT information is made available to the PathPlanner.\par%0D
-4. PathPlanner plans the route from the current coordinates to the destination coordinates.\par%0D
-5. PathPlanner sends the calculated SteeringAngle and Velocity to Controller.\par%0D
+1. PathPlanner receives DCTPosition and Obstacles from DCLocalizationSystem.\par%0D
+2. Destination(PBSelect,LDSelect,ChargingPad) is received by the PathPlanner\par%0D
+//3. OtherDCT information is made available to the PathPlanner.\par%0D
+3. PathPlanner plans the route from DCTPosition to the Destination based on Obstacles.\par%0D
+4. PathPlanner sends the calculated SteeringAngle and Velocity to Controller.\par%0D
 \lang1043\f1\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:7</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">6.2.2020::11:27:18</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:42:1</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">6.5.2020::11:36:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2473,15 +2444,15 @@ Main Scenario:\par%0D
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
-				<value>GUID 9b088fa0-5c8a-4f90-b7eb-2255f2da8ef3</value>
+				<value>GUID 6c96d33e-6c92-4afd-a0a2-b9271479001b</value>
 				<value>GUID a615e03e-1bb3-4137-a51b-273f3412668c</value>
 				<value>GUID 14c39d13-d261-464b-b5d7-f38927bde14f</value>
 			</AggregatesList>
 		</IUseCase>
 		<IDependency type="e">
-			<_id type="a">GUID 9b088fa0-5c8a-4f90-b7eb-2255f2da8ef3</_id>
+			<_id type="a">GUID 6c96d33e-6c92-4afd-a0a2-b9271479001b</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Drive</_name>
+			<_name type="a">ParkingAssign</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2495,12 +2466,12 @@ Main Scenario:\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:27:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::11:27:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.5.2020::11:36:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::11:36:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID ee313e9a-5ba2-435f-ab40-6d1f1367c6eb</_hid>
+					<_hid type="a">GUID 084fa1f9-dbd6-4b42-90b1-a7e8bd335ce7</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -2577,15 +2548,16 @@ Main Scenario:\par%0D
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\lang1033\f0\fs20 Name: Stop in case of crash\par%0D
 Primary Actors: DCT, Sensors \par%0D
+Secondary Actor: DCLogisticEmployee\par%0D
 Goal: Disengage autonomous mode automatically in case of crash or severe malfunction.\par%0D
 \par%0D
 Main Scenario:\par%0D
 1. Crash of DCT is being noticed by Sensor.\par%0D
-2. Sensor sends this info to the controller.\par%0D
+2. Sensor sends CrashDetect[==true] to the controller.\par%0D
 3. Controller disables PathPlanner inputs.\par%0D
-4. Controller applies EmergencyBrake to the DCT by means of a Friction Wheel.\par%0D
-\pard\sa200\sl276\slmult1 5. Controller send OverrideManual signal to DCT, once the DCTVelocity is 0.\par%0D
-6. TU/esla sends CrashMaintenace signal to the DCLogisticEmployee through GUI.\par%0D
+4. Controller applies EmergencyBrake[==true] to the DCT by means of a Friction Wheel.\par%0D
+\pard\sa200\sl276\slmult1 5. Controller send OverrideManual[==true] signal to DCT, once the DCTVelocity is 0.\par%0D
+6. TU/esla sends CrashMaintenace[==true] signal to the DCLogisticEmployee through GUI.\par%0D
 7. Controller Disengages\par%0D
  \par%0D
 \pard\lang1043\f1\par%0D
@@ -2593,7 +2565,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:7</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::22:5:43</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2624,23 +2596,23 @@ Primary Actors:  DCLocalizationSystem, DCLogisticEmployee%0D
 Secondary Actors : DCBoard%0D
 Goal:  To assign a LD or PB number to drive towards.%0D
 Main Scenario:%0D
-1.  Free PB information is sent to TU/esla.%0D
-2. TU/esla makes it available to the DCLogisticEmployee through GUI.%0D
-3. DCLogisticEmployee selects the PB and sent to TU/esla.%0D
-4. TU/esla sends the selected parking spot to PathPlanner.%0D
+1.  PBinfo information is sent to TU/esla.%0D
+2. TU/esla makes infoPB available to the DCLogisticEmployee through GUI.%0D
+3. DCLogisticEmployee selects the PBSelect and sent to TU/esla.%0D
+4. TU/esla sends the PBSelect to PathPlanner.%0D
 Alternative Flow 1:%0D
-1.1 Free LD information is sent to TU/esla.%0D
-1.2 TU/esla makes it available to the DCLogisticEmployee through GUI.%0D
-1.3. DCLogisticEmployee selects the LD and sent to TU/esla.%0D
-1.4. TU/esla sends the selected parking spot to PathPlanner.%0D
+1.1 LDinfo information is sent to TU/esla.%0D
+1.2 TU/esla makes infoLD available to the DCLogisticEmployee through GUI.%0D
+1.3. DCLogisticEmployee selects the LDSelect and sent to TU/esla.%0D
+1.4. TU/esla sends the LDSelect to PathPlanner.%0D
 Alternative Flow 2:%0D
-4.1 TU/esla sends the selected parking spot to DCBoard.%0D
+4.1 TU/esla sends SelectPB to DCBoard.%0D
 %0D
 %0D
 </_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:25:54</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:31:20</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">6.2.2020::8:12:41</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2655,44 +2627,11 @@ Alternative Flow 2:%0D
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
-				<value>GUID 56accf26-59c8-4aa2-b156-45fdeeb3f5c5</value>
 				<value>GUID 72043ff2-ac7e-46df-8e7d-bb6c5448efa0</value>
 				<value>GUID 77924f04-39a8-4753-9836-7bddd9cf3a70</value>
 				<value>GUID 9c64b638-e8e9-4e3c-a682-3bb0e4abead5</value>
 			</AggregatesList>
 		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID 56accf26-59c8-4aa2-b156-45fdeeb3f5c5</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">PathPlanning</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">extend</_hname>
-							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::8:12:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::8:12:41</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 084fa1f9-dbd6-4b42-90b1-a7e8bd335ce7</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 72043ff2-ac7e-46df-8e7d-bb6c5448efa0</_id>
 			<_myState type="a">10240</_myState>
@@ -2784,7 +2723,7 @@ Alternative Flow 2:%0D
 			<_id type="a">GUID ee313e9a-5ba2-435f-ab40-6d1f1367c6eb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Drive</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::11:35:55</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -2800,7 +2739,7 @@ Goal: TU/esla drives the DCT to desired location.\par%0D
 Main Scenario:\par%0D
 1. Controller is Engaged .\par%0D
 2. Controller relays SteeringAngle and Velocity to DCT.\par%0D
-3. DCT enables Steering and Throttle on receiving the signal from the controller.\par%0D
+3. DCT enables Steering and Throttle on receiving SteeringAngle and Velocity from the controller.\par%0D
 4. DCT drives.\par%0D
 \lang1043\f1\par%0D
 \lang1033\par%0D
@@ -2808,8 +2747,9 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:27:40</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:20:23</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">6.5.2020::11:35:55</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2822,9 +2762,42 @@ Main Scenario:\par%0D
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
+				<value>GUID ec8a0c47-5b01-46ab-b217-32c1b5adb224</value>
 				<value>GUID 093e4e3e-2765-4189-9f13-ea25b7b96697</value>
 			</AggregatesList>
 		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID ec8a0c47-5b01-46ab-b217-32c1b5adb224</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PathPlanning</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.5.2020::11:35:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::11:35:55</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 9306e39c-999c-451e-a538-0f9d51a04dba</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID ee313e9a-5ba2-435f-ab40-6d1f1367c6eb</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 093e4e3e-2765-4189-9f13-ea25b7b96697</_id>
 			<_myState type="a">10240</_myState>
@@ -2866,8 +2839,8 @@ Primary Actors: DCT, EnvironmentSensor\par%0D
 Goal: Change lighting and heating based on Temperature and LightIntensity.\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. EnvironmentSensor detects the Temperature and Light Intensity.\par%0D
-2. EnvironmentSensor sends the signal to TU/esla.\par%0D
+1. EnvironmentSensor detects the Temperature and LightIntensity.\par%0D
+2. EnvironmentSensor sends Temperature and LightIntensity to TU/esla.\par%0D
 3. TU/esla selects preset Lighting and Heating based on the inputs.\par%0D
 4. TU/esla relays this preset Lighting and Heating to the DCT.\par%0D
 \pard\sa200\sl276\slmult1  \par%0D
@@ -2877,7 +2850,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:34:26</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:21:7</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2903,20 +2876,21 @@ Primary Actors: DCLoadingEmployee, DCT. DCLocalizationSystem \par%0D
 Goal: To load or unload the cargo from the trailer to the DC\par%0D
 \par%0D
 Main Scenario:\par%0D
-\pard\sa200\sl276\slmult1 1. DCLocalization system signals TU/esla that the DCT is Docked.\par%0D
-2. TU/esla informs DCloadingEmployee that DockingStatus is true through GUI.\par%0D
-3. DCloadingEmployee selects DoorCargo through GUI.\par%0D
+\pard\sa200\sl276\slmult1 1. DCLocalization system signals TU/esla that the DCT is Docked(DCTposition).\par%0D
+2. TU/esla informs DCloadingEmployee that DockingStatus[==true] through GUI.\par%0D
+3. DCloadingEmployee selects DoorCargo[==true] through GUI.\par%0D
 4. TU/esla signals DCT to open CargoDoor.\par%0D
 5. DCloadingEmployee Loads the Cargo from DC to trailer.\par%0D
-6. DCloadingEmployee again selects DoorCargo through GUI.\par%0D
+6. DCloadingEmployee again selects DoorCargo[==false] through GUI.\par%0D
 7. TU/esla signals DCT to close CargoDoor.\par%0D
+8. TU/esla sets DockingStatus[==false]\par%0D
 \par%0D
 \pard\f1\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::9:20:23</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::22:2:18</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2939,14 +2913,15 @@ Main Scenario:\par%0D
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\f0\fs20 Name: Charging the DCT Battery\par%0D
 Goal: Charging of the DCT Battery\par%0D
-Primary Actor : DCLogisticEmployee\par%0D
+Primary Actor : DCLogisticEmployee, DCT\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. TU/esla signals DCLogisticEmployee ChargingPadStatus through GUI.\par%0D
-2. DCLogisticEmployee EngageCharging through GUI.\par%0D
+1. TU/esla signals DCLogisticEmployee ChargingPadStatus[==true] through GUI.\par%0D
+2. DCLogisticEmployee EngageCharging[==true] through GUI.\par%0D
 3. TU/esla increases BatterySOC.\par%0D
-4. If(BatterySOC&gt;95%25) then TU/esla signals DCLogisticEmployee ChargingPadStatus through GUI.\par%0D
-5. DCLogisticEmployee disables EngageCharging through GUI.\par%0D
+4. DCT sends the BatterySOC signal to TU/esla\par%0D
+5. If(BatterySOC&gt;95%25) then TU/esla signals DCLogisticEmployee ChargingPadStatus[==false] through GUI.\par%0D
+6. DCLogisticEmployee disables EngageCharging[==false] through GUI.\par%0D
 \par%0D
 \lang1043\f1\par%0D
 \lang1033\par%0D
@@ -2955,7 +2930,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:25</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::21:58:44</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2977,21 +2952,23 @@ Main Scenario:\par%0D
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\f0\fs20 Name: Compare SOC of DCT\par%0D
+Actors: DCT\par%0D
 Goal: Compare SOC of DCT based on the threshold\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. TU/esla checks the Battery SOC based on given threshold.\par%0D
-2. Sends coordinates to Path Planner for the Charging Pad if SOC &lt; Threshold.\par%0D
+1. DCT sends BatterySOC to TU/esla.\par%0D
+1. TU/esla checks the BatterySOC based on given threshold.\par%0D
+2. Sends coordinates to Path Planner for the Charging Pad if BatterySOC &lt; 10%25.\par%0D
 \par%0D
 Alternative Flow\par%0D
-2. if SOC &gt; Threshold [do nothing]\par%0D
+2. if BatterySOC &gt; 10%25 [do nothing]\par%0D
 \lang1043\f1\par%0D
 \lang1033\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:12</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::21:59:6</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">5.25.2020::8:14:48</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -3011,7 +2988,28 @@ Alternative Flow\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">Coupling</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::11:31:50</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Name: Coupling of the Trailer to the DCT\par%0D
+Goal: Couple/Uncouple the trailer and DCT\par%0D
+Primary Actor : DCT\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. TU/esla signals DCT to set Couple[==true].\par%0D
+2. DCT signals back with CoupleStatus[==true]\par%0D
+\par%0D
+Alternative Scenario\par%0D
+1.1 TU/esla signals DCT to set Couple[==false].\par%0D
+1.2 DCT signals back with CoupleStatus[==false]\par%0D
+\lang1043\f1\par%0D
+\lang1033\par%0D
+\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">6.5.2020::22:0:1</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -3030,7 +3028,25 @@ Alternative Flow\par%0D
 			<_myState type="a">8192</_myState>
 			<_name type="a">ManualHMI</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::11:32:5</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\f0\fs20 Name: DCLogisticEmployee to change the lighting and heating of the DCT\par%0D
+Primary Actors: DCT, DCLogisticEmployee\par%0D
+Goal: Change lighting and heating based on DCLogisticEmployee requirements.\par%0D
+\par%0D
+Main Scenario:\par%0D
+1. DCLogisticEmployee sets the SetHeating and SetLighting through the GUI\par%0D
+2. TU/esla selects preset Lighting and Heating based on the inputs.\par%0D
+3. TU/esla relays this preset Lighting and Heating to the DCT.\par%0D
+\pard\sa200\sl276\slmult1  \par%0D
+\pard\lang1043\f1\par%0D
+\lang1033\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">6.5.2020::12:25:56</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -3047,62 +3063,28 @@ Alternative Flow\par%0D
 		<IUseCase type="e">
 			<_id type="a">GUID c49fa9fe-7ab8-41ab-ab48-9e95b8c7efdf</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">ObstacleAvoidance</_name>
+			<_name type="a">ObstacleDetection</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\f0\fs20 Name: ObstacleAvoidance\par%0D
-Trigger: ObstacleDetection\par%0D
-Goal: Avoid obstacles by re-planning path around obstacle\par%0D
+\viewkind4\uc1\pard\f0\fs20 Name: Obstacle Detection\par%0D
+\f1 Primary Actors:  DCLocalizationSystem\f0\par%0D
+Goal: The Obstacle is detected and Notified to TU/esla\par%0D
 \par%0D
 Main Scenario:\par%0D
-1. Receive data from ObstacleDetection\par%0D
-2. Triggers PathPlanner \par%0D
-\pard\sa200\sl276\slmult1\par%0D
-\pard\lang1043\f1\par%0D
-\lang1033\par%0D
+1. The DCLocalizationSystem detects the position of the Obstacles.\par%0D
+2. The DCLocalizationSystem send the Coordinates of the Obstacles to the PathPlanner\par%0D
+\par%0D
+Alternative Flow;\par%0D
+1.1 The DCLocalizationSystem detects no Obstacles.\par%0D
+\lang1043\f1\par%0D
+\lang1033\f0\par%0D
 }%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:40</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:28:56</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-		</IUseCase>
-		<IUseCase type="e">
-			<_id type="a">GUID 6dd9bc19-342a-4642-bb69-cb59291546dc</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">ObstacleDetection</_name>
-			<_modifiedTimeWeak type="a">5.20.2020::13:33:40</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 CMR10;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\f0\fs20 Name: ObstacleDetection\par%0D
-Trigger: Sensors\par%0D
-Goal: Detect obstacles around DCT\par%0D
-\par%0D
-Main Scenario:\par%0D
-1. Sensor keeps measuring\par%0D
-2. Sensor detects obstacle\par%0D
-\pard\sa200\sl276\slmult1\par%0D
-\pard\lang1043\f1\par%0D
-\lang1033\par%0D
-}%0D
-</_textRTF>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">6.2.2020::11:35:48</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.20.2020::13:33:40</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">

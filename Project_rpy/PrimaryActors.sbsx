@@ -11,7 +11,7 @@
 			<_id type="a">GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PrimaryActors</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::11:40:31</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:25:2</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,8 +21,8 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:40:31</_modifiedTime>
-			<weakCGTime type="a">6.2.2020::11:40:31</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:43:48</_modifiedTime>
+			<weakCGTime type="a">6.5.2020::12:25:2</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:10:37</strongCGTime>
 			<_defaultComposite type="s">GUID a5791b6e-b31f-4d6f-b621-b7dce5a2ac09</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -252,7 +252,7 @@
 			<_id type="a">GUID ffdab3d6-ae5a-4c13-8239-4fd8b0a653a6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCLogisticEmployee</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::11:25:54</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:25:14</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -262,9 +262,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:25:54</_modifiedTime>
-			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">6.2.2020::11:25:54</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:25:14</_modifiedTime>
+			<_lastID type="a">14</_lastID>
+			<weakCGTime type="a">6.5.2020::12:25:14</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:10:57</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -283,6 +283,8 @@
 				<value>GUID 94d31fbc-e6ec-4911-b347-027336d0a608</value>
 				<value>GUID 64799145-de7f-4eac-bdf7-0dfef5fb9691</value>
 				<value>GUID d8cfade7-2cb3-4ff3-87b9-8d3555999cbf</value>
+				<value>GUID f05172fb-2b31-41af-a0f3-0852856aacf1</value>
+				<value>GUID abf55707-7226-4c6a-b116-2daa2c61a3f4</value>
 				<value>GUID b939e364-67e0-4056-9dfd-568252a037c3</value>
 				<value>GUID 5a46163d-8744-46c0-84a5-f6586ebb17ad</value>
 			</AggregatesList>
@@ -292,10 +294,10 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">DCLogisticEmployee_TUesla</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::9:25:25</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:25:14</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
+					<size type="a">7</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
@@ -324,6 +326,18 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
 							<_hid type="a">GUID d8cfade7-2cb3-4ff3-87b9-8d3555999cbf</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID f05172fb-2b31-41af-a0f3-0852856aacf1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID abf55707-7226-4c6a-b116-2daa2c61a3f4</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -527,6 +541,20 @@
 			<_name type="a">EngageCharging</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.2.2020::9:25:34</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID f05172fb-2b31-41af-a0f3-0852856aacf1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SetHeating</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::12:25:13</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID abf55707-7226-4c6a-b116-2daa2c61a3f4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SetLighting</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::12:25:19</_modifiedTime>
 		</IInformationItem>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID b939e364-67e0-4056-9dfd-568252a037c3</_id>

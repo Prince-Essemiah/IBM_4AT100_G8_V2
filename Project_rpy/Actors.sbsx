@@ -11,7 +11,12 @@
 			<_id type="a">GUID f1c948b6-fa24-4817-96d4-66b0001a7ade</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Actors</_name>
-			<_modifiedTimeWeak type="a">6.4.2020::8:2:34</_modifiedTimeWeak>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">6.5.2020::21:40:46</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,66 +26,20 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.4.2020::11:24:53</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::21:40:46</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">6.4.2020::8:2:34</weakCGTime>
+			<weakCGTime type="a">6.5.2020::21:40:46</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:18:25</strongCGTime>
 			<_defaultComposite type="s">GUID 46cf92bc-4a86-4bb9-8add-d2ef4a004744</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">6.2.2020::11:25:15</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID 9df5f254-7a3d-4326-9854-37435ceac6aa</value>
-				<value>GUID eef9c286-78b9-41a1-a46f-8e6f2531320d</value>
 				<value>GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528</value>
 				<value>GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</value>
 				<value>GUID c12e1415-1792-492c-a377-549e975a6855</value>
 				<value>GUID 46cf92bc-4a86-4bb9-8add-d2ef4a004744</value>
 			</AggregatesList>
 		</ISubsystem>
-		<IDependency type="e">
-			<_id type="a">GUID 9df5f254-7a3d-4326-9854-37435ceac6aa</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">PrimaryActors</_name>
-			<_modifiedTimeWeak type="a">6.1.2020::21:18:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::21:18:20</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hfilename type="a">.\PrimaryActors.sbsx</_hfilename>
-					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
-					<_hname type="a">PrimaryActors</_hname>
-					<_hid type="a">GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID f1c948b6-fa24-4817-96d4-66b0001a7ade</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IDependency type="e">
-			<_id type="a">GUID eef9c286-78b9-41a1-a46f-8e6f2531320d</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">SecondaryActors</_name>
-			<_modifiedTimeWeak type="a">6.1.2020::21:18:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::21:18:25</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hfilename type="a">.\SecondaryActors.sbsx</_hfilename>
-					<_hsubsystem type="a">TUesla::Actors</_hsubsystem>
-					<_hname type="a">SecondaryActors</_hname>
-					<_hid type="a">GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID f1c948b6-fa24-4817-96d4-66b0001a7ade</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<ISubsystem type="e">
 			<fileName type="a">PrimaryActors</fileName>
 			<_id type="a">GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528</_id>
@@ -701,8 +660,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.4.2020::8:21:12</_modifiedTime>
-			<_lastModifiedTime type="a">6.4.2020::8:21:12</_lastModifiedTime>
+			<_modifiedTime type="a">6.5.2020::21:40:46</_modifiedTime>
+			<_lastModifiedTime type="a">6.5.2020::21:40:46</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3389,7 +3348,7 @@
 			</m_keyword>
 			<m_conveyed type="p">
 				<CGIText type="e">
-					<m_str type="a">SteeringAngle, Velocity, Heating, Lighting, CargoDoor, EmergencyBrake, OverrideManual</m_str>
+					<m_str type="a">SteeringAngle, Velocity, Heating, Lighting, CargoDoor, EmergencyBrake, OverrideManual, Couple</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3686,7 +3645,7 @@
 			</m_keyword>
 			<m_conveyed type="p">
 				<CGIText type="e">
-					<m_str type="a">Obstacles, OtherDCT, DCTVelocity</m_str>
+					<m_str type="a">OtherDCT, DCTVelocity, CrashDetect</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3785,7 +3744,7 @@
 			</m_keyword>
 			<m_conveyed type="p">
 				<CGIText type="e">
-					<m_str type="a">PBinfo, LDinfo, DCTPosition</m_str>
+					<m_str type="a">PBinfo, LDinfo, DCTPosition, Obstacles</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3881,7 +3840,7 @@
 			</m_keyword>
 			<m_conveyed type="p">
 				<CGIText type="e">
-					<m_str type="a">PBSelect, LDSelect, EmergencyStop, ManualOverride, EngageCharging</m_str>
+					<m_str type="a">PBSelect, LDSelect, EmergencyStop, ManualOverride, EngageCharging, SetHeating, SetLighting</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3893,9 +3852,9 @@
 					<m_position type="a">4 -6 -9  256 -9  256 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">1</m_bImplicitSetRectPoints>
-					<m_transform type="a">0.423664 0 0 3.78571 180.542 187.071 </m_transform>
+					<m_transform type="a">0.423664 0 0 6.21428 192.542 165.928 </m_transform>
 					<m_nHorizontalSpacing type="a">-63</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-27</m_nVerticalSpacing>
+					<m_nVerticalSpacing type="a">-44</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_conveyed>

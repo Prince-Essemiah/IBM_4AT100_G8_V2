@@ -11,7 +11,7 @@
 			<_id type="a">GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SecondaryActors</_name>
-			<_modifiedTimeWeak type="a">6.2.2020::11:25:15</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:17:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,8 +21,8 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:26:17</_modifiedTime>
-			<weakCGTime type="a">6.2.2020::11:25:15</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:43:48</_modifiedTime>
+			<weakCGTime type="a">6.5.2020::12:17:37</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:10:47</strongCGTime>
 			<_defaultComposite type="s">GUID 86d11af1-2929-4d0b-8874-443144cd8061</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -69,7 +69,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:26:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:1:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -79,9 +79,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:26:49</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">6.2.2020::11:26:49</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:1:41</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">6.5.2020::12:1:41</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:12:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -96,6 +96,7 @@
 				<value>GUID b2d632c7-d2b3-49d5-a497-ae5070541e3c</value>
 				<value>GUID 94dc9453-f499-47db-82bb-5035266eceac</value>
 				<value>GUID b1e87f50-1608-4152-a9a0-1673585efc63</value>
+				<value>GUID 9022c4d1-0059-412b-b8c3-02265bba4070</value>
 				<value>GUID 0e308a13-3fd6-4949-8288-94dd832fea3e</value>
 				<value>GUID 951f329f-e045-4872-90a5-aeb63ac64218</value>
 			</AggregatesList>
@@ -105,16 +106,10 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">Sensors_TUesla</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::7:39:42</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:1:41</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">3</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IInformationItem</_hm2Class>
-							<_hid type="a">GUID 21dd70c0-0d19-4f1a-bfc5-7dc6def68d24</_hid>
-						</IHandle>
-					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
@@ -125,6 +120,12 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
 							<_hid type="a">GUID 94dc9453-f499-47db-82bb-5035266eceac</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 9022c4d1-0059-412b-b8c3-02265bba4070</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -360,6 +361,13 @@
 			<_inheritanceType type="a">iPublic</_inheritanceType>
 			<_isVirtual type="a">0</_isVirtual>
 		</IGeneralization>
+		<IInformationItem type="e">
+			<_id type="a">GUID 9022c4d1-0059-412b-b8c3-02265bba4070</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CrashDetect</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::12:1:59</_modifiedTime>
+		</IInformationItem>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 0e308a13-3fd6-4949-8288-94dd832fea3e</_id>
 			<_myState type="a">10240</_myState>
@@ -725,7 +733,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:27:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:17:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -735,9 +743,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:27:40</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">6.2.2020::11:27:40</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:17:37</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">6.5.2020::12:17:37</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:13:5</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -756,6 +764,7 @@
 				<value>GUID 284296aa-f92b-421e-bed3-649a9c39b3be</value>
 				<value>GUID 4792372c-29c7-4b52-911d-8ff517ee80b1</value>
 				<value>GUID d766d813-f119-41ea-a8ca-7f16d28aebf9</value>
+				<value>GUID fda1aab9-8419-4bfc-9abc-80bb53d65dbb</value>
 				<value>GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</value>
 				<value>GUID 61b36e69-6f21-4476-a1dc-f9b4cccbd693</value>
 			</AggregatesList>
@@ -765,10 +774,10 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">TUesla_DCT</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::8:39:59</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:17:37</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">7</size>
+					<size type="a">8</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
@@ -809,6 +818,12 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
 							<_hid type="a">GUID d766d813-f119-41ea-a8ca-7f16d28aebf9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID fda1aab9-8419-4bfc-9abc-80bb53d65dbb</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -1000,6 +1015,13 @@
 			<_name type="a">OverrideManual</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.2.2020::8:40:15</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID fda1aab9-8419-4bfc-9abc-80bb53d65dbb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Couple</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::12:17:52</_modifiedTime>
 		</IInformationItem>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 193f93f3-19b7-408b-a95f-0ba3be5d2a6d</_id>
@@ -1362,7 +1384,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:26:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.5.2020::12:0:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -1372,9 +1394,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:26:29</_modifiedTime>
-			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">6.2.2020::11:26:29</weakCGTime>
+			<_modifiedTime type="a">6.5.2020::12:0:12</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<weakCGTime type="a">6.5.2020::12:0:12</weakCGTime>
 			<strongCGTime type="a">6.2.2020::7:43:4</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1386,6 +1408,7 @@
 				<value>GUID 1b92a637-df28-4419-a6da-3641cb3550d1</value>
 				<value>GUID 7552f14b-5b2f-4868-ad1e-9fee936fdd0f</value>
 				<value>GUID 864e4ae5-e0dc-4775-a549-8275ed65433c</value>
+				<value>GUID 9a8c9b9f-1c16-48a3-a6f9-d96bcbb81647</value>
 				<value>GUID bf01a1f1-5dec-4492-92a3-9935858a8fc3</value>
 				<value>GUID a0127094-e2b1-49a1-9530-f11a871a18b2</value>
 				<value>GUID 483684ea-f259-4312-9a35-3ddaaf8eec4b</value>
@@ -1396,10 +1419,10 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">DCLocalizationSystem_TUesla</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::7:43:4</_modifiedTime>
+			<_modifiedTime type="a">6.5.2020::12:0:12</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">3</size>
+					<size type="a">4</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
@@ -1416,6 +1439,12 @@
 						<IHandle type="e">
 							<_hm2Class type="a">IInformationItem</_hm2Class>
 							<_hid type="a">GUID 864e4ae5-e0dc-4775-a549-8275ed65433c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID 9a8c9b9f-1c16-48a3-a6f9-d96bcbb81647</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -1491,6 +1520,13 @@
 			<_name type="a">DCTPosition</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.2.2020::7:40:0</_modifiedTime>
+		</IInformationItem>
+		<IInformationItem type="e">
+			<_id type="a">GUID 9a8c9b9f-1c16-48a3-a6f9-d96bcbb81647</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Obstacles</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.5.2020::12:0:19</_modifiedTime>
 		</IInformationItem>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID bf01a1f1-5dec-4492-92a3-9935858a8fc3</_id>
