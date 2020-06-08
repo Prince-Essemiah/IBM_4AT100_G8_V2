@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DCT
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\DCT.h
 *********************************************************************/
 
@@ -15,20 +15,10 @@
 #include <oxf\oxf.h>
 //## auto_generated
 #include <..\Profiles\SysML\SIDefinitions.h>
-//## classInstance itsBattery
-#include "Battery.h"
-//## classInstance itsHeating
-#include "Heating.h"
-//## classInstance itsLighting
-#include "Lighting.h"
-//## classInstance itsPowertrain
-#include "Powertrain.h"
-//## classInstance itsSteeringWheel
-#include "SteeringWheel.h"
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla
+//## package TUesla::Actors::SecondaryActors
 
 //## class DCT
 class DCT {
@@ -45,21 +35,6 @@ public :
     ////    Additional operations    ////
     
     //## auto_generated
-    Battery* getItsBattery() const;
-    
-    //## auto_generated
-    Heating* getItsHeating() const;
-    
-    //## auto_generated
-    Lighting* getItsLighting() const;
-    
-    //## auto_generated
-    Powertrain* getItsPowertrain() const;
-    
-    //## auto_generated
-    SteeringWheel* getItsSteeringWheel() const;
-    
-    //## auto_generated
     TUesla* getItsTUesla() const;
     
     //## auto_generated
@@ -71,16 +46,6 @@ protected :
     void cleanUpRelations();
     
     ////    Relations and components    ////
-    
-    Battery itsBattery;		//## classInstance itsBattery
-    
-    Heating itsHeating;		//## classInstance itsHeating
-    
-    Lighting itsLighting;		//## classInstance itsLighting
-    
-    Powertrain itsPowertrain;		//## classInstance itsPowertrain
-    
-    SteeringWheel itsSteeringWheel;		//## classInstance itsSteeringWheel
     
     TUesla* itsTUesla;		//## link itsTUesla
     

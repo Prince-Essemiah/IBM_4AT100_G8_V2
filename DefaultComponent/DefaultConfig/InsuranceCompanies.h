@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: InsuranceCompanies
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\InsuranceCompanies.h
 *********************************************************************/
 
-#ifndef Environmentalists_H
-#define Environmentalists_H
+#ifndef InsuranceCompanies_H
+#define InsuranceCompanies_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -17,20 +17,20 @@
 #include <..\Profiles\SysML\SIDefinitions.h>
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-class Environmentalists {
+//## actor InsuranceCompanies
+class InsuranceCompanies {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    Environmentalists();
+    InsuranceCompanies();
     
     //## auto_generated
-    ~Environmentalists();
+    ~InsuranceCompanies();
 };
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\InsuranceCompanies.h
 *********************************************************************/

@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: DCLoadingEmployee
+	Model Element	: EnvironmentSensors
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\DCLoadingEmployee.h
+	File Path	: DefaultComponent\DefaultConfig\EnvironmentSensors.h
 *********************************************************************/
 
-#ifndef DCLoadingEmployee_H
-#define DCLoadingEmployee_H
+#ifndef EnvironmentSensors_H
+#define EnvironmentSensors_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -18,19 +18,19 @@
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla::Actors::PrimaryActors
+//## package TUesla::Actors::SecondaryActors
 
-//## actor DCLoadingEmployee
-class DCLoadingEmployee {
+//## class EnvironmentSensors
+class EnvironmentSensors {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    DCLoadingEmployee();
+    EnvironmentSensors();
     
     //## auto_generated
-    ~DCLoadingEmployee();
+    ~EnvironmentSensors();
     
     ////    Additional operations    ////
     
@@ -65,5 +65,5 @@ public :
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\DCLoadingEmployee.h
+	File Path	: DefaultComponent\DefaultConfig\EnvironmentSensors.h
 *********************************************************************/

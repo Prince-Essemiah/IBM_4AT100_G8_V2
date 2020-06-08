@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Government
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\Government.h
 *********************************************************************/
 
@@ -15,7 +15,7 @@
 #include <oxf\oxf.h>
 //## auto_generated
 #include <..\Profiles\SysML\SIDefinitions.h>
-//## package ActorPkg
+//## package TUesla::Stakeholders
 
 //## actor Government
 class Government {

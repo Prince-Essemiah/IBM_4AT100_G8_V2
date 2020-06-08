@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Cargo
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\Cargo.h
 *********************************************************************/
 
@@ -18,7 +18,7 @@
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla
+//## package TUesla::Actors::SecondaryActors
 
 //## class Cargo
 class Cargo {
@@ -48,6 +48,19 @@ protected :
     ////    Relations and components    ////
     
     TUesla* itsTUesla;		//## link itsTUesla
+    
+    ////    Framework operations    ////
+
+public :
+
+    //## auto_generated
+    void __setItsTUesla(TUesla* p_TUesla);
+    
+    //## auto_generated
+    void _setItsTUesla(TUesla* p_TUesla);
+    
+    //## auto_generated
+    void _clearItsTUesla();
 };
 
 #endif

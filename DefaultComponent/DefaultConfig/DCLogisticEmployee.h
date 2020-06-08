@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DCLogisticEmployee
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\DCLogisticEmployee.h
 *********************************************************************/
 
@@ -18,10 +18,7 @@
 //## link itsTUesla
 class TUesla;
 
-//## link itsUC_SetCoordinates
-class UC_SetCoordinates;
-
-//## package ActorPkg
+//## package TUesla::Actors::PrimaryActors
 
 //## actor DCLogisticEmployee
 class DCLogisticEmployee {
@@ -42,12 +39,6 @@ public :
     
     //## auto_generated
     void setItsTUesla(TUesla* p_TUesla);
-    
-    //## auto_generated
-    UC_SetCoordinates* getItsUC_SetCoordinates() const;
-    
-    //## auto_generated
-    void setItsUC_SetCoordinates(UC_SetCoordinates* p_UC_SetCoordinates);
 
 protected :
 
@@ -57,8 +48,6 @@ protected :
     ////    Relations and components    ////
     
     TUesla* itsTUesla;		//## link itsTUesla
-    
-    UC_SetCoordinates* itsUC_SetCoordinates;		//## link itsUC_SetCoordinates
     
     ////    Framework operations    ////
 
@@ -72,15 +61,6 @@ public :
     
     //## auto_generated
     void _clearItsTUesla();
-    
-    //## auto_generated
-    void __setItsUC_SetCoordinates(UC_SetCoordinates* p_UC_SetCoordinates);
-    
-    //## auto_generated
-    void _setItsUC_SetCoordinates(UC_SetCoordinates* p_UC_SetCoordinates);
-    
-    //## auto_generated
-    void _clearItsUC_SetCoordinates();
 };
 
 #endif

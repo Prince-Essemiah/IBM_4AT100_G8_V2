@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DCT
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\DCT.cpp
 *********************************************************************/
 
@@ -12,7 +12,7 @@
 #include "DCT.h"
 //## link itsTUesla
 #include "TUesla.h"
-//## package TUesla
+//## package TUesla::Actors::SecondaryActors
 
 //## class DCT
 DCT::DCT() {
@@ -21,26 +21,6 @@ DCT::DCT() {
 
 DCT::~DCT() {
     cleanUpRelations();
-}
-
-Battery* DCT::getItsBattery() const {
-    return (Battery*) &itsBattery;
-}
-
-Heating* DCT::getItsHeating() const {
-    return (Heating*) &itsHeating;
-}
-
-Lighting* DCT::getItsLighting() const {
-    return (Lighting*) &itsLighting;
-}
-
-Powertrain* DCT::getItsPowertrain() const {
-    return (Powertrain*) &itsPowertrain;
-}
-
-SteeringWheel* DCT::getItsSteeringWheel() const {
-    return (SteeringWheel*) &itsSteeringWheel;
 }
 
 TUesla* DCT::getItsTUesla() const {

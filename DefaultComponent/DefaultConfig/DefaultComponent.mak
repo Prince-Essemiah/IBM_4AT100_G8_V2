@@ -35,7 +35,7 @@ MT_PREFIX=
 LIBCRT_FLAG=/MD
 !ENDIF
 
-LIB_PREFIX=MSVC15x86$(MT_PREFIX)
+LIB_PREFIX=MSVC14x86$(MT_PREFIX)
 
 CRT_FLAGS=$(DEFINE_QUALIFIER)_CRT_SECURE_NO_DEPRECATE $(DEFINE_QUALIFIER)_CRT_SECURE_NO_WARNINGS
 ENABLE_EH=/EHa
@@ -55,8 +55,8 @@ LINK_FLAGS=$(LinkDebug)  /NOLOGO    $(SUBSYSTEM) /MACHINE:x86
 
 FLAGSFILE=
 RULESFILE=
-OMROOT="C:\ProgramData\IBM\Rational\Rhapsody\8.4\Share"
-RHPROOT="e:\Software\IBM Rhapsody"
+OMROOT="C:\Users\bthem\IBM\Rational\Rhapsody\8.4\Share"
+RHPROOT="C:\Program Files (x86)\IBM\Rational\Rhapsody\8.4"
 
 CPP_EXT=.cpp
 H_EXT=.h
@@ -84,34 +84,28 @@ INCLUDE_PATH= \
 ADDITIONAL_OBJS=
 
 OBJS= \
-  TruckDriver.obj \
-  DCLogisticEmployee.obj \
-  DCLoadingEmployee.obj \
+  TUesla.obj \
+  UC_SetCoordinates.obj \
+  UC_DCTReverseParkLD.obj \
+  UC_StopCrash.obj \
   Government.obj \
   DCOwner.obj \
   TruckManufacturers.obj \
   Environmentalists.obj \
-  DistributionCenter.obj \
-  DCT.obj \
-  Truck.obj \
-  Trailer.obj \
-  Cargo.obj \
-  DCLogisticSystem.obj \
-  Powertrain.obj \
-  Battery.obj \
-  SteeringWheel.obj \
-  DCBoard.obj \
-  KinematicModel.obj \
-  PathPlanner.obj \
-  Controller.obj \
-  HMI.obj \
-  Heating.obj \
-  Lighting.obj \
-  TUesla.obj \
-  Environment.obj \
+  TrafficRegulators.obj \
+  InsuranceCompanies.obj \
+  SensorManufacturers.obj \
+  AutomotiveSafetyStandards.obj \
+  DCLoadingEmployee.obj \
+  DCLogisticEmployee.obj \
   Sensors.obj \
-  UC_SetCoordinates.obj \
-  SetCoordinates.obj
+  Cargo.obj \
+  EnvironmentSensors.obj \
+  DCT.obj \
+  DCBoard.obj \
+  DCLocalizationSystem.obj \
+  SetCoordinates.obj \
+  Usecases.obj
 
 
 
@@ -194,21 +188,27 @@ SOCK_LIB=
 
 
 
-TruckDriver.obj : TruckDriver.cpp TruckDriver.h    TUesla.h Truck.h 
+TUesla.obj : TUesla.cpp TUesla.h    DCT.h Sensors.h DCLogisticEmployee.h Cargo.h DCLocalizationSystem.h EnvironmentSensors.h DCBoard.h DCLoadingEmployee.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TruckDriver.obj" "TruckDriver.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TUesla.obj" "TUesla.cpp" 
 
 
 
-DCLogisticEmployee.obj : DCLogisticEmployee.cpp DCLogisticEmployee.h    TUesla.h UC_SetCoordinates.h 
+UC_SetCoordinates.obj : UC_SetCoordinates.cpp UC_SetCoordinates.h    SetCoordinates.h DCLogisticEmployee.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLogisticEmployee.obj" "DCLogisticEmployee.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_SetCoordinates.obj" "UC_SetCoordinates.cpp" 
 
 
 
-DCLoadingEmployee.obj : DCLoadingEmployee.cpp DCLoadingEmployee.h    TUesla.h 
+UC_DCTReverseParkLD.obj : UC_DCTReverseParkLD.cpp UC_DCTReverseParkLD.h    DCT.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLoadingEmployee.obj" "DCLoadingEmployee.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_DCTReverseParkLD.obj" "UC_DCTReverseParkLD.cpp" 
+
+
+
+UC_StopCrash.obj : UC_StopCrash.cpp UC_StopCrash.h    Sensors.h DCT.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_StopCrash.obj" "UC_StopCrash.cpp" 
 
 
 
@@ -236,111 +236,39 @@ Environmentalists.obj : Environmentalists.cpp Environmentalists.h
 
 
 
-DistributionCenter.obj : DistributionCenter.cpp DistributionCenter.h    TUesla.h 
+TrafficRegulators.obj : TrafficRegulators.cpp TrafficRegulators.h    
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DistributionCenter.obj" "DistributionCenter.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TrafficRegulators.obj" "TrafficRegulators.cpp" 
 
 
 
-DCT.obj : DCT.cpp DCT.h    Heating.h Battery.h SteeringWheel.h Powertrain.h Lighting.h TUesla.h 
+InsuranceCompanies.obj : InsuranceCompanies.cpp InsuranceCompanies.h    
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCT.obj" "DCT.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"InsuranceCompanies.obj" "InsuranceCompanies.cpp" 
 
 
 
-Truck.obj : Truck.cpp Truck.h    TUesla.h TruckDriver.h 
+SensorManufacturers.obj : SensorManufacturers.cpp SensorManufacturers.h    
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Truck.obj" "Truck.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SensorManufacturers.obj" "SensorManufacturers.cpp" 
 
 
 
-Trailer.obj : Trailer.cpp Trailer.h    TUesla.h 
+AutomotiveSafetyStandards.obj : AutomotiveSafetyStandards.cpp AutomotiveSafetyStandards.h    
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Trailer.obj" "Trailer.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AutomotiveSafetyStandards.obj" "AutomotiveSafetyStandards.cpp" 
 
 
 
-Cargo.obj : Cargo.cpp Cargo.h    TUesla.h 
+DCLoadingEmployee.obj : DCLoadingEmployee.cpp DCLoadingEmployee.h    TUesla.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Cargo.obj" "Cargo.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLoadingEmployee.obj" "DCLoadingEmployee.cpp" 
 
 
 
-DCLogisticSystem.obj : DCLogisticSystem.cpp DCLogisticSystem.h    UC_SetCoordinates.h 
+DCLogisticEmployee.obj : DCLogisticEmployee.cpp DCLogisticEmployee.h    TUesla.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLogisticSystem.obj" "DCLogisticSystem.cpp" 
-
-
-
-Powertrain.obj : Powertrain.cpp Powertrain.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Powertrain.obj" "Powertrain.cpp" 
-
-
-
-Battery.obj : Battery.cpp Battery.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Battery.obj" "Battery.cpp" 
-
-
-
-SteeringWheel.obj : SteeringWheel.cpp SteeringWheel.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SteeringWheel.obj" "SteeringWheel.cpp" 
-
-
-
-DCBoard.obj : DCBoard.cpp DCBoard.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCBoard.obj" "DCBoard.cpp" 
-
-
-
-KinematicModel.obj : KinematicModel.cpp KinematicModel.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"KinematicModel.obj" "KinematicModel.cpp" 
-
-
-
-PathPlanner.obj : PathPlanner.cpp PathPlanner.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PathPlanner.obj" "PathPlanner.cpp" 
-
-
-
-Controller.obj : Controller.cpp Controller.h    KinematicModel.h PathPlanner.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Controller.obj" "Controller.cpp" 
-
-
-
-HMI.obj : HMI.cpp HMI.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"HMI.obj" "HMI.cpp" 
-
-
-
-Heating.obj : Heating.cpp Heating.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Heating.obj" "Heating.cpp" 
-
-
-
-Lighting.obj : Lighting.cpp Lighting.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Lighting.obj" "Lighting.cpp" 
-
-
-
-TUesla.obj : TUesla.cpp TUesla.h    Controller.h DCT.h DistributionCenter.h Truck.h TruckDriver.h DCLogisticEmployee.h DCLoadingEmployee.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"TUesla.obj" "TUesla.cpp" 
-
-
-
-Environment.obj : Environment.cpp Environment.h    TUesla.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Environment.obj" "Environment.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLogisticEmployee.obj" "DCLogisticEmployee.cpp" 
 
 
 
@@ -350,15 +278,45 @@ Sensors.obj : Sensors.cpp Sensors.h    TUesla.h
 
 
 
-UC_SetCoordinates.obj : UC_SetCoordinates.cpp UC_SetCoordinates.h    SetCoordinates.h DCLogisticEmployee.h DCLogisticSystem.h 
+Cargo.obj : Cargo.cpp Cargo.h    TUesla.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_SetCoordinates.obj" "UC_SetCoordinates.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Cargo.obj" "Cargo.cpp" 
+
+
+
+EnvironmentSensors.obj : EnvironmentSensors.cpp EnvironmentSensors.h    TUesla.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"EnvironmentSensors.obj" "EnvironmentSensors.cpp" 
+
+
+
+DCT.obj : DCT.cpp DCT.h    TUesla.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCT.obj" "DCT.cpp" 
+
+
+
+DCBoard.obj : DCBoard.cpp DCBoard.h    TUesla.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCBoard.obj" "DCBoard.cpp" 
+
+
+
+DCLocalizationSystem.obj : DCLocalizationSystem.cpp DCLocalizationSystem.h    TUesla.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLocalizationSystem.obj" "DCLocalizationSystem.cpp" 
 
 
 
 SetCoordinates.obj : SetCoordinates.cpp SetCoordinates.h    UC_SetCoordinates.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SetCoordinates.obj" "SetCoordinates.cpp" 
+
+
+
+Usecases.obj : Usecases.cpp Usecases.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Usecases.obj" "Usecases.cpp" 
 
 
 
@@ -389,34 +347,28 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 
 clean:
 	@echo Cleanup
-	if exist TruckDriver.obj erase TruckDriver.obj
-	if exist DCLogisticEmployee.obj erase DCLogisticEmployee.obj
-	if exist DCLoadingEmployee.obj erase DCLoadingEmployee.obj
+	if exist TUesla.obj erase TUesla.obj
+	if exist UC_SetCoordinates.obj erase UC_SetCoordinates.obj
+	if exist UC_DCTReverseParkLD.obj erase UC_DCTReverseParkLD.obj
+	if exist UC_StopCrash.obj erase UC_StopCrash.obj
 	if exist Government.obj erase Government.obj
 	if exist DCOwner.obj erase DCOwner.obj
 	if exist TruckManufacturers.obj erase TruckManufacturers.obj
 	if exist Environmentalists.obj erase Environmentalists.obj
-	if exist DistributionCenter.obj erase DistributionCenter.obj
-	if exist DCT.obj erase DCT.obj
-	if exist Truck.obj erase Truck.obj
-	if exist Trailer.obj erase Trailer.obj
-	if exist Cargo.obj erase Cargo.obj
-	if exist DCLogisticSystem.obj erase DCLogisticSystem.obj
-	if exist Powertrain.obj erase Powertrain.obj
-	if exist Battery.obj erase Battery.obj
-	if exist SteeringWheel.obj erase SteeringWheel.obj
-	if exist DCBoard.obj erase DCBoard.obj
-	if exist KinematicModel.obj erase KinematicModel.obj
-	if exist PathPlanner.obj erase PathPlanner.obj
-	if exist Controller.obj erase Controller.obj
-	if exist HMI.obj erase HMI.obj
-	if exist Heating.obj erase Heating.obj
-	if exist Lighting.obj erase Lighting.obj
-	if exist TUesla.obj erase TUesla.obj
-	if exist Environment.obj erase Environment.obj
+	if exist TrafficRegulators.obj erase TrafficRegulators.obj
+	if exist InsuranceCompanies.obj erase InsuranceCompanies.obj
+	if exist SensorManufacturers.obj erase SensorManufacturers.obj
+	if exist AutomotiveSafetyStandards.obj erase AutomotiveSafetyStandards.obj
+	if exist DCLoadingEmployee.obj erase DCLoadingEmployee.obj
+	if exist DCLogisticEmployee.obj erase DCLogisticEmployee.obj
 	if exist Sensors.obj erase Sensors.obj
-	if exist UC_SetCoordinates.obj erase UC_SetCoordinates.obj
+	if exist Cargo.obj erase Cargo.obj
+	if exist EnvironmentSensors.obj erase EnvironmentSensors.obj
+	if exist DCT.obj erase DCT.obj
+	if exist DCBoard.obj erase DCBoard.obj
+	if exist DCLocalizationSystem.obj erase DCLocalizationSystem.obj
 	if exist SetCoordinates.obj erase SetCoordinates.obj
+	if exist Usecases.obj erase Usecases.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

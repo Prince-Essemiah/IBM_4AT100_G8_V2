@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: TrafficRegulators
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\TrafficRegulators.h
 *********************************************************************/
 
-#ifndef Environmentalists_H
-#define Environmentalists_H
+#ifndef TrafficRegulators_H
+#define TrafficRegulators_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -17,20 +17,20 @@
 #include <..\Profiles\SysML\SIDefinitions.h>
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-class Environmentalists {
+//## actor TrafficRegulators
+class TrafficRegulators {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    Environmentalists();
+    TrafficRegulators();
     
     //## auto_generated
-    ~Environmentalists();
+    ~TrafficRegulators();
 };
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\TrafficRegulators.h
 *********************************************************************/

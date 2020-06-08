@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: DCLoadingEmployee
+	Model Element	: DCLocalizationSystem
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\DCLoadingEmployee.h
+	File Path	: DefaultComponent\DefaultConfig\DCLocalizationSystem.h
 *********************************************************************/
 
-#ifndef DCLoadingEmployee_H
-#define DCLoadingEmployee_H
+#ifndef DCLocalizationSystem_H
+#define DCLocalizationSystem_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -18,19 +18,19 @@
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla::Actors::PrimaryActors
+//## package TUesla::Actors::SecondaryActors
 
-//## actor DCLoadingEmployee
-class DCLoadingEmployee {
+//## class DCLocalizationSystem
+class DCLocalizationSystem {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    DCLoadingEmployee();
+    DCLocalizationSystem();
     
     //## auto_generated
-    ~DCLoadingEmployee();
+    ~DCLocalizationSystem();
     
     ////    Additional operations    ////
     
@@ -65,5 +65,5 @@ public :
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\DCLoadingEmployee.h
+	File Path	: DefaultComponent\DefaultConfig\DCLocalizationSystem.h
 *********************************************************************/

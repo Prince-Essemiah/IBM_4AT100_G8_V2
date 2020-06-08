@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: AutomotiveSafetyStandards
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\AutomotiveSafetyStandards.h
 *********************************************************************/
 
-#ifndef Environmentalists_H
-#define Environmentalists_H
+#ifndef AutomotiveSafetyStandards_H
+#define AutomotiveSafetyStandards_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -17,20 +17,20 @@
 #include <..\Profiles\SysML\SIDefinitions.h>
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-class Environmentalists {
+//## actor AutomotiveSafetyStandards
+class AutomotiveSafetyStandards {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    Environmentalists();
+    AutomotiveSafetyStandards();
     
     //## auto_generated
-    ~Environmentalists();
+    ~AutomotiveSafetyStandards();
 };
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\AutomotiveSafetyStandards.h
 *********************************************************************/

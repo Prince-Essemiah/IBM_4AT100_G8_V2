@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Sensors
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\Sensors.h
 *********************************************************************/
 
@@ -18,14 +18,62 @@
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla
+//## package TUesla::Actors::SecondaryActors
 
 //## class Sensors
 class Sensors {
-    ////    Constructors and destructors    ////
-    
 public :
 
+    //## auto_generated
+    class Camera;
+    
+    //## auto_generated
+    class Lidar;
+    
+    //## auto_generated
+    class Velocity;
+    
+    //## class Sensors::Camera
+    class Camera : public Sensors {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        Camera();
+        
+        //## auto_generated
+        ~Camera();
+    };
+    
+    //## class Sensors::Lidar
+    class Lidar : public Sensors {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        Lidar();
+        
+        //## auto_generated
+        ~Lidar();
+    };
+    
+    //## class Sensors::Velocity
+    class Velocity : public Sensors {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        Velocity();
+        
+        //## auto_generated
+        ~Velocity();
+    };
+    
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     Sensors();
     
@@ -48,6 +96,19 @@ protected :
     ////    Relations and components    ////
     
     TUesla* itsTUesla;		//## link itsTUesla
+    
+    ////    Framework operations    ////
+
+public :
+
+    //## auto_generated
+    void __setItsTUesla(TUesla* p_TUesla);
+    
+    //## auto_generated
+    void _setItsTUesla(TUesla* p_TUesla);
+    
+    //## auto_generated
+    void _clearItsTUesla();
 };
 
 #endif

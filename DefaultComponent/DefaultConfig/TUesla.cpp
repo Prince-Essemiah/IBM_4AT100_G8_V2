@@ -1,37 +1,47 @@
 /********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: TUesla
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\TUesla.cpp
 *********************************************************************/
 
 //## auto_generated
 #include "TUesla.h"
+//## link itsCargo
+#include "Cargo.h"
+//## link itsDCBoard
+#include "DCBoard.h"
 //## link itsDCLoadingEmployee
 #include "DCLoadingEmployee.h"
+//## link itsDCLocalizationSystem
+#include "DCLocalizationSystem.h"
 //## link itsDCLogisticEmployee
 #include "DCLogisticEmployee.h"
-//## link itsTruckDriver
-#include "TruckDriver.h"
+//## link itsDCT
+#include "DCT.h"
+//## link itsEnvironmentSensors
+#include "EnvironmentSensors.h"
+//## link itsSensors
+#include "Sensors.h"
 //## package TUesla
 
 //## class TUesla
 TUesla::TUesla() {
+    itsCargo = NULL;
+    itsDCBoard = NULL;
     itsDCLoadingEmployee = NULL;
+    itsDCLocalizationSystem = NULL;
     itsDCLogisticEmployee = NULL;
     itsDCT = NULL;
-    itsTruckDriver = NULL;
+    itsEnvironmentSensors = NULL;
+    itsSensors = NULL;
 }
 
 TUesla::~TUesla() {
     cleanUpRelations();
-}
-
-Controller* TUesla::getItsController() const {
-    return (Controller*) &itsController;
 }
 
 DCT* TUesla::getItsDCT() const {
@@ -46,19 +56,25 @@ void TUesla::setItsDCT(DCT* p_DCT) {
     _setItsDCT(p_DCT);
 }
 
-DCT* TUesla::getItsDCT_1() const {
-    return (DCT*) &itsDCT_1;
-}
-
-DistributionCenter* TUesla::getItsDistributionCenter_1() const {
-    return (DistributionCenter*) &itsDistributionCenter_1;
-}
-
-Truck* TUesla::getItsTruck() const {
-    return (Truck*) &itsTruck;
-}
-
 void TUesla::cleanUpRelations() {
+    if(itsCargo != NULL)
+        {
+            TUesla* p_TUesla = itsCargo->getItsTUesla();
+            if(p_TUesla != NULL)
+                {
+                    itsCargo->__setItsTUesla(NULL);
+                }
+            itsCargo = NULL;
+        }
+    if(itsDCBoard != NULL)
+        {
+            TUesla* p_TUesla = itsDCBoard->getItsTUesla();
+            if(p_TUesla != NULL)
+                {
+                    itsDCBoard->__setItsTUesla(NULL);
+                }
+            itsDCBoard = NULL;
+        }
     if(itsDCLoadingEmployee != NULL)
         {
             TUesla* p_TUesla = itsDCLoadingEmployee->getItsTUesla();
@@ -67,6 +83,15 @@ void TUesla::cleanUpRelations() {
                     itsDCLoadingEmployee->__setItsTUesla(NULL);
                 }
             itsDCLoadingEmployee = NULL;
+        }
+    if(itsDCLocalizationSystem != NULL)
+        {
+            TUesla* p_TUesla = itsDCLocalizationSystem->getItsTUesla();
+            if(p_TUesla != NULL)
+                {
+                    itsDCLocalizationSystem->__setItsTUesla(NULL);
+                }
+            itsDCLocalizationSystem = NULL;
         }
     if(itsDCLogisticEmployee != NULL)
         {
@@ -86,14 +111,23 @@ void TUesla::cleanUpRelations() {
                 }
             itsDCT = NULL;
         }
-    if(itsTruckDriver != NULL)
+    if(itsEnvironmentSensors != NULL)
         {
-            TUesla* p_TUesla = itsTruckDriver->getItsTUesla();
+            TUesla* p_TUesla = itsEnvironmentSensors->getItsTUesla();
             if(p_TUesla != NULL)
                 {
-                    itsTruckDriver->__setItsTUesla(NULL);
+                    itsEnvironmentSensors->__setItsTUesla(NULL);
                 }
-            itsTruckDriver = NULL;
+            itsEnvironmentSensors = NULL;
+        }
+    if(itsSensors != NULL)
+        {
+            TUesla* p_TUesla = itsSensors->getItsTUesla();
+            if(p_TUesla != NULL)
+                {
+                    itsSensors->__setItsTUesla(NULL);
+                }
+            itsSensors = NULL;
         }
 }
 
@@ -113,6 +147,30 @@ void TUesla::_clearItsDCT() {
     itsDCT = NULL;
 }
 
+Cargo* TUesla::getItsCargo() const {
+    return itsCargo;
+}
+
+void TUesla::setItsCargo(Cargo* p_Cargo) {
+    if(p_Cargo != NULL)
+        {
+            p_Cargo->_setItsTUesla(this);
+        }
+    _setItsCargo(p_Cargo);
+}
+
+DCBoard* TUesla::getItsDCBoard() const {
+    return itsDCBoard;
+}
+
+void TUesla::setItsDCBoard(DCBoard* p_DCBoard) {
+    if(p_DCBoard != NULL)
+        {
+            p_DCBoard->_setItsTUesla(this);
+        }
+    _setItsDCBoard(p_DCBoard);
+}
+
 DCLoadingEmployee* TUesla::getItsDCLoadingEmployee() const {
     return itsDCLoadingEmployee;
 }
@@ -123,6 +181,18 @@ void TUesla::setItsDCLoadingEmployee(DCLoadingEmployee* p_DCLoadingEmployee) {
             p_DCLoadingEmployee->_setItsTUesla(this);
         }
     _setItsDCLoadingEmployee(p_DCLoadingEmployee);
+}
+
+DCLocalizationSystem* TUesla::getItsDCLocalizationSystem() const {
+    return itsDCLocalizationSystem;
+}
+
+void TUesla::setItsDCLocalizationSystem(DCLocalizationSystem* p_DCLocalizationSystem) {
+    if(p_DCLocalizationSystem != NULL)
+        {
+            p_DCLocalizationSystem->_setItsTUesla(this);
+        }
+    _setItsDCLocalizationSystem(p_DCLocalizationSystem);
 }
 
 DCLogisticEmployee* TUesla::getItsDCLogisticEmployee() const {
@@ -137,16 +207,60 @@ void TUesla::setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee) 
     _setItsDCLogisticEmployee(p_DCLogisticEmployee);
 }
 
-TruckDriver* TUesla::getItsTruckDriver() const {
-    return itsTruckDriver;
+EnvironmentSensors* TUesla::getItsEnvironmentSensors() const {
+    return itsEnvironmentSensors;
 }
 
-void TUesla::setItsTruckDriver(TruckDriver* p_TruckDriver) {
-    if(p_TruckDriver != NULL)
+void TUesla::setItsEnvironmentSensors(EnvironmentSensors* p_EnvironmentSensors) {
+    if(p_EnvironmentSensors != NULL)
         {
-            p_TruckDriver->_setItsTUesla(this);
+            p_EnvironmentSensors->_setItsTUesla(this);
         }
-    _setItsTruckDriver(p_TruckDriver);
+    _setItsEnvironmentSensors(p_EnvironmentSensors);
+}
+
+Sensors* TUesla::getItsSensors() const {
+    return itsSensors;
+}
+
+void TUesla::setItsSensors(Sensors* p_Sensors) {
+    if(p_Sensors != NULL)
+        {
+            p_Sensors->_setItsTUesla(this);
+        }
+    _setItsSensors(p_Sensors);
+}
+
+void TUesla::__setItsCargo(Cargo* p_Cargo) {
+    itsCargo = p_Cargo;
+}
+
+void TUesla::_setItsCargo(Cargo* p_Cargo) {
+    if(itsCargo != NULL)
+        {
+            itsCargo->__setItsTUesla(NULL);
+        }
+    __setItsCargo(p_Cargo);
+}
+
+void TUesla::_clearItsCargo() {
+    itsCargo = NULL;
+}
+
+void TUesla::__setItsDCBoard(DCBoard* p_DCBoard) {
+    itsDCBoard = p_DCBoard;
+}
+
+void TUesla::_setItsDCBoard(DCBoard* p_DCBoard) {
+    if(itsDCBoard != NULL)
+        {
+            itsDCBoard->__setItsTUesla(NULL);
+        }
+    __setItsDCBoard(p_DCBoard);
+}
+
+void TUesla::_clearItsDCBoard() {
+    itsDCBoard = NULL;
 }
 
 void TUesla::__setItsDCLoadingEmployee(DCLoadingEmployee* p_DCLoadingEmployee) {
@@ -165,6 +279,22 @@ void TUesla::_clearItsDCLoadingEmployee() {
     itsDCLoadingEmployee = NULL;
 }
 
+void TUesla::__setItsDCLocalizationSystem(DCLocalizationSystem* p_DCLocalizationSystem) {
+    itsDCLocalizationSystem = p_DCLocalizationSystem;
+}
+
+void TUesla::_setItsDCLocalizationSystem(DCLocalizationSystem* p_DCLocalizationSystem) {
+    if(itsDCLocalizationSystem != NULL)
+        {
+            itsDCLocalizationSystem->__setItsTUesla(NULL);
+        }
+    __setItsDCLocalizationSystem(p_DCLocalizationSystem);
+}
+
+void TUesla::_clearItsDCLocalizationSystem() {
+    itsDCLocalizationSystem = NULL;
+}
+
 void TUesla::__setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee) {
     itsDCLogisticEmployee = p_DCLogisticEmployee;
 }
@@ -181,20 +311,36 @@ void TUesla::_clearItsDCLogisticEmployee() {
     itsDCLogisticEmployee = NULL;
 }
 
-void TUesla::__setItsTruckDriver(TruckDriver* p_TruckDriver) {
-    itsTruckDriver = p_TruckDriver;
+void TUesla::__setItsEnvironmentSensors(EnvironmentSensors* p_EnvironmentSensors) {
+    itsEnvironmentSensors = p_EnvironmentSensors;
 }
 
-void TUesla::_setItsTruckDriver(TruckDriver* p_TruckDriver) {
-    if(itsTruckDriver != NULL)
+void TUesla::_setItsEnvironmentSensors(EnvironmentSensors* p_EnvironmentSensors) {
+    if(itsEnvironmentSensors != NULL)
         {
-            itsTruckDriver->__setItsTUesla(NULL);
+            itsEnvironmentSensors->__setItsTUesla(NULL);
         }
-    __setItsTruckDriver(p_TruckDriver);
+    __setItsEnvironmentSensors(p_EnvironmentSensors);
 }
 
-void TUesla::_clearItsTruckDriver() {
-    itsTruckDriver = NULL;
+void TUesla::_clearItsEnvironmentSensors() {
+    itsEnvironmentSensors = NULL;
+}
+
+void TUesla::__setItsSensors(Sensors* p_Sensors) {
+    itsSensors = p_Sensors;
+}
+
+void TUesla::_setItsSensors(Sensors* p_Sensors) {
+    if(itsSensors != NULL)
+        {
+            itsSensors->__setItsTUesla(NULL);
+        }
+    __setItsSensors(p_Sensors);
+}
+
+void TUesla::_clearItsSensors() {
+    itsSensors = NULL;
 }
 
 /*********************************************************************

@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC_SetCoordinates
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\UC_SetCoordinates.cpp
 *********************************************************************/
 
@@ -12,8 +12,6 @@
 #include "UC_SetCoordinates.h"
 //## link itsDCLogisticEmployee
 #include "DCLogisticEmployee.h"
-//## link itsDCLogisticSystem
-#include "DCLogisticSystem.h"
 //## package TUesla::UseCaseModelling::SetCoordinates
 
 //## class UC_SetCoordinates
@@ -63,7 +61,6 @@ UC_SetCoordinates::Activity_0OfUC_SetCoordinates::Activity_0OfUC_SetCoordinates(
 
 UC_SetCoordinates::UC_SetCoordinates() {
     itsDCLogisticEmployee = NULL;
-    itsDCLogisticSystem = NULL;
 }
 
 UC_SetCoordinates::~UC_SetCoordinates() {
@@ -114,23 +111,7 @@ DCLogisticEmployee* UC_SetCoordinates::getItsDCLogisticEmployee() const {
 }
 
 void UC_SetCoordinates::setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee) {
-    if(p_DCLogisticEmployee != NULL)
-        {
-            p_DCLogisticEmployee->_setItsUC_SetCoordinates(this);
-        }
-    _setItsDCLogisticEmployee(p_DCLogisticEmployee);
-}
-
-DCLogisticSystem* UC_SetCoordinates::getItsDCLogisticSystem() const {
-    return itsDCLogisticSystem;
-}
-
-void UC_SetCoordinates::setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem) {
-    if(p_DCLogisticSystem != NULL)
-        {
-            p_DCLogisticSystem->_setItsUC_SetCoordinates(this);
-        }
-    _setItsDCLogisticSystem(p_DCLogisticSystem);
+    itsDCLogisticEmployee = p_DCLogisticEmployee;
 }
 
 bool UC_SetCoordinates::startBehavior() {
@@ -142,54 +123,8 @@ bool UC_SetCoordinates::startBehavior() {
 void UC_SetCoordinates::cleanUpRelations() {
     if(itsDCLogisticEmployee != NULL)
         {
-            UC_SetCoordinates* p_UC_SetCoordinates = itsDCLogisticEmployee->getItsUC_SetCoordinates();
-            if(p_UC_SetCoordinates != NULL)
-                {
-                    itsDCLogisticEmployee->__setItsUC_SetCoordinates(NULL);
-                }
             itsDCLogisticEmployee = NULL;
         }
-    if(itsDCLogisticSystem != NULL)
-        {
-            UC_SetCoordinates* p_UC_SetCoordinates = itsDCLogisticSystem->getItsUC_SetCoordinates();
-            if(p_UC_SetCoordinates != NULL)
-                {
-                    itsDCLogisticSystem->__setItsUC_SetCoordinates(NULL);
-                }
-            itsDCLogisticSystem = NULL;
-        }
-}
-
-void UC_SetCoordinates::__setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee) {
-    itsDCLogisticEmployee = p_DCLogisticEmployee;
-}
-
-void UC_SetCoordinates::_setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee) {
-    if(itsDCLogisticEmployee != NULL)
-        {
-            itsDCLogisticEmployee->__setItsUC_SetCoordinates(NULL);
-        }
-    __setItsDCLogisticEmployee(p_DCLogisticEmployee);
-}
-
-void UC_SetCoordinates::_clearItsDCLogisticEmployee() {
-    itsDCLogisticEmployee = NULL;
-}
-
-void UC_SetCoordinates::__setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem) {
-    itsDCLogisticSystem = p_DCLogisticSystem;
-}
-
-void UC_SetCoordinates::_setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem) {
-    if(itsDCLogisticSystem != NULL)
-        {
-            itsDCLogisticSystem->__setItsUC_SetCoordinates(NULL);
-        }
-    __setItsDCLogisticSystem(p_DCLogisticSystem);
-}
-
-void UC_SetCoordinates::_clearItsDCLogisticSystem() {
-    itsDCLogisticSystem = NULL;
 }
 
 /*********************************************************************

@@ -3,22 +3,22 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: InsuranceCompanies
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\InsuranceCompanies.cpp
 *********************************************************************/
 
 //## auto_generated
-#include "Environmentalists.h"
+#include "InsuranceCompanies.h"
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-Environmentalists::Environmentalists() {
+//## actor InsuranceCompanies
+InsuranceCompanies::InsuranceCompanies() {
 }
 
-Environmentalists::~Environmentalists() {
+InsuranceCompanies::~InsuranceCompanies() {
 }
 
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\InsuranceCompanies.cpp
 *********************************************************************/

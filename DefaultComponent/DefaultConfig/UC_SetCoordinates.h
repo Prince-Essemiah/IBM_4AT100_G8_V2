@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
-	Login		: Prana
+	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC_SetCoordinates
-//!	Generated Date	: Tue, 26, May 2020  
+//!	Generated Date	: Mon, 8, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\UC_SetCoordinates.h
 *********************************************************************/
 
@@ -21,9 +21,6 @@
 #include "SetCoordinates.h"
 //## link itsDCLogisticEmployee
 class DCLogisticEmployee;
-
-//## link itsDCLogisticSystem
-class DCLogisticSystem;
 
 //## package TUesla::UseCaseModelling::SetCoordinates
 
@@ -136,12 +133,6 @@ public :
     void setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee);
     
     //## auto_generated
-    DCLogisticSystem* getItsDCLogisticSystem() const;
-    
-    //## auto_generated
-    void setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem);
-    
-    //## auto_generated
     virtual bool startBehavior();
 
 protected :
@@ -153,29 +144,7 @@ protected :
     
     DCLogisticEmployee* itsDCLogisticEmployee;		//## link itsDCLogisticEmployee
     
-    DCLogisticSystem* itsDCLogisticSystem;		//## link itsDCLogisticSystem
-    
     ////    Framework operations    ////
-
-public :
-
-    //## auto_generated
-    void __setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee);
-    
-    //## auto_generated
-    void _setItsDCLogisticEmployee(DCLogisticEmployee* p_DCLogisticEmployee);
-    
-    //## auto_generated
-    void _clearItsDCLogisticEmployee();
-    
-    //## auto_generated
-    void __setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem);
-    
-    //## auto_generated
-    void _setItsDCLogisticSystem(DCLogisticSystem* p_DCLogisticSystem);
-    
-    //## auto_generated
-    void _clearItsDCLogisticSystem();
 };
 
 #endif

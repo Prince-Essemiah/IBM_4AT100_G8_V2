@@ -3,22 +3,22 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: TrafficRegulators
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\TrafficRegulators.cpp
 *********************************************************************/
 
 //## auto_generated
-#include "Environmentalists.h"
+#include "TrafficRegulators.h"
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-Environmentalists::Environmentalists() {
+//## actor TrafficRegulators
+TrafficRegulators::TrafficRegulators() {
 }
 
-Environmentalists::~Environmentalists() {
+TrafficRegulators::~TrafficRegulators() {
 }
 
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\TrafficRegulators.cpp
 *********************************************************************/

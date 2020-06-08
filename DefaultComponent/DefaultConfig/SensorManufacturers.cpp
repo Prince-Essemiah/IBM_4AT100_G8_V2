@@ -3,22 +3,22 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: SensorManufacturers
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\SensorManufacturers.cpp
 *********************************************************************/
 
 //## auto_generated
-#include "Environmentalists.h"
+#include "SensorManufacturers.h"
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-Environmentalists::Environmentalists() {
+//## actor SensorManufacturers
+SensorManufacturers::SensorManufacturers() {
 }
 
-Environmentalists::~Environmentalists() {
+SensorManufacturers::~SensorManufacturers() {
 }
 
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.cpp
+	File Path	: DefaultComponent\DefaultConfig\SensorManufacturers.cpp
 *********************************************************************/

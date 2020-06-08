@@ -3,13 +3,13 @@
 	Login		: bthem
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: Environmentalists
+	Model Element	: SensorManufacturers
 //!	Generated Date	: Mon, 8, Jun 2020  
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\SensorManufacturers.h
 *********************************************************************/
 
-#ifndef Environmentalists_H
-#define Environmentalists_H
+#ifndef SensorManufacturers_H
+#define SensorManufacturers_H
 
 //## auto_generated
 #include <oxf\oxf.h>
@@ -17,20 +17,20 @@
 #include <..\Profiles\SysML\SIDefinitions.h>
 //## package TUesla::Stakeholders
 
-//## actor Environmentalists
-class Environmentalists {
+//## actor SensorManufacturers
+class SensorManufacturers {
     ////    Constructors and destructors    ////
     
 public :
 
     //## auto_generated
-    Environmentalists();
+    SensorManufacturers();
     
     //## auto_generated
-    ~Environmentalists();
+    ~SensorManufacturers();
 };
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\Environmentalists.h
+	File Path	: DefaultComponent\DefaultConfig\SensorManufacturers.h
 *********************************************************************/
