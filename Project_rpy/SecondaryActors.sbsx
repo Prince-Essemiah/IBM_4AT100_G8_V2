@@ -11,7 +11,7 @@
 			<_id type="a">GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SecondaryActors</_name>
-			<_modifiedTimeWeak type="a">6.7.2020::10:25:9</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:18:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,8 +21,8 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.7.2020::10:10:55</_modifiedTime>
-			<weakCGTime type="a">6.7.2020::10:25:9</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:50:26</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:18:37</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:10:47</strongCGTime>
 			<_defaultComposite type="s">GUID 86d11af1-2929-4d0b-8874-443144cd8061</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -69,7 +69,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.7.2020::10:11:51</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:18:48</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -79,9 +79,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.7.2020::10:11:51</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::7:18:37</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">6.7.2020::10:11:51</weakCGTime>
+			<weakCGTime type="a">6.9.2020::7:18:48</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:12:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -213,7 +213,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.1.2020::21:41:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:18:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -223,31 +223,15 @@
 					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::21:41:12</_modifiedTime>
-			<weakCGTime type="a">6.1.2020::21:41:12</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:18:37</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:18:37</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:41:12</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 072a30e1-47be-4268-915c-667b67badff9</value>
-			</AggregatesList>
 		</IClass>
-		<IGeneralization type="e">
-			<_id type="a">GUID 072a30e1-47be-4268-915c-667b67badff9</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_inheritanceType type="a">iPublic</_inheritanceType>
-			<_isVirtual type="a">0</_isVirtual>
-		</IGeneralization>
 		<IClass type="e">
 			<_id type="a">GUID b2d632c7-d2b3-49d5-a497-ae5070541e3c</_id>
 			<_myState type="a">8192</_myState>
@@ -266,7 +250,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.1.2020::21:42:51</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:18:43</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -276,31 +260,15 @@
 					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::21:42:51</_modifiedTime>
-			<weakCGTime type="a">6.1.2020::21:42:51</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:18:43</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:18:43</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:42:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 1f6c7ebd-53ba-4bb9-ba0e-9f39faf2c3e0</value>
-			</AggregatesList>
 		</IClass>
-		<IGeneralization type="e">
-			<_id type="a">GUID 1f6c7ebd-53ba-4bb9-ba0e-9f39faf2c3e0</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_inheritanceType type="a">iPublic</_inheritanceType>
-			<_isVirtual type="a">0</_isVirtual>
-		</IGeneralization>
 		<IInformationItem type="e">
 			<_id type="a">GUID 94dc9453-f499-47db-82bb-5035266eceac</_id>
 			<_myState type="a">8192</_myState>
@@ -326,7 +294,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:25:15</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:18:48</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -336,31 +304,15 @@
 					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:25:15</_modifiedTime>
-			<weakCGTime type="a">6.2.2020::11:25:15</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:18:48</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:18:48</weakCGTime>
 			<strongCGTime type="a">6.2.2020::11:25:15</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 4e8d8f1c-9f81-4e31-b7d8-709f4c3079a2</value>
-			</AggregatesList>
 		</IClass>
-		<IGeneralization type="e">
-			<_id type="a">GUID 4e8d8f1c-9f81-4e31-b7d8-709f4c3079a2</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_inheritanceType type="a">iPublic</_inheritanceType>
-			<_isVirtual type="a">0</_isVirtual>
-		</IGeneralization>
 		<IInformationItem type="e">
 			<_id type="a">GUID 9022c4d1-0059-412b-b8c3-02265bba4070</_id>
 			<_myState type="a">8192</_myState>
@@ -772,7 +724,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.7.2020::10:25:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:20:28</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -782,9 +734,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.7.2020::10:25:57</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::7:20:28</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">6.7.2020::10:25:57</weakCGTime>
+			<weakCGTime type="a">6.9.2020::7:20:28</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:13:5</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -813,6 +765,7 @@
 				<value>GUID 7980d43b-4db6-4f17-846c-3e4a5124b7f6</value>
 				<value>GUID 75374972-82b0-40b1-9016-58b4c0492ebc</value>
 				<value>GUID 3ed902b5-0411-4ff2-a87d-7d79f18821f1</value>
+				<value>GUID 97aa27aa-2820-47a3-ab44-a24a8866ea31</value>
 			</AggregatesList>
 		</IClass>
 		<IInformationFlow type="e">
@@ -1330,6 +1283,35 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 97aa27aa-2820-47a3-ab44-a24a8866ea31</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCoupling</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2020::7:20:28</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hname type="a">Coupling</_hname>
+					<_hid type="a">GUID c3c40dbd-1b70-45ca-920f-2da6e110d4e7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Usecases.sbsx</_hfilename>
+					<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+					<_hclass type="a">Coupling</_hclass>
+					<_hname type="a">itsDCT</_hname>
+					<_hid type="a">GUID b9d08a80-405b-49c9-9f64-8ecc7213b52f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IClass type="e">
 			<_id type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_id>
 			<_myState type="a">8192</_myState>
@@ -1348,7 +1330,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::11:25:51</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:19:11</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -1358,9 +1340,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.2.2020::11:25:51</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::7:19:6</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">6.2.2020::11:25:51</weakCGTime>
+			<weakCGTime type="a">6.9.2020::7:19:11</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:13:27</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1469,7 +1451,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.1.2020::21:41:17</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:19:11</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1479,31 +1461,15 @@
 					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::21:41:17</_modifiedTime>
-			<weakCGTime type="a">6.1.2020::21:41:17</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:19:11</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:19:11</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:41:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID b2434dfb-d13e-4275-81ba-100cace8e29b</value>
-			</AggregatesList>
 		</IClass>
-		<IGeneralization type="e">
-			<_id type="a">GUID b2434dfb-d13e-4275-81ba-100cace8e29b</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_inheritanceType type="a">iPublic</_inheritanceType>
-			<_isVirtual type="a">0</_isVirtual>
-		</IGeneralization>
 		<IClass type="e">
 			<_id type="a">GUID 26eafb40-d472-4141-bc97-2ddec91e1d1f</_id>
 			<_myState type="a">8192</_myState>
@@ -1522,7 +1488,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.1.2020::21:41:20</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::7:19:6</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1532,31 +1498,15 @@
 					<_hid type="a">GUID c12e1415-1792-492c-a377-549e975a6855</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::21:41:20</_modifiedTime>
-			<weakCGTime type="a">6.1.2020::21:41:20</weakCGTime>
+			<_modifiedTime type="a">6.9.2020::7:19:6</_modifiedTime>
+			<weakCGTime type="a">6.9.2020::7:19:6</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:41:20</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID ce6e5565-4a19-4345-99b8-849ccc362368</value>
-			</AggregatesList>
 		</IClass>
-		<IGeneralization type="e">
-			<_id type="a">GUID ce6e5565-4a19-4345-99b8-849ccc362368</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_inheritanceType type="a">iPublic</_inheritanceType>
-			<_isVirtual type="a">0</_isVirtual>
-		</IGeneralization>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</_id>
 			<_myState type="a">10240</_myState>

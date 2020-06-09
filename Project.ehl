@@ -1,3 +1,6 @@
 [Op Calls]
 [Events]
+ManualOverrideAutonomousMode[0]->GEN(OverrideDone())`ManualOverrideAutonomousMode
+ManualOverrideAutonomousMode[0]->GEN(OverrideManual())`ManualOverrideAutonomousMode
+ManualOverrideAutonomousMode[0]->GEN(ManualOverride())`ManualOverrideAutonomousMode
 [Breakpoints]
