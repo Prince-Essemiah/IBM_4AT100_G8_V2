@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,7 +11,7 @@
 			<_id type="a">GUID 0b5d63f4-6f26-48e6-8a61-6abb1bc76075</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NonFunctionalReqPkg</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::13:37:9</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::8:59:31</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::13:37:9</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<weakCGTime type="a">6.9.2020::13:37:9</weakCGTime>
 			<strongCGTime type="a">4.1.2020::13:16:32</strongCGTime>
 			<_defaultComposite type="s">GUID b7c0d6bc-03ab-40cc-b101-7bc463355942</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -38,8 +38,8 @@
 			<_id type="a">GUID ec7739b2-678e-4df4-a573-da0d68c33cb8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Non Functional Requirements</_name>
-			<_modifiedTimeWeak type="a">4.1.2020::0:6:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.1.2020::0:6:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2020::13:37:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2020::13:37:9</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<AggregatesList type="e">
 				<value>GUID 796a5c91-c2c1-4951-9d31-6a5fb7e1186d</value>
@@ -215,14 +215,14 @@
 			<_id type="a">GUID b642bcdb-6725-4fbc-8a8a-fbdbb325be6c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Battery SOC</_name>
-			<_modifiedTimeWeak type="a">4.1.2020::0:6:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.1.2020::0:6:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2020::13:37:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2020::13:37:9</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system shall detect the DCT\rquote s state of charge (SOC) of the battery.\par%0D
 }%0D
 </_body>
-			<reqID type="a">31</reqID>
+			<reqID type="a">3100</reqID>
 			<AggregatesList type="e">
 				<value>GUID 614f2a68-9693-4149-aa7e-5e35caf69a1c</value>
 			</AggregatesList>
@@ -620,8 +620,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
-			<_lastModifiedTime type="a">6.9.2020::8:50:35</_lastModifiedTime>
+			<_modifiedTime type="a">6.9.2020::13:37:9</_modifiedTime>
+			<_lastModifiedTime type="a">6.9.2020::13:37:9</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
