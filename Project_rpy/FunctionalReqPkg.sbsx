@@ -11,7 +11,7 @@
 			<_id type="a">GUID 123634bc-2316-46c8-9691-d16480b99e02</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FunctionalReqPkg</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::15:22:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::8:59:31</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::15:22:16</_modifiedTime>
 			<_lastID type="a">14</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<weakCGTime type="a">6.9.2020::15:22:16</weakCGTime>
 			<strongCGTime type="a">4.1.2020::13:16:22</strongCGTime>
 			<_defaultComposite type="s">GUID 4f081c63-3312-4dca-b521-096de00ecb48</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -38,13 +38,14 @@
 			<_id type="a">GUID 7a7a855c-82cc-4521-84d8-d9d512651bc4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Functional Requirements</_name>
-			<_modifiedTimeWeak type="a">4.11.2020::19:58:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.11.2020::19:58:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.9.2020::15:22:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.9.2020::15:22:16</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20\par%0D
 }%0D
 </_body>
+			<reqID type="a">FR</reqID>
 			<AggregatesList type="e">
 				<value>GUID 711af07e-8acb-4864-b4aa-a28fbf68141f</value>
 				<value>GUID 6dd1dfa9-7ae0-40a4-9761-2499911201db</value>
