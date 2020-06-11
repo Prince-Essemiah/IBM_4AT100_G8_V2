@@ -11,7 +11,7 @@
 			<_id type="a">GUID b77ce316-81d6-438b-ba1b-2fe215bcc256</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SecondaryActors</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::7:18:37</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.11.2020::7:29:24</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,8 +21,8 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::7:50:26</_modifiedTime>
-			<weakCGTime type="a">6.9.2020::7:18:37</weakCGTime>
+			<_modifiedTime type="a">6.11.2020::8:23:57</_modifiedTime>
+			<weakCGTime type="a">6.11.2020::7:29:24</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:10:47</strongCGTime>
 			<_defaultComposite type="s">GUID 86d11af1-2929-4d0b-8874-443144cd8061</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1330,7 +1330,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.9.2020::7:19:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.11.2020::7:29:24</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -1340,9 +1340,9 @@
 					<_hid type="a">GUID d684d548-48e6-45e5-846c-594594d86f2c</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::7:19:6</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">6.9.2020::7:19:11</weakCGTime>
+			<_modifiedTime type="a">6.11.2020::7:29:24</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">6.11.2020::7:29:24</weakCGTime>
 			<strongCGTime type="a">6.1.2020::20:13:27</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1354,6 +1354,7 @@
 				<value>GUID 70945a33-db41-4949-b594-833649d7a8a9</value>
 				<value>GUID 9cce1400-ab0a-49da-8572-f55f64d88fd7</value>
 				<value>GUID 26eafb40-d472-4141-bc97-2ddec91e1d1f</value>
+				<value>GUID 0ac9d446-3f61-4fc0-874b-f600d75a0254</value>
 				<value>GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</value>
 				<value>GUID b9b281a5-4453-4a5d-a36e-1a860f0db496</value>
 			</AggregatesList>
@@ -1363,7 +1364,7 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">TUesla_DCBoard</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::20:56:7</_modifiedTime>
+			<_modifiedTime type="a">6.11.2020::7:29:43</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -1507,6 +1508,13 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
+		<IInformationItem type="e">
+			<_id type="a">GUID 0ac9d446-3f61-4fc0-874b-f600d75a0254</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SelectLD</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.11.2020::7:29:29</_modifiedTime>
+		</IInformationItem>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID e41f55cf-ac85-4fd3-8bf6-439518f922dc</_id>
 			<_myState type="a">10240</_myState>
