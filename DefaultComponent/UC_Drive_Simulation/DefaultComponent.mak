@@ -91,13 +91,21 @@ OBJS= \
   DCLogisticEmployee.obj \
   DCLocalizationSystem.obj \
   DCLoadingEmployee.obj \
+  UC_LoadingCargo.obj \
+  UC_PathPlanning.obj \
   DCBoard.obj \
+  UC_ManualOverride.obj \
+  UC_StopCrash.obj \
   Cargo.obj \
   EnvironmentSensors.obj \
   Drive.obj \
   SecondaryActors.obj \
   Usecases.obj \
-  PrimaryActors.obj
+  PrimaryActors.obj \
+  LoadingCargo.obj \
+  PathPlanning.obj \
+  ManualOverride.obj \
+  StopCrash.obj
 
 
 
@@ -186,7 +194,7 @@ UC_Drive.obj : UC_Drive.cpp UC_Drive.h    Drive.h DCT.h
 
 
 
-DCT.obj : DCT.cpp DCT.h    SecondaryActors.h TUesla.h UC_Drive.h 
+DCT.obj : DCT.cpp DCT.h    SecondaryActors.h TUesla.h UC_LoadingCargo.h UC_ManualOverride.h UC_StopCrash.h UC_Drive.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCT.obj" "DCT.cpp" 
 
@@ -198,33 +206,57 @@ TUesla.obj : TUesla.cpp TUesla.h    DCT.h Sensors.h DCLogisticEmployee.h Cargo.h
 
 
 
-Sensors.obj : Sensors.cpp Sensors.h    SecondaryActors.h TUesla.h 
+Sensors.obj : Sensors.cpp Sensors.h    SecondaryActors.h TUesla.h UC_StopCrash.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Sensors.obj" "Sensors.cpp" 
 
 
 
-DCLogisticEmployee.obj : DCLogisticEmployee.cpp DCLogisticEmployee.h    PrimaryActors.h TUesla.h 
+DCLogisticEmployee.obj : DCLogisticEmployee.cpp DCLogisticEmployee.h    PrimaryActors.h TUesla.h UC_ManualOverride.h UC_StopCrash.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLogisticEmployee.obj" "DCLogisticEmployee.cpp" 
 
 
 
-DCLocalizationSystem.obj : DCLocalizationSystem.cpp DCLocalizationSystem.h    SecondaryActors.h TUesla.h 
+DCLocalizationSystem.obj : DCLocalizationSystem.cpp DCLocalizationSystem.h    SecondaryActors.h TUesla.h UC_LoadingCargo.h UC_PathPlanning.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLocalizationSystem.obj" "DCLocalizationSystem.cpp" 
 
 
 
-DCLoadingEmployee.obj : DCLoadingEmployee.cpp DCLoadingEmployee.h    PrimaryActors.h TUesla.h 
+DCLoadingEmployee.obj : DCLoadingEmployee.cpp DCLoadingEmployee.h    PrimaryActors.h TUesla.h UC_LoadingCargo.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCLoadingEmployee.obj" "DCLoadingEmployee.cpp" 
+
+
+
+UC_LoadingCargo.obj : UC_LoadingCargo.cpp UC_LoadingCargo.h    LoadingCargo.h DCLoadingEmployee.h DCLocalizationSystem.h DCT.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_LoadingCargo.obj" "UC_LoadingCargo.cpp" 
+
+
+
+UC_PathPlanning.obj : UC_PathPlanning.cpp UC_PathPlanning.h    PathPlanning.h DCLocalizationSystem.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_PathPlanning.obj" "UC_PathPlanning.cpp" 
 
 
 
 DCBoard.obj : DCBoard.cpp DCBoard.h    SecondaryActors.h TUesla.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCBoard.obj" "DCBoard.cpp" 
+
+
+
+UC_ManualOverride.obj : UC_ManualOverride.cpp UC_ManualOverride.h    ManualOverride.h DCT.h DCLogisticEmployee.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_ManualOverride.obj" "UC_ManualOverride.cpp" 
+
+
+
+UC_StopCrash.obj : UC_StopCrash.cpp UC_StopCrash.h    StopCrash.h DCLogisticEmployee.h DCT.h Sensors.h ManualOverride.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_StopCrash.obj" "UC_StopCrash.cpp" 
 
 
 
@@ -264,6 +296,30 @@ PrimaryActors.obj : PrimaryActors.cpp PrimaryActors.h
 
 
 
+LoadingCargo.obj : LoadingCargo.cpp LoadingCargo.h    UC_LoadingCargo.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"LoadingCargo.obj" "LoadingCargo.cpp" 
+
+
+
+PathPlanning.obj : PathPlanning.cpp PathPlanning.h    UC_PathPlanning.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PathPlanning.obj" "PathPlanning.cpp" 
+
+
+
+ManualOverride.obj : ManualOverride.cpp ManualOverride.h    UC_ManualOverride.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ManualOverride.obj" "ManualOverride.cpp" 
+
+
+
+StopCrash.obj : StopCrash.cpp StopCrash.h    UC_StopCrash.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"StopCrash.obj" "StopCrash.cpp" 
+
+
+
 
 
 
@@ -298,13 +354,21 @@ clean:
 	if exist DCLogisticEmployee.obj erase DCLogisticEmployee.obj
 	if exist DCLocalizationSystem.obj erase DCLocalizationSystem.obj
 	if exist DCLoadingEmployee.obj erase DCLoadingEmployee.obj
+	if exist UC_LoadingCargo.obj erase UC_LoadingCargo.obj
+	if exist UC_PathPlanning.obj erase UC_PathPlanning.obj
 	if exist DCBoard.obj erase DCBoard.obj
+	if exist UC_ManualOverride.obj erase UC_ManualOverride.obj
+	if exist UC_StopCrash.obj erase UC_StopCrash.obj
 	if exist Cargo.obj erase Cargo.obj
 	if exist EnvironmentSensors.obj erase EnvironmentSensors.obj
 	if exist Drive.obj erase Drive.obj
 	if exist SecondaryActors.obj erase SecondaryActors.obj
 	if exist Usecases.obj erase Usecases.obj
 	if exist PrimaryActors.obj erase PrimaryActors.obj
+	if exist LoadingCargo.obj erase LoadingCargo.obj
+	if exist PathPlanning.obj erase PathPlanning.obj
+	if exist ManualOverride.obj erase ManualOverride.obj
+	if exist StopCrash.obj erase StopCrash.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

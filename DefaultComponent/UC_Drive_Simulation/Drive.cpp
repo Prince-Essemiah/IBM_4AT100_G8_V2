@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: Drive
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\Drive.cpp
 *********************************************************************/
 
@@ -17,11 +17,11 @@
 //## auto_generated
 #include "UC_Drive.h"
 //#[ ignore
-#define receiveInput_SERIALIZE OM_NO_OP
+#define inputReceived_SERIALIZE OM_NO_OP
 
-#define receiveInput_UNSERIALIZE OM_NO_OP
+#define inputReceived_UNSERIALIZE OM_NO_OP
 
-#define receiveInput_CONSTRUCTOR receiveInput()
+#define inputReceived_CONSTRUCTOR inputReceived()
 
 #define driveDCT_SERIALIZE OM_NO_OP
 
@@ -48,17 +48,17 @@ static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
 }
 #endif // _OMINSTRUMENT
 
-//## event receiveInput()
-receiveInput::receiveInput() {
-    NOTIFY_EVENT_CONSTRUCTOR(receiveInput)
-    setId(receiveInput_Drive_UseCaseModelling_TUesla_id);
+//## event inputReceived()
+inputReceived::inputReceived() {
+    NOTIFY_EVENT_CONSTRUCTOR(inputReceived)
+    setId(inputReceived_Drive_UseCaseModelling_TUesla_id);
 }
 
-bool receiveInput::isTypeOf(const short id) const {
-    return (receiveInput_Drive_UseCaseModelling_TUesla_id==id);
+bool inputReceived::isTypeOf(const short id) const {
+    return (inputReceived_Drive_UseCaseModelling_TUesla_id==id);
 }
 
-IMPLEMENT_META_EVENT_P(receiveInput, TUesla_UseCaseModelling_Drive, TUesla::UseCaseModelling::Drive, receiveInput())
+IMPLEMENT_META_EVENT_P(inputReceived, TUesla_UseCaseModelling_Drive, TUesla::UseCaseModelling::Drive, inputReceived())
 
 //## event driveDCT()
 driveDCT::driveDCT() {

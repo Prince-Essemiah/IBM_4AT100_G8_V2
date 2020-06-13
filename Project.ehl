@@ -1,6 +1,5 @@
 [Op Calls]
 [Events]
-ManualOverrideAutonomousMode[0]->GEN(OverrideDone())`ManualOverrideAutonomousMode
-ManualOverrideAutonomousMode[0]->GEN(OverrideManual())`ManualOverrideAutonomousMode
-ManualOverrideAutonomousMode[0]->GEN(ManualOverride())`ManualOverrideAutonomousMode
+UC_Drive[0]->GEN(driveDCT())`UC_Drive
+UC_Drive[0]->GEN(inputReceived())`UC_Drive
 [Breakpoints]

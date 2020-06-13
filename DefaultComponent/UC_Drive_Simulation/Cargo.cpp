@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: Cargo
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\Cargo.cpp
 *********************************************************************/
 
@@ -17,14 +17,14 @@
 //## link itsTUesla
 #include "TUesla.h"
 //#[ ignore
-#define TUesla_Actors_SecondaryActors_Cargo_Cargo_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_SecondaryActors_Cargo_Cargo_SERIALIZE OM_NO_OP
 //#]
 
-//## package TUesla::Actors::SecondaryActors
+//## package SystemContext::Actors::SecondaryActors
 
 //## class Cargo
 Cargo::Cargo() {
-    NOTIFY_CONSTRUCTOR(Cargo, Cargo(), 0, TUesla_Actors_SecondaryActors_Cargo_Cargo_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(Cargo, Cargo(), 0, SystemContext_Actors_SecondaryActors_Cargo_Cargo_SERIALIZE);
     itsTUesla = NULL;
 }
 
@@ -94,7 +94,7 @@ void OMAnimatedCargo::serializeRelations(AOMSRelations* aomsRelations) const {
 }
 //#]
 
-IMPLEMENT_META_P(Cargo, TUesla_Actors_SecondaryActors, TUesla::Actors::SecondaryActors, false, OMAnimatedCargo)
+IMPLEMENT_META_P(Cargo, SystemContext_Actors_SecondaryActors, SystemContext::Actors::SecondaryActors, false, OMAnimatedCargo)
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

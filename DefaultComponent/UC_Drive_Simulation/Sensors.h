@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: Sensors
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\Sensors.h
 *********************************************************************/
 
@@ -22,7 +22,10 @@
 //## link itsTUesla
 class TUesla;
 
-//## package TUesla::Actors::SecondaryActors
+//## link itsUC_StopCrash
+class UC_StopCrash;
+
+//## package SystemContext::Actors::SecondaryActors
 
 //## class Sensors
 class Sensors {
@@ -115,6 +118,12 @@ public :
     
     //## auto_generated
     void setItsTUesla(TUesla* p_TUesla);
+    
+    //## auto_generated
+    UC_StopCrash* getItsUC_StopCrash() const;
+    
+    //## auto_generated
+    void setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash);
 
 protected :
 
@@ -124,6 +133,8 @@ protected :
     ////    Relations and components    ////
     
     TUesla* itsTUesla;		//## link itsTUesla
+    
+    UC_StopCrash* itsUC_StopCrash;		//## link itsUC_StopCrash
     
     ////    Framework operations    ////
 
@@ -137,6 +148,15 @@ public :
     
     //## auto_generated
     void _clearItsTUesla();
+    
+    //## auto_generated
+    void __setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash);
+    
+    //## auto_generated
+    void _setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash);
+    
+    //## auto_generated
+    void _clearItsUC_StopCrash();
 };
 
 #ifdef _OMINSTRUMENT

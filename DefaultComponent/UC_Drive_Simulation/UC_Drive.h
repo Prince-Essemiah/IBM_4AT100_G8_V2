@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: UC_Drive
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\UC_Drive.h
 *********************************************************************/
 
@@ -27,8 +27,6 @@
 #include <oxf\state.h>
 //## auto_generated
 #include <oxf\event.h>
-//## auto_generated
-#include <oxf\omcollec.h>
 //## link itsDCT
 class DCT;
 
@@ -58,19 +56,25 @@ public :
     bool getDestinationReached() const;
     
     //## auto_generated
-    void setDestinationReached(bool p_DestinationReached);
+    void setDestinationReached(bool p_destinationReached);
     
     //## auto_generated
-    OMIterator<int> getSteeringAngle() const;
+    double getSteeringAngle() const;
     
     //## auto_generated
-    void setSteeringAngle(int p_SteeringAngle);
+    void setSteeringAngle(double p_steeringAngle);
     
     //## auto_generated
-    int getVelocity() const;
+    bool getStop() const;
     
     //## auto_generated
-    void setVelocity(int p_Velocity);
+    void setStop(bool p_stop);
+    
+    //## auto_generated
+    double getVelocity() const;
+    
+    //## auto_generated
+    void setVelocity(double p_velocity);
     
     //## auto_generated
     DCT* getItsDCT() const;
@@ -89,13 +93,21 @@ protected :
     //## auto_generated
     void cleanUpRelations();
     
+    //## auto_generated
+    void cancelTimeouts();
+    
+    //## auto_generated
+    bool cancelTimeout(const IOxfTimeout* arg);
+    
     ////    Attributes    ////
     
-    bool DestinationReached;		//## attribute DestinationReached
+    bool destinationReached;		//## attribute destinationReached
     
-    OMCollection<int> SteeringAngle;		//## attribute SteeringAngle
+    double steeringAngle;		//## attribute steeringAngle
     
-    int Velocity;		//## attribute Velocity
+    bool stop;		//## attribute stop
+    
+    double velocity;		//## attribute velocity
     
     ////    Relations and components    ////
     
@@ -127,17 +139,13 @@ public :
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent();
     
-    // terminationstate_7:
+    // terminationstate_6:
     //## statechart_method
-    inline bool terminationstate_7_IN() const;
+    inline bool terminationstate_6_IN() const;
     
     // SteeringThrottleEngaged:
     //## statechart_method
     inline bool SteeringThrottleEngaged_IN() const;
-    
-    // SteeringThrottleDisengaged:
-    //## statechart_method
-    inline bool SteeringThrottleDisengaged_IN() const;
     
     // DCTStops:
     //## statechart_method
@@ -151,6 +159,14 @@ public :
     //## statechart_method
     inline bool ControllerEngaged_IN() const;
     
+    // ControllerDisengaged:
+    //## statechart_method
+    inline bool ControllerDisengaged_IN() const;
+    
+    // accepttimeevent_8:
+    //## statechart_method
+    inline bool accepttimeevent_8_IN() const;
+    
     ////    Framework    ////
 
 protected :
@@ -158,17 +174,20 @@ protected :
 //#[ ignore
     enum UC_Drive_Enum {
         OMNonState = 0,
-        terminationstate_7 = 1,
+        terminationstate_6 = 1,
         SteeringThrottleEngaged = 2,
-        SteeringThrottleDisengaged = 3,
-        DCTStops = 4,
-        DCTDrives = 5,
-        ControllerEngaged = 6
+        DCTStops = 3,
+        DCTDrives = 4,
+        ControllerEngaged = 5,
+        ControllerDisengaged = 6,
+        accepttimeevent_8 = 7
     };
     
     int rootState_subState;
     
     int rootState_active;
+    
+    IOxfTimeout* rootState_timeout;
 //#]
 };
 
@@ -189,13 +208,10 @@ public :
     void rootState_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
-    void terminationstate_7_serializeStates(AOMSState* aomsState) const;
+    void terminationstate_6_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void SteeringThrottleEngaged_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void SteeringThrottleDisengaged_serializeStates(AOMSState* aomsState) const;
     
     //## statechart_method
     void DCTStops_serializeStates(AOMSState* aomsState) const;
@@ -205,6 +221,12 @@ public :
     
     //## statechart_method
     void ControllerEngaged_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void ControllerDisengaged_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void accepttimeevent_8_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
@@ -214,19 +236,15 @@ inline bool UC_Drive::rootState_IN() const {
 }
 
 inline bool UC_Drive::rootState_isCompleted() {
-    return ( IS_IN(terminationstate_7) );
+    return ( IS_IN(terminationstate_6) );
 }
 
-inline bool UC_Drive::terminationstate_7_IN() const {
-    return rootState_subState == terminationstate_7;
+inline bool UC_Drive::terminationstate_6_IN() const {
+    return rootState_subState == terminationstate_6;
 }
 
 inline bool UC_Drive::SteeringThrottleEngaged_IN() const {
     return rootState_subState == SteeringThrottleEngaged;
-}
-
-inline bool UC_Drive::SteeringThrottleDisengaged_IN() const {
-    return rootState_subState == SteeringThrottleDisengaged;
 }
 
 inline bool UC_Drive::DCTStops_IN() const {
@@ -239,6 +257,14 @@ inline bool UC_Drive::DCTDrives_IN() const {
 
 inline bool UC_Drive::ControllerEngaged_IN() const {
     return rootState_subState == ControllerEngaged;
+}
+
+inline bool UC_Drive::ControllerDisengaged_IN() const {
+    return rootState_subState == ControllerDisengaged;
+}
+
+inline bool UC_Drive::accepttimeevent_8_IN() const {
+    return rootState_subState == accepttimeevent_8;
 }
 
 #endif

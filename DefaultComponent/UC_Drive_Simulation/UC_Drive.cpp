@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: UC_Drive
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\UC_Drive.cpp
 *********************************************************************/
 
@@ -25,7 +25,7 @@
 //## package TUesla::UseCaseModelling::Drive
 
 //## class UC_Drive
-UC_Drive::UC_Drive(IOxfActive* theActiveContext) : DestinationReached(false), SteeringAngle(0), Velocity(0) {
+UC_Drive::UC_Drive(IOxfActive* theActiveContext) : destinationReached(true), steeringAngle(10), stop(false), velocity(10) {
     NOTIFY_REACTIVE_CONSTRUCTOR(UC_Drive, UC_Drive(), 0, TUesla_UseCaseModelling_Drive_UC_Drive_UC_Drive_SERIALIZE);
     setActiveContext(theActiveContext, false);
     itsDCT = NULL;
@@ -35,31 +35,39 @@ UC_Drive::UC_Drive(IOxfActive* theActiveContext) : DestinationReached(false), St
 UC_Drive::~UC_Drive() {
     NOTIFY_DESTRUCTOR(~UC_Drive, true);
     cleanUpRelations();
+    cancelTimeouts();
 }
 
 bool UC_Drive::getDestinationReached() const {
-    return DestinationReached;
+    return destinationReached;
 }
 
-void UC_Drive::setDestinationReached(bool p_DestinationReached) {
-    DestinationReached = p_DestinationReached;
+void UC_Drive::setDestinationReached(bool p_destinationReached) {
+    destinationReached = p_destinationReached;
 }
 
-OMIterator<int> UC_Drive::getSteeringAngle() const {
-    OMIterator<int> iter(SteeringAngle);
-    return iter;
+double UC_Drive::getSteeringAngle() const {
+    return steeringAngle;
 }
 
-void UC_Drive::setSteeringAngle(int p_SteeringAngle) {
-    SteeringAngle.add(p_SteeringAngle);
+void UC_Drive::setSteeringAngle(double p_steeringAngle) {
+    steeringAngle = p_steeringAngle;
 }
 
-int UC_Drive::getVelocity() const {
-    return Velocity;
+bool UC_Drive::getStop() const {
+    return stop;
 }
 
-void UC_Drive::setVelocity(int p_Velocity) {
-    Velocity = p_Velocity;
+void UC_Drive::setStop(bool p_stop) {
+    stop = p_stop;
+}
+
+double UC_Drive::getVelocity() const {
+    return velocity;
+}
+
+void UC_Drive::setVelocity(double p_velocity) {
+    velocity = p_velocity;
 }
 
 DCT* UC_Drive::getItsDCT() const {
@@ -83,6 +91,7 @@ bool UC_Drive::startBehavior() {
 void UC_Drive::initStatechart() {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
+    rootState_timeout = NULL;
 }
 
 void UC_Drive::cleanUpRelations() {
@@ -96,6 +105,20 @@ void UC_Drive::cleanUpRelations() {
                 }
             itsDCT = NULL;
         }
+}
+
+void UC_Drive::cancelTimeouts() {
+    cancel(rootState_timeout);
+}
+
+bool UC_Drive::cancelTimeout(const IOxfTimeout* arg) {
+    bool res = false;
+    if(rootState_timeout == arg)
+        {
+            rootState_timeout = NULL;
+            res = true;
+        }
+    return res;
 }
 
 void UC_Drive::__setItsDCT(DCT* p_DCT) {
@@ -140,7 +163,7 @@ IOxfReactive::TakeEventStatus UC_Drive::rootState_processEvent() {
         // State ControllerEngaged
         case ControllerEngaged:
         {
-            if(IS_EVENT_TYPE_OF(receiveInput_Drive_UseCaseModelling_TUesla_id))
+            if(IS_EVENT_TYPE_OF(inputReceived_Drive_UseCaseModelling_TUesla_id))
                 {
                     NOTIFY_TRANSITION_STARTED("1");
                     NOTIFY_STATE_EXITED("ROOT.ControllerEngaged");
@@ -153,17 +176,18 @@ IOxfReactive::TakeEventStatus UC_Drive::rootState_processEvent() {
             
         }
         break;
-        // State SteeringThrottleEngaged
-        case SteeringThrottleEngaged:
+        // State ControllerDisengaged
+        case ControllerDisengaged:
         {
-            if(IS_EVENT_TYPE_OF(driveDCT_Drive_UseCaseModelling_TUesla_id))
+            if(IS_EVENT_TYPE_OF(OMNullEventId))
                 {
-                    NOTIFY_TRANSITION_STARTED("2");
-                    NOTIFY_STATE_EXITED("ROOT.SteeringThrottleEngaged");
-                    NOTIFY_STATE_ENTERED("ROOT.DCTDrives");
-                    rootState_subState = DCTDrives;
-                    rootState_active = DCTDrives;
-                    NOTIFY_TRANSITION_TERMINATED("2");
+                    NOTIFY_TRANSITION_STARTED("7");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.ControllerDisengaged");
+                    NOTIFY_STATE_ENTERED("ROOT.terminationstate_6");
+                    rootState_subState = terminationstate_6;
+                    rootState_active = terminationstate_6;
+                    NOTIFY_TRANSITION_TERMINATED("7");
                     res = eventConsumed;
                 }
             
@@ -172,16 +196,46 @@ IOxfReactive::TakeEventStatus UC_Drive::rootState_processEvent() {
         // State DCTDrives
         case DCTDrives:
         {
-            if(IS_EVENT_TYPE_OF(stopDCT_Drive_UseCaseModelling_TUesla_id))
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId))
                 {
-                    NOTIFY_TRANSITION_STARTED("3");
-                    NOTIFY_STATE_EXITED("ROOT.DCTDrives");
-                    NOTIFY_STATE_ENTERED("ROOT.DCTStops");
-                    pushNullTransition();
-                    rootState_subState = DCTStops;
-                    rootState_active = DCTStops;
-                    NOTIFY_TRANSITION_TERMINATED("3");
-                    res = eventConsumed;
+                    if(getCurrentEvent() == rootState_timeout)
+                        {
+                            NOTIFY_TRANSITION_STARTED("8");
+                            popNullTransition();
+                            cancel(rootState_timeout);
+                            //#[ state DCTDrives.(Exit) 
+                            steeringAngle--;
+                            velocity--;
+                            //#]
+                            NOTIFY_STATE_EXITED("ROOT.DCTDrives");
+                            NOTIFY_STATE_ENTERED("ROOT.accepttimeevent_8");
+                            pushNullTransition();
+                            rootState_subState = accepttimeevent_8;
+                            rootState_active = accepttimeevent_8;
+                            NOTIFY_TRANSITION_TERMINATED("8");
+                            res = eventConsumed;
+                        }
+                }
+            else if(IS_EVENT_TYPE_OF(OMNullEventId))
+                {
+                    //## transition 3 
+                    if(stop)
+                        {
+                            NOTIFY_TRANSITION_STARTED("3");
+                            popNullTransition();
+                            cancel(rootState_timeout);
+                            //#[ state DCTDrives.(Exit) 
+                            steeringAngle--;
+                            velocity--;
+                            //#]
+                            NOTIFY_STATE_EXITED("ROOT.DCTDrives");
+                            NOTIFY_STATE_ENTERED("ROOT.DCTStops");
+                            pushNullTransition();
+                            rootState_subState = DCTStops;
+                            rootState_active = DCTStops;
+                            NOTIFY_TRANSITION_TERMINATED("3");
+                            res = eventConsumed;
+                        }
                 }
             
         }
@@ -192,67 +246,90 @@ IOxfReactive::TakeEventStatus UC_Drive::rootState_processEvent() {
             if(IS_EVENT_TYPE_OF(OMNullEventId))
                 {
                     //## transition 6 
-                    if(DestinationReached)
+                    if(destinationReached)
                         {
-                            NOTIFY_TRANSITION_STARTED("5");
+                            NOTIFY_TRANSITION_STARTED("4");
                             NOTIFY_TRANSITION_STARTED("6");
                             popNullTransition();
                             NOTIFY_STATE_EXITED("ROOT.DCTStops");
-                            //#[ transition 5 
-                            if SteeringAngle==0 && Velocity==0
-                            {
-                            DestinationReached=true;
-                            }
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.SteeringThrottleDisengaged");
+                            NOTIFY_STATE_ENTERED("ROOT.ControllerDisengaged");
                             pushNullTransition();
-                            rootState_subState = SteeringThrottleDisengaged;
-                            rootState_active = SteeringThrottleDisengaged;
+                            rootState_subState = ControllerDisengaged;
+                            rootState_active = ControllerDisengaged;
                             NOTIFY_TRANSITION_TERMINATED("6");
-                            NOTIFY_TRANSITION_TERMINATED("5");
+                            NOTIFY_TRANSITION_TERMINATED("4");
                             res = eventConsumed;
                         }
                     else
                         {
+                            NOTIFY_TRANSITION_STARTED("4");
                             NOTIFY_TRANSITION_STARTED("5");
-                            NOTIFY_TRANSITION_STARTED("7");
                             popNullTransition();
                             NOTIFY_STATE_EXITED("ROOT.DCTStops");
-                            //#[ transition 5 
-                            if SteeringAngle==0 && Velocity==0
-                            {
-                            DestinationReached=true;
-                            }
-                            //#]
                             NOTIFY_STATE_ENTERED("ROOT.SteeringThrottleEngaged");
                             rootState_subState = SteeringThrottleEngaged;
                             rootState_active = SteeringThrottleEngaged;
-                            NOTIFY_TRANSITION_TERMINATED("7");
                             NOTIFY_TRANSITION_TERMINATED("5");
+                            NOTIFY_TRANSITION_TERMINATED("4");
                             res = eventConsumed;
                         }
                 }
             
         }
         break;
-        // State SteeringThrottleDisengaged
-        case SteeringThrottleDisengaged:
+        // State SteeringThrottleEngaged
+        case SteeringThrottleEngaged:
         {
-            if(IS_EVENT_TYPE_OF(OMNullEventId))
+            if(IS_EVENT_TYPE_OF(driveDCT_Drive_UseCaseModelling_TUesla_id))
                 {
-                    NOTIFY_TRANSITION_STARTED("4");
-                    popNullTransition();
-                    NOTIFY_STATE_EXITED("ROOT.SteeringThrottleDisengaged");
-                    NOTIFY_STATE_ENTERED("ROOT.terminationstate_7");
-                    rootState_subState = terminationstate_7;
-                    rootState_active = terminationstate_7;
-                    NOTIFY_TRANSITION_TERMINATED("4");
+                    NOTIFY_TRANSITION_STARTED("2");
+                    //#[ state SteeringThrottleEngaged.(Exit) 
+                    stop=false;
+                    //#]
+                    NOTIFY_STATE_EXITED("ROOT.SteeringThrottleEngaged");
+                    NOTIFY_STATE_ENTERED("ROOT.DCTDrives");
+                    pushNullTransition();
+                    rootState_subState = DCTDrives;
+                    rootState_active = DCTDrives;
+                    //#[ state DCTDrives.(Entry) 
+                    if (velocity < 1e-5 && steeringAngle < 1e-5)
+                    {
+                     stop=true;
+                    }
+                     
+                    //#]
+                    rootState_timeout = scheduleTimeout(2000, "ROOT.DCTDrives");
+                    NOTIFY_TRANSITION_TERMINATED("2");
                     res = eventConsumed;
                 }
             
         }
         break;
-        
+        case accepttimeevent_8:
+        {
+            if(IS_EVENT_TYPE_OF(OMNullEventId))
+                {
+                    NOTIFY_TRANSITION_STARTED("9");
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.accepttimeevent_8");
+                    NOTIFY_STATE_ENTERED("ROOT.DCTDrives");
+                    pushNullTransition();
+                    rootState_subState = DCTDrives;
+                    rootState_active = DCTDrives;
+                    //#[ state DCTDrives.(Entry) 
+                    if (velocity < 1e-5 && steeringAngle < 1e-5)
+                    {
+                     stop=true;
+                    }
+                     
+                    //#]
+                    rootState_timeout = scheduleTimeout(2000, "ROOT.DCTDrives");
+                    NOTIFY_TRANSITION_TERMINATED("9");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
         default:
             break;
     }
@@ -262,9 +339,10 @@ IOxfReactive::TakeEventStatus UC_Drive::rootState_processEvent() {
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedUC_Drive::serializeAttributes(AOMSAttributes* aomsAttributes) const {
-    aomsAttributes->addAttribute("SteeringAngle", UNKNOWN2STRING(myReal->SteeringAngle));
-    aomsAttributes->addAttribute("Velocity", x2String(myReal->Velocity));
-    aomsAttributes->addAttribute("DestinationReached", x2String(myReal->DestinationReached));
+    aomsAttributes->addAttribute("destinationReached", x2String(myReal->destinationReached));
+    aomsAttributes->addAttribute("steeringAngle", x2String(myReal->steeringAngle));
+    aomsAttributes->addAttribute("velocity", x2String(myReal->velocity));
+    aomsAttributes->addAttribute("stop", x2String(myReal->stop));
 }
 
 void OMAnimatedUC_Drive::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -283,9 +361,9 @@ void OMAnimatedUC_Drive::rootState_serializeStates(AOMSState* aomsState) const {
             ControllerEngaged_serializeStates(aomsState);
         }
         break;
-        case UC_Drive::SteeringThrottleEngaged:
+        case UC_Drive::ControllerDisengaged:
         {
-            SteeringThrottleEngaged_serializeStates(aomsState);
+            ControllerDisengaged_serializeStates(aomsState);
         }
         break;
         case UC_Drive::DCTDrives:
@@ -298,14 +376,19 @@ void OMAnimatedUC_Drive::rootState_serializeStates(AOMSState* aomsState) const {
             DCTStops_serializeStates(aomsState);
         }
         break;
-        case UC_Drive::SteeringThrottleDisengaged:
+        case UC_Drive::SteeringThrottleEngaged:
         {
-            SteeringThrottleDisengaged_serializeStates(aomsState);
+            SteeringThrottleEngaged_serializeStates(aomsState);
         }
         break;
-        case UC_Drive::terminationstate_7:
+        case UC_Drive::terminationstate_6:
         {
-            terminationstate_7_serializeStates(aomsState);
+            terminationstate_6_serializeStates(aomsState);
+        }
+        break;
+        case UC_Drive::accepttimeevent_8:
+        {
+            accepttimeevent_8_serializeStates(aomsState);
         }
         break;
         default:
@@ -313,16 +396,12 @@ void OMAnimatedUC_Drive::rootState_serializeStates(AOMSState* aomsState) const {
     }
 }
 
-void OMAnimatedUC_Drive::terminationstate_7_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.terminationstate_7");
+void OMAnimatedUC_Drive::terminationstate_6_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.terminationstate_6");
 }
 
 void OMAnimatedUC_Drive::SteeringThrottleEngaged_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.SteeringThrottleEngaged");
-}
-
-void OMAnimatedUC_Drive::SteeringThrottleDisengaged_serializeStates(AOMSState* aomsState) const {
-    aomsState->addState("ROOT.SteeringThrottleDisengaged");
 }
 
 void OMAnimatedUC_Drive::DCTStops_serializeStates(AOMSState* aomsState) const {
@@ -335,6 +414,14 @@ void OMAnimatedUC_Drive::DCTDrives_serializeStates(AOMSState* aomsState) const {
 
 void OMAnimatedUC_Drive::ControllerEngaged_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.ControllerEngaged");
+}
+
+void OMAnimatedUC_Drive::ControllerDisengaged_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.ControllerDisengaged");
+}
+
+void OMAnimatedUC_Drive::accepttimeevent_8_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.accepttimeevent_8");
 }
 //#]
 

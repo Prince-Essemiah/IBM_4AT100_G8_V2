@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: Drive
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\Drive.h
 *********************************************************************/
 
@@ -23,7 +23,7 @@
 class UC_Drive;
 
 //#[ ignore
-#define receiveInput_Drive_UseCaseModelling_TUesla_id 16001
+#define inputReceived_Drive_UseCaseModelling_TUesla_id 16001
 
 #define driveDCT_Drive_UseCaseModelling_TUesla_id 16002
 
@@ -34,20 +34,20 @@ class UC_Drive;
 
 
 
-//## event receiveInput()
-class receiveInput : public OMEvent {
+//## event inputReceived()
+class inputReceived : public OMEvent {
     ////    Friends    ////
     
 public :
 
 #ifdef _OMINSTRUMENT
-    friend class OMAnimatedreceiveInput;
+    friend class OMAnimatedinputReceived;
 #endif // _OMINSTRUMENT
 
     ////    Constructors and destructors    ////
     
     //## auto_generated
-    receiveInput();
+    inputReceived();
     
     ////    Framework operations    ////
     
@@ -57,8 +57,8 @@ public :
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-class OMAnimatedreceiveInput : virtual public AOMEvent {
-    DECLARE_META_EVENT(receiveInput)
+class OMAnimatedinputReceived : virtual public AOMEvent {
+    DECLARE_META_EVENT(inputReceived)
 };
 //#]
 #endif // _OMINSTRUMENT

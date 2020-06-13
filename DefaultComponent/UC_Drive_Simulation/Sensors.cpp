@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: Sensors
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\Sensors.cpp
 *********************************************************************/
 
@@ -16,22 +16,24 @@
 #include "Sensors.h"
 //## link itsTUesla
 #include "TUesla.h"
+//## link itsUC_StopCrash
+#include "UC_StopCrash.h"
 //#[ ignore
-#define TUesla_Actors_SecondaryActors_Sensors_Sensors_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_SecondaryActors_Sensors_Sensors_SERIALIZE OM_NO_OP
 
-#define TUesla_Actors_SecondaryActors_Sensors_Camera_Camera_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_SecondaryActors_Sensors_Camera_Camera_SERIALIZE OM_NO_OP
 
-#define TUesla_Actors_SecondaryActors_Sensors_Lidar_Lidar_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_SecondaryActors_Sensors_Lidar_Lidar_SERIALIZE OM_NO_OP
 
-#define TUesla_Actors_SecondaryActors_Sensors_Velocity_Velocity_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_SecondaryActors_Sensors_Velocity_Velocity_SERIALIZE OM_NO_OP
 //#]
 
-//## package TUesla::Actors::SecondaryActors
+//## package SystemContext::Actors::SecondaryActors
 
 //## class Sensors
 //## class Sensors::Camera
 Sensors::Camera::Camera() {
-    NOTIFY_CONSTRUCTOR(Camera, Camera(), 0, TUesla_Actors_SecondaryActors_Sensors_Camera_Camera_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(Camera, Camera(), 0, SystemContext_Actors_SecondaryActors_Sensors_Camera_Camera_SERIALIZE);
 }
 
 Sensors::Camera::~Camera() {
@@ -40,7 +42,7 @@ Sensors::Camera::~Camera() {
 
 //## class Sensors::Lidar
 Sensors::Lidar::Lidar() {
-    NOTIFY_CONSTRUCTOR(Lidar, Lidar(), 0, TUesla_Actors_SecondaryActors_Sensors_Lidar_Lidar_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(Lidar, Lidar(), 0, SystemContext_Actors_SecondaryActors_Sensors_Lidar_Lidar_SERIALIZE);
 }
 
 Sensors::Lidar::~Lidar() {
@@ -49,7 +51,7 @@ Sensors::Lidar::~Lidar() {
 
 //## class Sensors::Velocity
 Sensors::Velocity::Velocity() {
-    NOTIFY_CONSTRUCTOR(Velocity, Velocity(), 0, TUesla_Actors_SecondaryActors_Sensors_Velocity_Velocity_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(Velocity, Velocity(), 0, SystemContext_Actors_SecondaryActors_Sensors_Velocity_Velocity_SERIALIZE);
 }
 
 Sensors::Velocity::~Velocity() {
@@ -57,8 +59,9 @@ Sensors::Velocity::~Velocity() {
 }
 
 Sensors::Sensors() {
-    NOTIFY_CONSTRUCTOR(Sensors, Sensors(), 0, TUesla_Actors_SecondaryActors_Sensors_Sensors_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(Sensors, Sensors(), 0, SystemContext_Actors_SecondaryActors_Sensors_Sensors_SERIALIZE);
     itsTUesla = NULL;
+    itsUC_StopCrash = NULL;
 }
 
 Sensors::~Sensors() {
@@ -78,6 +81,18 @@ void Sensors::setItsTUesla(TUesla* p_TUesla) {
     _setItsTUesla(p_TUesla);
 }
 
+UC_StopCrash* Sensors::getItsUC_StopCrash() const {
+    return itsUC_StopCrash;
+}
+
+void Sensors::setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash) {
+    if(p_UC_StopCrash != NULL)
+        {
+            p_UC_StopCrash->_setItsSensors(this);
+        }
+    _setItsUC_StopCrash(p_UC_StopCrash);
+}
+
 void Sensors::cleanUpRelations() {
     if(itsTUesla != NULL)
         {
@@ -88,6 +103,16 @@ void Sensors::cleanUpRelations() {
                     itsTUesla->__setItsSensors(NULL);
                 }
             itsTUesla = NULL;
+        }
+    if(itsUC_StopCrash != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_StopCrash");
+            Sensors* p_Sensors = itsUC_StopCrash->getItsSensors();
+            if(p_Sensors != NULL)
+                {
+                    itsUC_StopCrash->__setItsSensors(NULL);
+                }
+            itsUC_StopCrash = NULL;
         }
 }
 
@@ -116,6 +141,31 @@ void Sensors::_clearItsTUesla() {
     itsTUesla = NULL;
 }
 
+void Sensors::__setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash) {
+    itsUC_StopCrash = p_UC_StopCrash;
+    if(p_UC_StopCrash != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsUC_StopCrash", p_UC_StopCrash, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_StopCrash");
+        }
+}
+
+void Sensors::_setItsUC_StopCrash(UC_StopCrash* p_UC_StopCrash) {
+    if(itsUC_StopCrash != NULL)
+        {
+            itsUC_StopCrash->__setItsSensors(NULL);
+        }
+    __setItsUC_StopCrash(p_UC_StopCrash);
+}
+
+void Sensors::_clearItsUC_StopCrash() {
+    NOTIFY_RELATION_CLEARED("itsUC_StopCrash");
+    itsUC_StopCrash = NULL;
+}
+
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedSensors::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -124,16 +174,21 @@ void OMAnimatedSensors::serializeRelations(AOMSRelations* aomsRelations) const {
         {
             aomsRelations->ADD_ITEM(myReal->itsTUesla);
         }
+    aomsRelations->addRelation("itsUC_StopCrash", false, true);
+    if(myReal->itsUC_StopCrash)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsUC_StopCrash);
+        }
 }
 //#]
 
-IMPLEMENT_META_P(Sensors, TUesla_Actors_SecondaryActors, TUesla::Actors::SecondaryActors, false, OMAnimatedSensors)
+IMPLEMENT_META_P(Sensors, SystemContext_Actors_SecondaryActors, SystemContext::Actors::SecondaryActors, false, OMAnimatedSensors)
 
-IMPLEMENT_META_P(Sensors::Camera, TUesla_Actors_SecondaryActors, TUesla::Actors::SecondaryActors, false, OMAnimatedCamera)
+IMPLEMENT_META_P(Sensors::Camera, SystemContext_Actors_SecondaryActors, SystemContext::Actors::SecondaryActors, false, OMAnimatedCamera)
 
-IMPLEMENT_META_P(Sensors::Lidar, TUesla_Actors_SecondaryActors, TUesla::Actors::SecondaryActors, false, OMAnimatedLidar)
+IMPLEMENT_META_P(Sensors::Lidar, SystemContext_Actors_SecondaryActors, SystemContext::Actors::SecondaryActors, false, OMAnimatedLidar)
 
-IMPLEMENT_META_P(Sensors::Velocity, TUesla_Actors_SecondaryActors, TUesla::Actors::SecondaryActors, false, OMAnimatedVelocity)
+IMPLEMENT_META_P(Sensors::Velocity, SystemContext_Actors_SecondaryActors, SystemContext::Actors::SecondaryActors, false, OMAnimatedVelocity)
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

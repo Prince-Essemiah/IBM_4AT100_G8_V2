@@ -1,0 +1,220 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 28;
+	- value = "DefaultComponent\\UC_LoadingCargo_Simulation\\Cargo.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\Cargo.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCBoard.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCBoard.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLoadingEmployee.cpp" 6.13.2020::8:32:15
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLoadingEmployee.h" 6.13.2020::8:32:15
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLocalizationSystem.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLocalizationSystem.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLogisticEmployee.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCLogisticEmployee.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCT.cpp" 6.13.2020::8:32:15
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\DCT.h" 6.13.2020::8:32:15
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\EnvironmentSensors.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\EnvironmentSensors.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\LoadingCargo.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\LoadingCargo.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\PrimaryActors.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\PrimaryActors.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\SecondaryActors.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\SecondaryActors.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\Sensors.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\Sensors.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\TUesla.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\TUesla.h" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\UC_LoadingCargo.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\UC_LoadingCargo.h" 6.13.2020::8:32:15
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\Usecases.cpp" 6.13.2020::8:32:16
+	"DefaultComponent\\UC_LoadingCargo_Simulation\\Usecases.h" 6.13.2020::8:32:16
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 9;
+	- value = "GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528" "GUID f1c948b6-fa24-4817-96d4-66b0001a7ade"
+	"GUID 10dd06f8-9d7b-417f-8266-a2c7336969ca" "GUID 685a9f72-6564-4ad2-b344-804e36789f33"
+	"GUID 12f28ee7-77a3-4a4c-b200-3aedb2bcdd0d" "GUID 1c238f57-135e-48fa-9b00-d8eb696fc1bb"
+	"GUID 1c238f57-135e-48fa-9b00-d8eb696fc1bb" "GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7"
+	"GUID 923b4146-83c1-4ae8-b986-bded0cd1d655" "GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7"
+	"GUID b77ce316-81d6-438b-ba1b-2fe215bcc256" "GUID f1c948b6-fa24-4817-96d4-66b0001a7ade"
+	"GUID bcd5d3ac-32ae-477d-9b44-41716eaaba32" "GUID 685a9f72-6564-4ad2-b344-804e36789f33"
+	"GUID f1c948b6-fa24-4817-96d4-66b0001a7ade" "GUID bcd5d3ac-32ae-477d-9b44-41716eaaba32"
+	"GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7" "GUID 685a9f72-6564-4ad2-b344-804e36789f33"
+	
+}
+- size = 21;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _class = "Sensors";
+	- _name = "Camera";
+	- _id = GUID 19293590-56a6-481d-bf3b-331f943d6a95;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\TUesla.sbsx";
+	- _subsystem = "TUesla";
+	- _name = "TUesla";
+	- _id = GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\LoadingCargo.sbsx";
+	- _subsystem = "TUesla::UseCaseModelling::LoadingCargo";
+	- _name = "UC_LoadingCargo";
+	- _id = GUID 6557263a-7159-46b1-a134-abafb39ae503;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "DCT";
+	- _id = GUID 4e711e10-dce3-49ec-9f32-e09ca6f0bab3;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "Cargo";
+	- _id = GUID 47ee9a14-9ef5-457a-8054-606c83a0c81a;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _class = "DCBoard";
+	- _name = "EntranceBoard";
+	- _id = GUID 26eafb40-d472-4141-bc97-2ddec91e1d1f;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\Usecases.sbsx";
+	- _subsystem = "TUesla";
+	- _name = "Usecases";
+	- _id = GUID 923b4146-83c1-4ae8-b986-bded0cd1d655;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "DCBoard";
+	- _id = GUID 2d435aad-9eea-45cc-8033-f7cab14b3bdc;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\PrimaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::PrimaryActors";
+	- _name = "DCLogisticEmployee";
+	- _id = GUID ffdab3d6-ae5a-4c13-8239-4fd8b0a653a6;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors";
+	- _name = "SecondaryActors";
+	- _id = GUID b77ce316-81d6-438b-ba1b-2fe215bcc256;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _class = "DCBoard";
+	- _name = "TPABoard";
+	- _id = GUID 9cce1400-ab0a-49da-8572-f55f64d88fd7;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\TUesla.sbsx";
+	- _name = "TUesla";
+	- _id = GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "DCLocalizationSystem";
+	- _id = GUID 10ba2027-e2b4-4ff2-97ea-5a5e61491ef8;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\PrimaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors";
+	- _name = "PrimaryActors";
+	- _id = GUID 09ba3bbf-a46d-4c8a-b177-eb8f88d17528;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "Sensors";
+	- _id = GUID 62a52a55-8d1d-41da-80e9-3b2c15eba4bf;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\Project_rpy\\LoadingCargo.sbsx";
+	- _subsystem = "TUesla::UseCaseModelling";
+	- _name = "LoadingCargo";
+	- _id = GUID 12f28ee7-77a3-4a4c-b200-3aedb2bcdd0d;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\Project_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\UC_LoadingCargo_Simulation";
+	- _id = GUID db28d5d1-3438-4bae-99dd-31dcd9432053;
+}
+- genTime = 6.13.2020::8:34:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _name = "EnvironmentSensors";
+	- _id = GUID 8b2623dc-7365-4fcb-aec8-f39ffddec048;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _class = "Sensors";
+	- _name = "Velocity";
+	- _id = GUID b1e87f50-1608-4152-a9a0-1673585efc63;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\Project_rpy\\PrimaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::PrimaryActors";
+	- _name = "DCLoadingEmployee";
+	- _id = GUID b219921e-e83d-47cd-908f-d25713849d4b;
+}
+- genTime = 6.13.2020::8:33:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\Project_rpy\\SecondaryActors.sbsx";
+	- _subsystem = "SystemContext::Actors::SecondaryActors";
+	- _class = "Sensors";
+	- _name = "Lidar";
+	- _id = GUID b2d632c7-d2b3-49d5-a497-ae5070541e3c;
+}
+- genTime = 6.13.2020::8:33:55;
+

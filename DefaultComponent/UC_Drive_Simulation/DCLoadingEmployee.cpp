@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_Drive_Simulation
 	Model Element	: DCLoadingEmployee
-//!	Generated Date	: Sun, 7, Jun 2020  
+//!	Generated Date	: Sat, 13, Jun 2020  
 	File Path	: DefaultComponent\UC_Drive_Simulation\DCLoadingEmployee.cpp
 *********************************************************************/
 
@@ -16,16 +16,19 @@
 #include "DCLoadingEmployee.h"
 //## link itsTUesla
 #include "TUesla.h"
+//## link itsUC_LoadingCargo
+#include "UC_LoadingCargo.h"
 //#[ ignore
-#define TUesla_Actors_PrimaryActors_DCLoadingEmployee_DCLoadingEmployee_SERIALIZE OM_NO_OP
+#define SystemContext_Actors_PrimaryActors_DCLoadingEmployee_DCLoadingEmployee_SERIALIZE OM_NO_OP
 //#]
 
-//## package TUesla::Actors::PrimaryActors
+//## package SystemContext::Actors::PrimaryActors
 
 //## actor DCLoadingEmployee
 DCLoadingEmployee::DCLoadingEmployee() {
-    NOTIFY_CONSTRUCTOR(DCLoadingEmployee, DCLoadingEmployee(), 0, TUesla_Actors_PrimaryActors_DCLoadingEmployee_DCLoadingEmployee_SERIALIZE);
+    NOTIFY_CONSTRUCTOR(DCLoadingEmployee, DCLoadingEmployee(), 0, SystemContext_Actors_PrimaryActors_DCLoadingEmployee_DCLoadingEmployee_SERIALIZE);
     itsTUesla = NULL;
+    itsUC_LoadingCargo = NULL;
 }
 
 DCLoadingEmployee::~DCLoadingEmployee() {
@@ -45,6 +48,18 @@ void DCLoadingEmployee::setItsTUesla(TUesla* p_TUesla) {
     _setItsTUesla(p_TUesla);
 }
 
+UC_LoadingCargo* DCLoadingEmployee::getItsUC_LoadingCargo() const {
+    return itsUC_LoadingCargo;
+}
+
+void DCLoadingEmployee::setItsUC_LoadingCargo(UC_LoadingCargo* p_UC_LoadingCargo) {
+    if(p_UC_LoadingCargo != NULL)
+        {
+            p_UC_LoadingCargo->_setItsDCLoadingEmployee(this);
+        }
+    _setItsUC_LoadingCargo(p_UC_LoadingCargo);
+}
+
 void DCLoadingEmployee::cleanUpRelations() {
     if(itsTUesla != NULL)
         {
@@ -55,6 +70,16 @@ void DCLoadingEmployee::cleanUpRelations() {
                     itsTUesla->__setItsDCLoadingEmployee(NULL);
                 }
             itsTUesla = NULL;
+        }
+    if(itsUC_LoadingCargo != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_LoadingCargo");
+            DCLoadingEmployee* p_DCLoadingEmployee = itsUC_LoadingCargo->getItsDCLoadingEmployee();
+            if(p_DCLoadingEmployee != NULL)
+                {
+                    itsUC_LoadingCargo->__setItsDCLoadingEmployee(NULL);
+                }
+            itsUC_LoadingCargo = NULL;
         }
 }
 
@@ -83,6 +108,31 @@ void DCLoadingEmployee::_clearItsTUesla() {
     itsTUesla = NULL;
 }
 
+void DCLoadingEmployee::__setItsUC_LoadingCargo(UC_LoadingCargo* p_UC_LoadingCargo) {
+    itsUC_LoadingCargo = p_UC_LoadingCargo;
+    if(p_UC_LoadingCargo != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsUC_LoadingCargo", p_UC_LoadingCargo, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_LoadingCargo");
+        }
+}
+
+void DCLoadingEmployee::_setItsUC_LoadingCargo(UC_LoadingCargo* p_UC_LoadingCargo) {
+    if(itsUC_LoadingCargo != NULL)
+        {
+            itsUC_LoadingCargo->__setItsDCLoadingEmployee(NULL);
+        }
+    __setItsUC_LoadingCargo(p_UC_LoadingCargo);
+}
+
+void DCLoadingEmployee::_clearItsUC_LoadingCargo() {
+    NOTIFY_RELATION_CLEARED("itsUC_LoadingCargo");
+    itsUC_LoadingCargo = NULL;
+}
+
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedDCLoadingEmployee::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -91,10 +141,15 @@ void OMAnimatedDCLoadingEmployee::serializeRelations(AOMSRelations* aomsRelation
         {
             aomsRelations->ADD_ITEM(myReal->itsTUesla);
         }
+    aomsRelations->addRelation("itsUC_LoadingCargo", false, true);
+    if(myReal->itsUC_LoadingCargo)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsUC_LoadingCargo);
+        }
 }
 //#]
 
-IMPLEMENT_META_P(DCLoadingEmployee, TUesla_Actors_PrimaryActors, TUesla::Actors::PrimaryActors, false, OMAnimatedDCLoadingEmployee)
+IMPLEMENT_META_P(DCLoadingEmployee, SystemContext_Actors_PrimaryActors, SystemContext::Actors::PrimaryActors, false, OMAnimatedDCLoadingEmployee)
 #endif // _OMINSTRUMENT
 
 /*********************************************************************
