@@ -11,7 +11,7 @@
 			<_id type="a">GUID 923b4146-83c1-4ae8-b986-bded0cd1d655</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usecases</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::12:11:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.13.2020::1:47:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::12:20:39</_modifiedTime>
+			<_modifiedTime type="a">6.13.2020::1:36:36</_modifiedTime>
 			<_lastID type="a">14</_lastID>
-			<weakCGTime type="a">6.9.2020::12:11:56</weakCGTime>
+			<weakCGTime type="a">6.13.2020::1:47:37</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:13:16</strongCGTime>
 			<_defaultComposite type="s">GUID ecc752b4-303b-48ac-8f82-87ae653675a0</_defaultComposite>
 			<_eventsBaseID type="a">6201</_eventsBaseID>
@@ -11461,7 +11461,7 @@ Alternative Flow\par%0D
 			</_description>
 			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<weakCGTime type="a">6.13.2020::1:47:37</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11586,10 +11586,10 @@ Alternative Flow\par%0D
 			<_id type="a">GUID c982b39e-a625-4d4a-a62b-82ae389517e9</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_1</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.13.2020::1:47:37</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
 			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<weakCGTime type="a">6.13.2020::1:47:37</weakCGTime>
 			<strongCGTime type="a">6.8.2020::14:48:22</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12182,9 +12182,9 @@ Alternative Flow\par%0D
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.13.2020::1:47:37</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
-			<_lastModifiedTime type="a">6.9.2020::8:50:35</_lastModifiedTime>
+			<_lastModifiedTime type="a">6.13.2020::1:47:37</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12359,6 +12359,38 @@ Alternative Flow\par%0D
 		</CGIDiagramFrame>
 		<CGIState type="e">
 			<_id type="a">GUID fc8556cd-250c-4863-8cb4-7d719a87e18e</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">StatechartDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">ShowReactions</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">8</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -12406,6 +12438,8 @@ Alternative Flow\par%0D
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=100%25&gt;
+&lt;frame name=ReactionsListCompartment&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -12413,7 +12447,19 @@ Alternative Flow\par%0D
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<AggregatesList type="e">
+				<value>GUID 2e88610c-d11f-42ad-b26a-03f1c571f0de</value>
+			</AggregatesList>
 		</CGIState>
+		<CGICompartment type="e">
+			<_id type="a">GUID 2e88610c-d11f-42ad-b26a-03f1c571f0de</_id>
+			<m_name type="a">Reactions</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
 		<CGIState type="e">
 			<_id type="a">GUID 7072915a-2a58-43f1-a0f4-34e165f11932</_id>
 			<m_type type="a">8</m_type>
@@ -17822,9 +17868,9 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<_modifiedTime type="a">6.13.2020::1:30:44</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">6.13.2020::1:37:16</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -17841,6 +17887,7 @@ Main Scenario:\par%0D
 			<AggregatesList type="e">
 				<value>GUID b0961983-4718-4830-89d6-da5a4f668db7</value>
 				<value>GUID 1e4049e0-3824-4441-9afe-664f7e7eb49d</value>
+				<value>GUID 5714e79b-9883-48bc-b9cd-42e9c31fd257</value>
 				<value>GUID f7c37fa2-f2e4-4458-ba21-b712b1cc3b5d</value>
 				<value>GUID 1cd00a85-81b7-40c0-8c6b-990fe057e491</value>
 				<value>GUID 93021900-4e59-494f-9da8-014f333768d8</value>
@@ -17908,14 +17955,48 @@ Main Scenario:\par%0D
 			<_modifiedTime type="a">6.9.2020::8:7:7</_modifiedTime>
 			<_value type="a">true</_value>
 		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID 5714e79b-9883-48bc-b9cd-42e9c31fd257</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MatrixDisp</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.13.2020::1:30:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::1:30:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		<IStateChart type="e">
 			<_id type="a">GUID f7c37fa2-f2e4-4458-ba21-b712b1cc3b5d</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_0</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::1:37:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::1:37:16</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<weakCGTime type="a">6.13.2020::1:37:16</weakCGTime>
 			<strongCGTime type="a">6.8.2020::14:42:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -17923,7 +18004,7 @@ Main Scenario:\par%0D
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">4</_defNumber>
-			<_version type="a">6.9.2020::10:21:7</_version>
+			<_version type="a">6.13.2020::3:37:16</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 1ff34cea-687e-4173-85d3-5ba1f0820099</_diagram>
 			<AggregatesList type="e">
@@ -18139,18 +18220,34 @@ Main Scenario:\par%0D
 		<IState type="e">
 			<_id type="a">GUID 569804d8-6002-4298-bf0e-62d7c4a37ebd</_id>
 			<_name type="a">CargoDoorClosed</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:3:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::8:3:48</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::1:34:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::1:34:25</_modifiedTime>
 			<_parent type="s">GUID 66408a38-f38c-4d16-a4ec-e89f86db978b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
+			<_entryAction type="p"><IAction type="e">
+				<_id type="a">GUID 14174b7f-d8b4-4e84-946f-f54214624509</_id>
+				<_myState type="a">4096</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_body type="a">MatrixDisp = &quot;Cargo door is closed&quot;</_body>
+			</IAction>
+			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 076d19cd-38cf-4ca2-9371-46ed2b9bff30</_id>
 			<_name type="a">CargoDoorOpen</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:11:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::8:11:55</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::1:37:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::1:37:16</_modifiedTime>
 			<_parent type="s">GUID 66408a38-f38c-4d16-a4ec-e89f86db978b</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
+			<_entryAction type="p"><IAction type="e">
+				<_id type="a">GUID 8f5f6c8f-8e27-4e61-b102-2d7b0c312760</_id>
+				<_myState type="a">4096</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_body type="a">MatrixDisp = &quot;Door is open. Please load/unload&quot;</_body>
+			</IAction>
+			</_entryAction>
 			<_exitAction type="p"><IAction type="e">
 				<_id type="a">GUID 6e813d0a-3afc-42a2-adf5-fd78d7d39040</_id>
 				<_modifiedTimeWeak type="a">6.9.2020::8:11:55</_modifiedTimeWeak>
@@ -18430,9 +18527,9 @@ Main Scenario:\par%0D
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.13.2020::1:8:44</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
-			<_lastModifiedTime type="a">6.9.2020::8:50:35</_lastModifiedTime>
+			<_lastModifiedTime type="a">6.13.2020::1:37:16</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -18782,6 +18879,38 @@ Main Scenario:\par%0D
 		</CGIState>
 		<CGIState type="e">
 			<_id type="a">GUID 9b76b61c-36e0-4d60-b947-2bb1efe44ee5</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">StatechartDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">ShowReactions</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">8</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -18829,6 +18958,8 @@ Main Scenario:\par%0D
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=100%25&gt;
+&lt;frame name=ReactionsListCompartment&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -18836,7 +18967,20 @@ Main Scenario:\par%0D
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<AggregatesList type="e">
+				<value>GUID eee3310d-5d51-4c8d-bddc-4176de04cd35</value>
+			</AggregatesList>
 		</CGIState>
+		<CGICompartment type="e">
+			<_id type="a">GUID eee3310d-5d51-4c8d-bddc-4176de04cd35</_id>
+			<m_name type="a">Reactions</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
 		<CGITrans type="e">
 			<_id type="a">GUID 48c30848-7326-4d8e-ab80-58e76175d3a9</_id>
 			<m_type type="a">28</m_type>
@@ -19143,9 +19287,12 @@ Main Scenario:\par%0D
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  84 -9  84 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 170 243 </m_transform>
+					<m_nHorizontalSpacing type="a">-18</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-2</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
@@ -19160,7 +19307,7 @@ Main Scenario:\par%0D
 				</IHandle>
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-			<m_bShowName type="a">0</m_bShowName>
+			<m_bShowName type="a">1</m_bShowName>
 		</CGITrans>
 		<CGITrans type="e">
 			<_id type="a">GUID 41b546c5-8de3-4faf-859d-190154945376</_id>
@@ -19206,9 +19353,12 @@ Main Scenario:\par%0D
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -6 -9  32 -9  32 5  -6 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 33 331 </m_transform>
+					<m_nHorizontalSpacing type="a">-49</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">3</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
@@ -19216,14 +19366,14 @@ Main Scenario:\par%0D
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">6</m_line_style>
-			<m_SourcePort type="a">0 13 </m_SourcePort>
+			<m_SourcePort type="a">-1 13 </m_SourcePort>
 			<m_TargetPort type="a">12 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
-			<m_bShowName type="a">0</m_bShowName>
+			<m_bShowName type="a">1</m_bShowName>
 		</CGITrans>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 1cd00a85-81b7-40c0-8c6b-990fe057e491</_id>

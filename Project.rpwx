@@ -16,7 +16,7 @@
 			<isLoadOnDemand type="a">0</isLoadOnDemand>
 			<myViewsWithID type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">9</size>
+					<size type="a">8</size>
 					<CGEMdiDiagramParams type="e">
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
@@ -53,6 +53,38 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">130</m_nLeft>
+								<m_nTop type="a">130</m_nTop>
+								<m_nRight type="a">1158</m_nRight>
+								<m_nBottom type="a">462</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IPanelDiagram</_hm2Class>
+								<_hfilename type="a">.\Project_rpy\TUesla.sbsx</_hfilename>
+								<_hsubsystem type="a">TUesla</_hsubsystem>
+								<_hname type="a">GUI_Test</_hname>
+								<_hid type="a">GUID b1cfe4d6-b074-41fa-92a2-ed42c40a35ae</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1163 467 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">0</m_nFlags>
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
@@ -78,70 +110,6 @@
 						<_UpLeft type="a">-73 -106 </_UpLeft>
 						<_DownRight type="a">894 390 </_DownRight>
 						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">26</m_nLeft>
-								<m_nTop type="a">26</m_nTop>
-								<m_nRight type="a">901</m_nRight>
-								<m_nBottom type="a">398</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\Project_rpy\TUesla.sbsx</_hfilename>
-								<_hsubsystem type="a">TUesla</_hsubsystem>
-								<_hname type="a">TP</_hname>
-								<_hid type="a">GUID d6e2278b-6b25-4259-aa45-eba5779ca841</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 20 </_UpLeft>
-						<_DownRight type="a">1010 527 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">78</m_nLeft>
-								<m_nTop type="a">78</m_nTop>
-								<m_nRight type="a">953</m_nRight>
-								<m_nBottom type="a">450</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\Project_rpy\TUesla.sbsx</_hfilename>
-								<_hsubsystem type="a">TUesla</_hsubsystem>
-								<_hname type="a">TP1</_hname>
-								<_hid type="a">GUID 524901c2-cb1b-484a-a362-c0e831b32554</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">838 312 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -187,6 +155,39 @@
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">104</m_nLeft>
+								<m_nTop type="a">104</m_nTop>
+								<m_nRight type="a">1132</m_nRight>
+								<m_nBottom type="a">436</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\Project_rpy\Usecases.sbsx</_hfilename>
+								<_hsubsystem type="a">TUesla::Usecases</_hsubsystem>
+								<_hclass type="a">LoadingCargo</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 1ff34cea-687e-4173-85d3-5ba1f0820099</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">991 272 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
 								<m_nLeft type="a">26</m_nLeft>
 								<m_nTop type="a">26</m_nTop>
 								<m_nRight type="a">901</m_nRight>
@@ -204,9 +205,9 @@
 								<_hid type="a">GUID 169bae6b-1851-4018-b66c-57e044143c8b</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1899 707 </_DownRight>
-						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
+						<_UpLeft type="a">0 15 </_UpLeft>
+						<_DownRight type="a">910 354 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -237,8 +238,8 @@
 								<_hid type="a">GUID dbb3d8eb-c0a9-46b5-8719-3c48b564f636</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 20 </_UpLeft>
-						<_DownRight type="a">836 328 </_DownRight>
+						<_UpLeft type="a">0 7 </_UpLeft>
+						<_DownRight type="a">838 316 </_DownRight>
 						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -253,10 +254,10 @@
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">156</m_nLeft>
-								<m_nTop type="a">156</m_nTop>
-								<m_nRight type="a">1031</m_nRight>
-								<m_nBottom type="a">528</m_nBottom>
+								<m_nLeft type="a">-186</m_nLeft>
+								<m_nTop type="a">57</m_nTop>
+								<m_nRight type="a">689</m_nRight>
+								<m_nBottom type="a">429</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
@@ -272,40 +273,13 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">838 312 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">875</m_nRight>
-								<m_nBottom type="a">372</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">838 312 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">D:\OneDrive\Studies\TUe\Year 1\Q4\4AT100\Model\IBM_4AT100_G8_V2\Project</_fullName>
+			<_fullName type="a">C:\Users\20191716\Desktop\IBM_4AT100_G8_V2\Project</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">

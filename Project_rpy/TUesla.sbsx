@@ -11,16 +11,16 @@
 			<_id type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TUesla</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::8:50:35</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.13.2020::2:0:7</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.9.2020::8:59:32</_modifiedTime>
-			<_lastID type="a">92</_lastID>
-			<weakCGTime type="a">6.9.2020::8:50:35</weakCGTime>
+			<_modifiedTime type="a">6.13.2020::2:18:3</_modifiedTime>
+			<_lastID type="a">93</_lastID>
+			<weakCGTime type="a">6.13.2020::2:0:7</weakCGTime>
 			<strongCGTime type="a">6.1.2020::21:27:48</strongCGTime>
 			<_defaultComposite type="s">GUID e5a8e8af-941d-434b-a5d1-a058bcb719fd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -32,6 +32,7 @@
 				<value>GUID f1c948b6-fa24-4817-96d4-66b0001a7ade</value>
 				<value>GUID 923b4146-83c1-4ae8-b986-bded0cd1d655</value>
 				<value>GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</value>
+				<value>GUID b1cfe4d6-b074-41fa-92a2-ed42c40a35ae</value>
 				<value>GUID e5a8e8af-941d-434b-a5d1-a058bcb719fd</value>
 				<value>GUID 1a05e4ef-b993-4dfe-b2c7-5f36b20d915d</value>
 			</AggregatesList>
@@ -346,8 +347,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::8:50:35</_modifiedTime>
-			<_lastModifiedTime type="a">6.9.2020::8:50:35</_lastModifiedTime>
+			<_modifiedTime type="a">6.13.2020::2:0:7</_modifiedTime>
+			<_lastModifiedTime type="a">6.13.2020::2:0:7</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1948,6 +1949,364 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIPackage>
+		<IPanelDiagram type="e">
+			<_id type="a">GUID b1cfe4d6-b074-41fa-92a2-ed42c40a35ae</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">DiagramFrame</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">8</size>
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">20,20,590,500</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">247,247,247</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">194,192,192</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">GUI_Test</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::2:15:35</_modifiedTime>
+			<_lastModifiedTime type="a">6.13.2020::2:15:35</_lastModifiedTime>
+			<m_hReferencedDiagram type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_hReferencedDiagram>
+			<_defaultSubsystem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_hid>
+				</IHandle>
+			</_defaultSubsystem>
+			<AggregatesList type="e">
+				<value>GUID 0a8049e6-a96c-4aba-b436-eca0a8ca5428</value>
+			</AggregatesList>
+		</IPanelDiagram>
+		<CGIClassChart type="e">
+			<_id type="a">GUID 0a8049e6-a96c-4aba-b436-eca0a8ca5428</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPanelDiagram</_hm2Class>
+					<_hid type="a">GUID b1cfe4d6-b074-41fa-92a2-ed42c40a35ae</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<elementList type="a">5</elementList>
+			
+			<m_access type="a">'Z'</m_access>
+			<m_modified type="a">'N'</m_modified>
+			<m_nModifyDate type="a">0</m_nModifyDate>
+			<m_nCreateDate type="a">0</m_nCreateDate>
+			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
+			<m_arrowStyle type="a">'S'</m_arrowStyle>
+			<m_pRoot type="s">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</m_pRoot>
+			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
+			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
+			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
+			<AggregatesList type="e">
+				<value>GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</value>
+				<value>GUID 6cbb18f3-4224-4332-b952-388ea7ce6833</value>
+				<value>GUID ff61858a-cfd2-4d5c-b4e5-f783df5e78ef</value>
+				<value>GUID 970527ce-55a2-4c22-816d-4da120d191ff</value>
+				<value>GUID a9b629d6-5d1a-4524-bc63-6f55b65399ea</value>
+			</AggregatesList>
+		</CGIClassChart>
+		<CGIBox type="e">
+			<_id type="a">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</_id>
+			<m_type type="a">215</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID fcdf05d0-fff3-4a84-b1fe-51b0da3c78f7</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_polygon type="a">0 </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBox>
+		<CGIDiagramFrame type="e">
+			<_id type="a">GUID 6cbb18f3-4224-4332-b952-388ea7ce6833</_id>
+			<m_type type="a">203</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">3.40741 0 0 3.63636 20 20 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 0  0 132  216 132  216 0  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIDiagramFrame>
+		<CGIImageData type="e">
+			<_id type="a">GUID ff61858a-cfd2-4d5c-b4e5-f783df5e78ef</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_dataSize type="a">22405</m_dataSize>
+			<m_data type="a">2edb#Zd8ZWGH4a464946G0101GG01G01GGZfeG1f436f6dM726573736564206279206aM65672d7265636f6dM72657373ZdbG84G0404040404040404040406060506060807070707080c09090909090c130c0e0c0c0e0c131114H0fH14111e171515171e221d1b1d222a25252a34323444445c010404040404040404040406060506060807070707080c09090909090c130c0e0c0c0e0c131114H0fH14111e171515171e221d1b1d222a25252a34323444445cZc2G110801230250030122G021101031101Zc4G1dG01G01040301g0b020103040705060809ZdaG080101g04f7Yg6506a6e6b9fe5b22R6265c8g07078fbcf90c69dbbd4add5d4efdbc8b89daT95cdde4eecf36b8d7b2b2a7c84e7094919d6eb273f6ff7YGG3ce3e504a749d57292b92cb94a5294a559d65294a5294a5294e50b9294ab54ab5afa236de3f57e2b87cdbd09729ddcG353f836b3bd2aca5594a57722edc94a5294a529565294a529ca529ca539492R49M395d535ef69df9818f77I37bdef9001d7feLc6b24924ab594f36fca5294e5294f32fca529ca729ce729ca52ad6Rc9Rf6c711a27b7eeac4af41c9efcf68G07cb1e240ad456fdd495ad6b5adeT977eb294e52e4b26572729d6f66d6b5962fb4b1be5d77fXf853d31dc3b6cfe818G7cecd553G54G0b9254K5ae467d6b5b993592ff50aecdd13deT97138bd0fbb762ebZG4eG03c45e72b815g030aN096f8dd963e7d727V71b7b8decdcfef2f63G07937c8d78g04a8Gf5b7a6M7e4af25ccf1b4cacd96ddf7fN079ffc1d9aGQGG0aN5157ac3d3b63e48f25V5aa65d29b7beNN0747f97fc98a542a28G2a50G01eb1f4353e3e76fec52966d21bf3dSG14f9f3a8KG64e205db01918945176c28bf62128af62ca928fb277fd8f8d9de73b1793bf7a7e8bf6eN03V3e27bd8b2a4a76a35109d154adad4654adcedc56fedbd13dK67d93e7ae81d7332d71de92ed73cX3bce9725d36ef256fbc7a67dQG0d35e69d77dd3506270f81L11a4efdac48d6f677138b3f45fd2d003ab7ce3d29edff68f94fc1bc5e56258f7c691d9ba97078cc1eb9d5aT3fab754df7f504G078ab75f43d45e6be16f5702b7392e3efe05de43b174f37bfd3cG0f227aecf969a8f7bf03aefd27a9944b07a4f55ed5b4b8ad75eb0f79NGeb5ad3777cb4e93b6f57ebd8cf6a776d63d0637f75733a67adf68fa85b4cG3ca5ead3427cddd938f8df5230386e36d72dc9f6X93f2db93eabef4f4d668G01f24ef72b6b4f5ee67ba73dd7b54fa2f4bed7e774a7Mfa91VN0353ed81e56f18f6cfa31dV03ac79e7686dd0GGf3efcdfd89d6386fa3ddTe65e6f5cf55fbc3547ceae97bebe87f3g070e83e76e7fd2fc8a3aafbaf6Hg4601Zc4G18010101010101g0c01020304ZdaG080102Hg1e01a5O4208N8bT6202ec22412209626fb6699c83ad040422222eed4c641d68GG1ca77e9279W37SGG3863d5d33786417aGH25J9a84c81b59654490166f59dd98acJ175d795e9c7a5e59Gbd399150017786b150g157fZc4G18010101010101g0c01020304ZdaG080103Hg1e019c14GQ596dP3609ceN282552267965e9e80e54G02Ne5cba5edQ73GG01Tc3969e8d03HGG0eb7872d4efa0672G594160cda9ad0184b28ab412e71ac2ea37J4cf2ed9c75e6ebJ273e82c5G4c6d9da5g151fZc4G30HGG06020103030207G0203g0501020304050607111213210814301531H1617202232J4190425060ZdaG080101G0108GZGb319T11bc632eb2a6T7771eba8f2dd832a367b83cf692e30de458eacO9a6e7c07088dbefb3c72676758dff153b734ec27ade6b22c75e576d96e741738ed7fY1ea4a33f1b2eQb129ac9fba7548f7966d445d72492b068584366df5M495985c7528b8326d5c111134bW209e69Lb4257239Ye13cb232537d7c124742cfX98ce25e378890b2fb29528d0684125d32492cbba12b525d70779c2feacd9dac65a1d849ccb30e4ba4b34cd0379a66c86fa1459a6L1bcef38429460f39Vd47c9b3b23398e8750d2b646Mb2f27b133d41a8d946c9d85d09271ada5b0dafe88dTb24ba89c46dcd889M9669dcdbG8f83fdLcf79e4ZG5a73f25a0d27b9Ie357217b8f622925d856Wcfcfedfac3S891c217b736139c19feade7c48308db99fa9246ea36ee748fb96Wcf1684f7226e3cce32d4a7dade597a9b237f59e693I38566e58ZG9fd4d569394d8bdb85a894e32a3e904931c18ed984a5440d266090Q9257Gd0a3094aOc19282HS925022502eQ5dJ894385022502250e140894089408943831c18e0cM60Oc1118e0cM60Oc11182230446111d9425294130d8261a1d8647b764147647b76476191d8647b7647b7647b7646906d058f5e1909b6b5356835d9b9b1f0442fb4767b428W3ada6acb6fbaebR24236fd036868a57eaf6168e487eaf61Gb70eH5c1153ecbc42ea7bM237cTde0225eb3b67dc373a1b8fc778c13c609e04Yef8ef10ef9027c813e43be43be5c06df204f242564608c11823046391c8e41182304608c118e47239046391c82304608c118e4720945ZG24a48ea48eb48ea48ea48ea48ea21d443ad21ada594e01632e2d1cedf99f5db471952269cd6de5bfN29e9cb5471211c573c467215d27d06fb8467c28de5PP351a4afec8a29cf99742312b96d2a90debbd84f15a268ed3e4cdQ1db61b9557a16b521afe04e8X8eYef0ef8ef0ef8ef8ef8ef8ef82901328c3730c814d05347bd05387bW53814f053c87bf2053c837252b04ea0775209d4827523ba904ea4138904e24138904a204608c11fe05UY3c0f03UY3c0f03Ubfa9Sb9c8d10ab2afd39e432ab5125db5d3f9ae3515e9d2b587761ddcd8b21979b5cd650e2a511b649337fa8cc3b20e34593281ec0ba8X474224e59653de43cfeb69d22eI3a0af935b2aca7ef32R4fcb795f26b25da55bfc90e487243921c90ea21d443aO75Heb21d643ac138413208befX923dd247ba48f7691eed23de247bc48f7a91ef520a6a426cba7ec56c1bb125H29e91f502056240ac48158902b2209b320cdab245e7eaf1c15bc6056acabec564d82b268159343ea4d06a734e1Y44e363ad03ad03ad03ad0317V6b316cc9cfa953e5d4368c32a8d9a4Oade1d923ce622e1232dbf51e112164ce46644facc554P0f595eb4f4T26P8b72V869fXVe836O8fa4524b93Gece557fa6b9cfdb6cb43f63f2edcacfa56c2V2286d2926d094f03821c0e070381UWM38ZG0138643bca1de50efa877d43bea1X143dc2c7ba58f74b1eed61Peb41f92b521fK21f5521f56208bae83e48b2258fcc8b1f99163f32ac35912967c1df3fee279b82b321b6aa5a3da4cd83713b1c935f231a7ba326bb52b0fb16d862fHa4dbb2429f20495ee4f1d532Ua44ab2713d4ca6c12b6a311aba54944f8bK0ace4d8fa7c92b8db2e84daf97d4640622e7c992d3645c2893c18e0cM6381UWM381c0e070381UWM381c0e91d23821c10e08M43821d243a487490W87043821c10e08M43821c7c84a34fdbK6b1c6739a5b1b6be85e9db5eM4eb792e8fc26b71cTb7628144591dc98a77164ab9e9ef3a21f5a2c2de4930e2d6e5b2150ce14f756b8d5ca542Md61ab563bacaa5eafd5b22a6ZG17c8e1fcbeR1298bf936ddb6d45dc7524391cfece7fc9e7f6f9fc38f9781aGf8c42dc5374b8ca8979d3296Y5cd3a284Of23b923a8fef6fU6d95bafcfeO0484cab164e257c3824b28bc8257d88f4d29d9T2f1b613f2fR2aa54ed731e7a232cd5d1c791e4791e4791e7f772391c90e4873f8725fb79ff4M3419f1895b90c79d6fb4e92b39424f07VO50a79c9ae92551e17705f84765d69c98b72347536fcf79JcbYd16ae36862bf36dea47320d6P856b30d467da22W87043848e123f80fe23fOfe23UY3921c90e487243921c90e48724391c90e472391c8e4c72391e4791e4791e4791e4791e4791fc8791e4791e47063831c18e070341b6e2f13b6e9ae438dab82d82e9c6d6d9f4928d6cfc49f267318e3872234e7cc9210c924dL5d95a4f96092932f3d9407194a51c97a6fQ6ad731917aaf94c88c8c8f7a6b78d81e4b1e655f043821c7ede3f6b10a64a6a43d18968ff8ea48ebJebJeb4834711fdd0eeb67f6XQ779b1de6c775be78124aI0dc75b7ee1S725a4f06a390da7efee990b96c21beeadf93H97d50bddQ1ca4936b74226256d93a9f7890c4d8a85f7652a6b6e771e60a673f6394a26dc5844b5ada2707T586ec3b2dc85ad32dc536959fb9743925f4b5d48390e925065X1f31e98a0582f1fcb2c9f3b8ad836f1a965ec93e757ec62318d30f3b05ded4fb54543c98d28b2c8422388bf60a435f4393ZG8c7a7790b593d2R9b69a3597a5c8ab8b9ade219f9bd53aebcb19c6187ca43c644652a6ca98fae43ceT212949b24ebc68419f71Y871ce4bae3Vb189351262ab9ea3e8e1617dLc9a50825134485YQ49f2467d0e77fbNc947f6e950711dc6fb6093c3686cfa082394199a5a692c9acdb34a12466a291108f9253b056f94852a444519a8fbd0c3a717a1a75e8cfa67c98d0a1fe43cY1e079da8ba54581e76444925ebecf10da5d3acd6db1ed6633062c5f4c1S5f61979dce2965W392d862d7276d108d4Jed58f249fab973c2693d2fT65494f673f6a51d56b9c92462d1721ce2cb228f4S52893253e564a98a49f26fc96fc2972e723a92bc5fd3Xd77b128d9b5463fa3777ddd3Kdfd39e95de3afebda9a53f4dXPa67df63d3f4f7a736de5T1fGb9d7b90bf5767881f15af8bf8350fba7226f6eab9e0eb9f98d12598ca99390L46e4db3241adb667a6c6b5a925e99892797dfb9f3efac16e737c5aa6263741e9bf62d949e8bad9d83cad6d92b9Jfd562da8R69eaa664f2311d9b122bf365d450e797f195328ad0f20a5b0554db9dace512929f7dL9f2eRd2724f83fab4cfb92ae25a0fa551ad6c5e717c2ca7a9La25fbe6cb95ae64a4991039b23a5L1c9560db44d3ad44I4929cb54356d6563L97e238d20ba785a491d6b5bc942505e986ca0236756d358fc79cebec4b60d522ab27dada3727d6720e52126447c9fa6bd35d942361e5c37b7a7bc936L631725c6329a57719be9f8ebddd28c5e22Jb8b2235c470df68c9b9094473708a4cdca32246b7c36969ea322bfc5d47531e66d2acb080ed74c564d7c9434d095756b28d1ddb84bf7f19116c68a133120ada6f2782f3f60d2db7ebdf63b4b711dc2326594ead9455d45Lf64389d9e36b716b290fb26b531ePe63efee4c59a7ffc1eade9125718b5e1e1971ac759ebfc526cVab7bc4Vabf20c43G9557b335260efb77ebcaae5112c2b983S91cf21T359f871c242cbaP715d7c184b49fece93X19a5b66352e49309c5c36a7ba9W94e743a46e3644833f25c31fd61d45a58b4fca6edf5e64d4d4f457afb725e656a6dd7c927c292a36d0975a3f4bf593ec77250cd8df2498f1e6477e24bc9fHc463fa9bd7544c7e3ea1W133ba33af6347589b6b2430f3aebef438901db18d0ec1a455cbc19ce8cc71968f219d26a1cb3a181cacd4a52facfec67c2812125e412f815caI8ce10cb88cac98e79e168318R14T453cO0c47Oe493732ab169f84f427b1f8edbf31f27fd2fa71f46c39edbdfWceY8a2cf28dea6bR5f4e1814275c9b7f574d51471d51297d43656bca769e4448c6a9eb4a2aaf6e60c684fb8fc7Lfe9aa26a9dK436b5203caf29708d66b248c4a2335b5ad5a370a536d42b59517248d125b4ebc94acdb0a572e3a911d04fc861a521d440bI8d0ad26b2b69051324612728e517Mfa1cJc4Yfc973ab5451627a6351c0d4d8f3b13e6d9154d5afa9bd5ed4dfc763682a5ce27e679243aa71543766d5bc84cf94c4b760aec4b1d8f2a54bd37af2eb62669058ad818563158d70d5a6b6c0acdLf4f7b49eb178b8373416b2591925ad07ad639f53a5a47571782aed4fae2a91d10e3c0ae84c94685b275ad5ec3c62L3efe5387e49ac7287a8f218b954565b69b62cee244b4136e680d1d5f478acab6d814f8e6378ea647e5eff1XR89347b673d852f19eb9fKedd88ce4982836274fab2536f3O9268375d537515Ief6c6aa92af2ac3b25c12dce8f2bc60e2dd5622a9d623cb86be89d65db6ea53641dff922d4de9d6df66d24fc8676498edb61193da6396d50f57e510994c27a9eW8d4dVc8a42396e1274c6ab99b4f2b6e0b98fe258c6250fd8631f36c1c69fb5d85Raee27ecde7e9d7f39497b30c09ed73b46b24bf19dc4fd3fed5V5f688f5beb8c7b5963cdd2d27c39aebcc4f60d522ab2b7fd1e612764c3ec613a135b6032513ebffcTZG48fea6c26afe823cT4c7ac5f8cf46cfab16c17bebac9a3ca290d55e3b8be479adR29b19d27QW6b142af2f7726a4acda98e221af28c3734d716488793c7d939130ca5b4ceb6b9c9ac1a42f517a5ab1b2721e47b2d8623c58eV58T934dd3ed6a721946a5d97844P8cdc37616f72fc6ad635dfa68ce72f95167e5989e2541835144c771bZGdd675a975ee7cd483c86dfd19d32df25d1e2de90M8ac5a1fca68b1ca1c4RPa4c67f0b1aeafb686f57dadafa7ed396d2ddb1P8fe1187e2864bc6ffe8f3fZc4G51HG020103020206050608090909g03010203G0411051221910613314151a1H142232613042527192b1072023J81b3d1d31554K62729495b4c11624I507490a2b2d260638293a4c2c3d4f2ZdaG080101G093fGZG798e21b79e68c40c4851893b1b2eJc5748a28a74c6708f2c7c403c24883a574af4a64638e3751a793115af69cc3f9b7511ff1abd818776d914d4d1e3fa42b51b55c78V82b56b38d7c5e7451eLb5ed39c8X4ba898f91abc81cf76d914ZGd814c432e9U21f19219496f261437I6dLc9ece1b7fc2ae6ed6c65903bdaa4d2750ee30773c6a7693ec8e24542791aNf2350b9cfd2676e5935091f50341f19f9bb94f9506e4694f23fb29e6048c603bedfb3d94d2f36aI71ef0cUf3142538f1249eLa37a6b8e231b377b1cb151bd49729d9cKbf682284ceJ03731e27ca966eLa59bb4029b87b271f5La471ZG8ab56bdb59He43c12946ae95eS0ffb7cc3ZG7574bf59fed19bfebae996b4ZGce6be9Ie4c2ba5fad7f684dZG5d74c75665231b1ae4902ba57aaff5a7fdb5d24ba72f1b22Pdddfab27e7aed75f687c722ba53a87e8602ba4d7dbOW5eL619fOae935c96f147da2ba4531fe9ec7ff990d6b711e3ec9582307f49da6b5a53e398613ffc75a8db14dbfc5230d9fac56aHZG568eaeec8a8f783da824fd5b596b528bfaac357f6f9cf12dL8df715abe45fRda2abe84b78c9691Sf2db5a98438e3d5dac2079835a9c2cU1c7596d1799095RJ8fde12de32399415Rc2dfd2b64fd95a8dac6fde12056f32b5776576a46364f6fc07c7f27b0d5868a92784693baf9b0ab5b786Xcee153fcdf7f56d1c83d96f6fb09c1fce1f1ead7b35a95f1f594dfe5d5513d6490824fO5fZG54c698d31a634c698d31a6344d31a634c7ca9bc853790a6f214de429bc853790a3e428f951f2a239511ca88e54472ac72ac72adbcab6f2adbcab6f2a0bca82f2Qbca82723fb682f235042R06G09NGa862fb35147fa16a24e42a24fb22a24fb22a24fb22a24e42a24e42a24fb22a34fb22a24fb22bb4eaf22fe81127a352b5b5G6ec4d2a21fI5d2ad3b77c24cfdc2a3fe165299796d6J6343f47383c6ba3ce8N16Vb291d83bIb7b4d586a30b3a8dc52079d41cN78c418W673cJc815777dfd977ffb8abcbffecabffdc55d5fe3e3a55ffee2afae1642a4a9b8b3b9b68fb40c6f9e34049cfcb4797b3b8b4bOfe04ca22fb9cd2e4e59491daQe4d6ea2d45b90add45b956eadd45ab345b9516e545b9516e545b956ee545b956X545b956ee545b9516e545b9513ca89e544f2a279513ca89e544f2a279513ca89e544fd9344fd9344fd9344fd9344fd9344fd934de5468d1a3468d37953795354d09b5b9c4cf14d1ef5df92b915a843631b769b48b63fda3935219a4911b2X773938ed24d485956d98N4fd1M29c964d56fd403c7185897X1523a67b76Q5153c9c96ae26fd2f4Xd9f176ZG0aGfd6ed4O4a297c2bb6e381d8381e352dVa9712fK175c1b747231f16c657e560129974aT1126ddd998464a607886G8aGb6f1c8919fce71ceOe74473a239d11ce88e74473a239d11ceOe74473ac73ac73ac73f463d38f463d18acKabcfIc6G083b32edc49ee157c22b961909b7d9a8a296d201be46463908286d962b69a375c83865954115ed46dd25bd465c0208df17020f7537a13775313c9b738cec19c55b5961db0728ZGf5d2ba3aQJ2daf6fad53G93c5609d013c7b6a4bcea1a596470756d51f3d4c2f228daf72508dca3218H454df90875db9c22a22811db9761d83c17e59765cdacd35b4bc78ac91314238781ac562b6d15a2b456Oa228ad1144511445114451158ac51144562b1447Qd1a6a6a6a6f234de469bc8d3791a6f234de469bc8d3f91a3f8a451144511447a235ea6e22402523dc2aefdb57b1f151c322a442a34f9c768ef5a3c09bcfeY28e436bd7a7cc7a252d1413c11c29850H18Kcf60c924b779aba77926bcb8b186058c010aa69cb741d9b86439df47dcb83c4f69cb91e4051153cb6f751e83afbc53c4e52489d34bb875746520ab02381ab89a7ba105d48679e679a59a478b25P9c93f2cfT7df35dZG5b02e3cb7d1c850179MZG511a6a6a6a3468d1a3468d1344d35367d81e649abc95501f7771c55db913148ca9ef04d37cfb9fd68a3dbacddb73c51a5411abd9caaeIbc978769078e30360c511b22d49e6909206d46d2V39e6c2ae15937ab31cW0dcd93c68e41c104761a9fa981f47d62d55b6b37e56ef4f9Q89MQfbceW536d0f79b1f1f45e361f2cb837da4db5c487c5d4bc3f74628f631cfd678d1a3468d1f41a3f9a0fcd2e75149e2d45ed505b4b1a26c48637ec646e397abfd63878cf07XRZGK924b0b0b8bb8d5e684a178Hb8dc04628fcfb9fd68a3Uea971fe146a4e32490c6478757183e7ba8e43cU1fd30a0abadeb1e372Od9719ecf7bb6ae5dd4aeddbd82ada1bab7472ef6f73124d14876ed0195c1040edfaeb55865863749a1b69ed4a39bL5dQcac1f84dd5HM0603Yf96bMfd60bcb591fb3ddd8e82b18e0d9edce68f91a3e468f91a3eK9eK9eK9eK9acdLb3e55bbcab779503Jd0340d0343ce879d0f3a1e743ce879d0f3a1e742NQ2b158ac505e5J72Q3e57f96e5fXYd7114319d0f50f281aT375c7eb457f29dc7a2ea58b1M3dU873f914eddead5713c93472ab3ef540aKe35da72b8e236918Ua8766fc16e24e71f593e8e35713c0259L794c32b4L41044dM11b61194L8c6e1f2cbc74ed5ade673e11caad0fdee2b88318c9efc8e1Jd0340d034287e211ceOe74473a239d1144511468d1f2347c8d1f23f899acdLb3e559acd03e91e7f2dfcb72ZG77868fb40f0afe42d447fe9dabc6e7f5a2bf94X3d113a2cb3078dP480ea2355dcbe23208cfOa84aP6552ae571bd16351Uf7N723f13c2fcf2b493e59732fa81b88c78b5ab09U1f13b2b8G581fOedf462b15b6b6d62b158f4fdc68f91f4e6b359Q681a0681a142850f3a1e74280a1407a3158ac562b14451a3469a8d31a634c689a268Mfe1a9bfbbc3e8f7e3e8eeaaebf5a5ab9ef069a45926ddb8e50925c863da84768Ya624c97b2b92U0277G78e28d60176dcdc7bfG7dc2P14b481e4dca5f7G30Je230M280e5e8c939153Nba1da12a8186e69af4344323e8050ff2c320d2ecd175767bO53ba199181962f82f1057e56d26962b74df33c71b32c6b8272e47ba38532f3a614c39d30e74c39d491757d67578eb53aVe339d99ddb7f9d8c535353535371abe86769172f1c6b20688e0707deRIc7e693e86c67b3240ac8a34e15I8dc4NI52bcd6cdfe8e491446cde39556M307e343ce94ed5eda43b738a4356f2c902fbe91bOdcf860b2b7dd51b2425cec490e5c2e7802Mb93f1c0a5a4ced19da3b4fd551ed39236b0c35475671V4c65155b7eK8fcf5dacbed0f8e452S2491b48e22850df267dcc81e78ac1247b43c0d6054c64b29f50820b784I1d93c116e99f6f60de244a9fa9bfb88bae823951904ca1c2111bS0aX091b941246467b6861bfc98d5ffba3fa2ede0db70ea422a306381c72Ud1bdb976412078e682H0124630607Yab4d4f3fedb6dffd5a97518151ca6df5d8c127Ge731Ub5a85f8faef8feXafaf1d59M09bd90953907202aa71eX357b7c4fc6e5eaf6e9637d1cbcb11977a4c6395026WZG4379c7cb9c6a2fa94ad02e0f1b758b12f994a2306846aef8c8863485380cM48c2a8fd02bdb24fH58ae2890e7de1bT28b73a738efe3576Y85ced68dP255c8c1c303446deecd11442c9dcd472ZG4e9cd31f2a98Of767abUc63cIdb4c453dI2f1cX5386a2c76f796393f5d13ce89a246ece727347Ne249a9e2fb62a684ca3b1b78abO893fcf153c5f6c53214c375658e4H3b76f8d24d73753c890c30c513c9248ee76aa22a824927N02ba07d25fec7bcfddd7Jfa4a4781d1af3f775d02e92e3c3f81af3f775d02e9190c09G693759e1e236Mafc1f6be92c9T0d75Ld6908dQ93ba59f622d6a1a1dbc8f1a3bc12dcV64OScec7d9132e47U914525bcb3H9792d8968584d12ca369M87N6a0e71d871dbf5547216d9b8647cI50063dU31e2738c7bb5d2c96c2eef2c60b89aca5d2cefb79258c3b42dP578a138ad52e753beb309eb6f2daa5a420cb124d1f5444b297c87e39031561a6d943a6db1813d42d85bc93ZGdedcbaWc926G1935792e7c379a92W7d6e57ef22a79d72786f76e3f51ab9970c3bdc90456bd676115de987508ada2b89c5e49032f5O3102H4cQ02066bYadG82X149e2c6b17WQ61c412OMebd86bYP6369a4413c31c9145ac5fc50275c442b95eaabYP13c13812851d24d41a120fH46eb7afc254f6d7b7e5dc5V12b5f4124e58928f2ca61612376f11c6a65bcb6959e4b3d462ZG457717d2ed3b641f3d0fH6bf8d3ZGc8b5ae2dace96fec5b7ab492b4N1246197d9049W326af6effab27ef6ae258c13b88572a3eb38ad5a4ffce7ad46LG124aVdc07e93446f6U91477383823b4fd63e15dda391ef01db327cbe951de6a969a9aca32f144e96ed1389G794aY2db722Qb2d16d5248833cf7293c8f1b13b8c296fbc12bWc56aebd6e36b786e6dX4a08bad8a4046ed819f18752b5d3T9d7b59d660b4365a1746Q47bf867982efb790079819019001bf657e0ff5cb7b68237965926d32e55238d389672460G2ba21a96a16cb2189a6b4b19e68c38G952cN8cd68f3595fa8426dae20922946f195ca360f1078542Tc6WK518b0cMce3e06a4eaf3X86500fdd531fac20239e2ae3fe15fd9571838cfb8bfb282cO8a4b23614907867d9da6a57456e21565c81f0e2d9a9e71U9c86247e9c138a9e620903M72471aba946149f7cd49284995641dL72cbc40209e3b4f2352a2828180248393dc78775751686f2e65b8fKb45eRde132b16eae1419d91aeMa3b8539e1f3c9ca9e5d94cdbOc919f8d4cdd537b6177e78f66481d86b44b1bf4d4e194c12dcc113cb65776486e52785dd1994e108c291f29aMb8Hf586da74731cf6cf22ed2f1b8e7b4e549032284bab680630e3548202a911c842970a0bf54771W49c350cf02398ad286f3d549Qc13fI76f1fea7d177a1d9a7Y6c36d77eb6f2c52cd3c6efed9eR27ddecH28446f34e91ecae5e124a3cd03b23b216009048ae331f798f120f80ab49e44ef755213ed1e14870ca186Xf53d8ca7bc1ee22a6923N873be34123060bU60b2f69c027357535ba5be81a65bb90763Sf554f7bc2b58bd8b4e1742592dace7ea06ce19443860a70381c57f95525bc88e8c0ead031f6c60f136f5Rdc14891634dd21W8a30056a139d8e1c61cf68abebb9235944Q75a4fbJ151ef67c694e05cdc64b1c925242N9fd0a2a4b703d5d47e52e2288fbcddceUd496c559f67e4ee6294827c446V714a5a4721JJ4b127b1456b76af6faa42d2a4f67b2e2084aY3148e6443d6a9182H35191e18e7681a4304S32c89da196J387830ca9a9e48c3e3M472bc57eRb99df297e70f31d9c2ce5ee27f319c9179613591840c6d1692759bb70fa5d7d4da1e897979d1fd26e2ec431225e5d130N24748419Le24f1ae8Lb5aecb7ba75fd9cd3a4650471ca9d489e38d048ec9edfcfd95d2a8faI673decf35a69b6b3a49a8dddd084Gc86dfb21ec0e4cN2d6a3709657cd0bdd4024611ced036f8V8a3836c3c573d869fd180dW38034a14a80bNa1470fNQ0a83W324f852edc9c0541c493f79ad1b5399638da5768ad65Mb1af6b9c0e0a3bcd1c8aWfda7e34485a6dcfdcd8c62a1616b0c4d2c93c9911aR83d9da5bb31c01a4825b3d62312d89825def2cL369376de04M53Uf1Qc1949560c30411da08Q023793541ed83ef12462a1df0e9b6fa8ddddb6Jd913db9bM7edcQ7cac11cd6d346d14b14aa1d24471865653Ua91c0835d17d222d26e3J9e69ec52ca15b596411de10ef101b4Sd83f12cb64H0b2ba9baOYOLb687323e3e9cb2713e26a548Q5479L95ce152345ce5bOc8f1c1aba586cec91608560b5113623918b2966058c24b31452485dc48eda948eb9668ece186dd02068d4c8258d1MU20WdcJc77511d55d6a3059ce0fce82edba8997e1b91c8c8e22bac922b2ea21819bda63188542924769c5677924927c7fH57f1abbfd7b57f155ff9dbd1146f2c30b491891ca2X242f1203771ab3b79204dd146861da8b13618aa823690c789ab8644eaeLH290ca590Na18e09055c8eG8c1eda85648d213efa8650c5863b7bea2b317a34b98d87fa20cb28M24da0a9264d84e30410bTf3184711f91b848d0cY3641V6cU95ced1T1db4f7fafdf4c59e696fa7203c8cd9dfOY49fac9ad2ad2c2dd9cc8d15aJ90a172G2c42G09Ua924369a4b8d22d924444282d384bee768I17209a3d65a26e1d5052e3Ged2582827f60ab786e34e3b6192daed0c36b0c0b1ed6J60fca49bb812e1811d83b2b4cfWfbdd8248aca16791644cWGb2Ib838ece24e781e3e8efe06b8GQMa8626bc9a58b324ca582441c31eafc0e3bfe954b0c116a2276b9b7850486e448a17b58a8c48a3db1d84d24Hdcdb20dccb17529205501429ecU0bNbf50f41215b89f8f7d0244922a9c1c1c31c7026a49c32da476cd0c210428b2e7f2fb1f81718201e2Ja59a226456918387eb30GdacafbSa71f3714LI48c5e65936fb1d612cN11c4f611dfN28f76791ad264bebXada57552a891a2f6bc8ee42a0ab9f5bd6f50eaa4d52e9491133c79d914Jf6471ef38278b7cb398a05Sb69e39010a4bd9cd3dc2afe971f89a85V5ae6b1a5456aOX16d84d06c68d9bd82704c2Nd594W412cb6d7d68df93931c6392360We187830eda7b6beb592ec3JYcdd5b987G02c929dc850126J3d9041a96d1efa588fRdbc277b46cc36179P58ab640c01e151ecb2d3658af2feedf3d5JOd9453e2f215c28ad2add9f0bbe49HI3606defae8b58c921f9cHa1e6845745e35fe84f3afdcf5a3dc467c52f26ZG126b4cba9ff9b2ddc83f5656ba2a9fd6aebf795d0fd3b1bddfI46673b9d8b9e3296ad3eda0887V8a2545e40575M3b8eb2098c41c453N42483bc11f0ab5eaaea1cb453216ea6e607ca89217W4a37315034112dba43b63cP31193b475bb9494c1c6d22a40e4b3676aeddd96c818e3c057462c6ef57d5e58e58ed351b58ae0d9dac60ec1b65426395cb12e2b40d374c59f6f5dea36915b759b33b7775617763271f9a3c6cf2eaf3df298c923aTe3eb483881c42cN1a645b840578a9232a30091c3bb19aMadd5X91620f2316c80fb546495048e3569ba305c98d4c4aaf9c3bT162a028c92492076d2ed42V54766013UKb99efefeea2b7b68b705df2c87628cb1G649ed35a549617dd5a4ca8Vaeaf1bf6323a12ae3bb81ab8eaX1301G91909dbd982a7201a86486232c819e62199507H635815f78ff8a8071776e4IP1b6bT4602O91d4820672Ue3857dKac4ba1e9e2458ac247b3ebfd6f6e448cQc91e114d27577fa6dd188b05608fb4e5258f7804a38c3292388a9eded754855008a75322b8420924657b3b8d68a9ea3d53cbebI4f6e1643920c4538I26d6f9a7c3357e97ad0c9234b771c7d524cee7e6af0f6547GM29278b41b4224d52f2203d84ed11a93c37c8460568565a65b6c8d64f568551e6ea86d532bfbd230fa4e49f97Sdffc1977766ee745e291H85431fc55820d764def7d64e7aa8af980cef43d8939e4d5d02e912cd13b46c61d3ae2443b4Wed78d4abafc4120d74766d1aUca525bbd581b5d9819c885f12bfc085c541991f125e5dcN75f7537d37Y1f457b07c9698b74911778275631cf6eX31be275fb8Y35d29d6e2d2c4644d6c7a879d9fc526dN28f81435a53ea1a9c6fbe2bed51c5c4b0e0820c6Q2c68U8c870bbff36709d2ad32dba98a377c45796e09710127823824946a8a6b4bcb694c3716f32147478dSc9229cH41W7bc5747a296e84454ce936d272412a386554e38f1ad2ad74d82e36P961cbc92Scfbd237120e6b48b9d42f1Y59204cOd0S5df23762264f1662Ga96daffa532068c4d165Qb284Yd906Y0977f9ef53faa6af6064974dT3928923801a39477c7260568f75a74c49105Ue30cd8G930cc9957c06e201c8abY594611V49bd31WJ1525d6a17f732ac50c6a0c923c8eJ091a2f7b1eU0523d959aba4b168dc3af9d08dd99d81fcOf14f7eQ8e1b786358a28a3508OO30RR380503N028c767d22b343ea1a863f4f513638b4479a57452fa4b5b74795afece17bab230a673219630420Uce1f040af5Teb89e54482dd37Vf24ac76aR20c92c73N055b4dd1ed0b7832fac8d97f32024158603c50Yed96ac56d6c60193df24b211869246f9d23779ZG5df47adcdfc8386a36Q417aac1362932a717da3b15f2b5d3dbdb3b5d8018ef6c92f242fe21e3782b5cbfd75d2573d4c60585aba15U57085e4c8fHe2b4ab6d3ac62c622b74da09U5dX7b5dc81c59b24fa6c6def2ca6c096dX6259a2Ma7Mdc8e08382335d06b48e67db95b49a7b38bNc708ad9dH574634bd31c5badb19adad638e778971ecc9281bdf3804962727fdc7bfZc4G2711G0202G0504010501g08010211H1221316103304151202232JM8104ZdaG08010201013fGfdbf0fb8a4f7c28a28a28a28a28ae4ae4ae7e3afb35fLbecd4d7d9afb15de14fd1965e8a6657ebe6b7456e514514514514514ca7dd856634f03dab92b83569ec3ce97824aab95dea28a28a29148ca8ca6532190c86432191991918b4f5326a21a12a4c96db92f1f35b2fc8eb4dc219a3bda21394945d91dc7e30704fc0d4a2ea4efe71fc8ZG4dbe9ff51d2bcb14c83d46La3393772f9adYb2cb2cb2cb2cb6596596cb2f92f92cb2f92cb135649a7a26V8e93516254e98f77ae0b564b7ec276cd4d3d978597c60aX917c60fb5934fb9107f5d7163d4bc3c9149d36ZG834b35224a9fLdb12726922524f4cb845L922727f6b8e1d38b94be97f578279eea51afe517d8f5858a714ad475e5965bf65bf65bc2cbeda6d12eaca5bd3e68b13a1f5272de4de165bfd5bfZc4G2711G0202010205040301g0801021121H3112204151810330J712261M32ZdaG08010301013fGfebf3d8451f6f9ba508f257ecdfa9e4f25b33dc57dVaea26fb99efa67b99dcb77a3925d4e38f738e3dc538b757cefL2f81e3d863ba2ea6fe8737d19737S949d6727a6db4ef9d7c3b2cb2cb1b1c896cfe9096e24Oddac11ebcef77f23d34a52a64a295a27b3Y25be9c4fb9069ab4ab9e5f23d27f9abec4f764d60a386cW6415479e5b69d2f4622d0aT968b4598e82fd9e34f07d23c1e0f074db57758ab23c5Ta1faS4da7256369c6d3b42585a3c223b73b1a49148afd145148a5d0a462b55ed71dbd9d125fOS5216Hb61b79497422dd648e57b3486e93229acf16927c288457fa52d26d24b8963a90W798cafdb68M93c39634a5d8a452d284bdb69317a718eda50a118e524b5a4bf96fZd9</m_data>
+			<m_srcFile type="a">C:\Users\20191716\Downloads\Truck_side (2).jpg</m_srcFile>
+			<m_fileModifiedTime type="a">6.13.2020::4:9:45</m_fileModifiedTime>
+		</CGIImageData>
+		<CGIImage type="e">
+			<_id type="a">GUID 970527ce-55a2-4c22-816d-4da120d191ff</_id>
+			<m_type type="a">190</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.815878 0 0 0.766323 137.355 107.536 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pImageViewData type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">OMGEElement</_hm2Class>
+					<_hid type="a">GUID ff61858a-cfd2-4d5c-b4e5-f783df5e78ef</_hid>
+				</IHandle>
+			</m_pImageViewData>
+			<m_points type="a">4 154 105  746 105  746 396  154 396  </m_points>
+		</CGIImage>
+		<CGIActiveX type="e">
+			<_id type="a">GUID a9b629d6-5d1a-4524-bc63-6f55b65399ea</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">LevelIndicator</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;8421504;CurrentValue;20;DrawTextLabels;-1;EnableThreshold1;-1;EnableThreshold2;-1;Font;Arial;;8,25;0;0;0;0;400;0;FormatString;%25.0f;GradientFactor;0,7;HorizontalLayout;-1;LiquidColor;16744576;MaximumValue;100;MinimumValue;0;NumberOfDivisions;2;NumberOfSubdivisions;1;RelativeDepth;0,2;RelativeHeight;0,9;RelativeWidth;0,9;ShadedAreaRelativeSize;0;SquareShape;0;Threshold1Color;0;Threshold1Thickness;1;Threshold1Value;75;Threshold2Color;0;Threshold2Thickness;1;Threshold2Value;35;UseColorGradients;-1;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">223</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 45092a6c-5656-4a8f-82bb-52b91bb41e7c</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">levelindicator_0</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.00308798 0 0 0.000549058 294 269.612 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csName type="a">levelindicator_0</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
 		<IClass type="e">
 			<_id type="a">GUID e5a8e8af-941d-434b-a5d1-a058bcb719fd</_id>
 			<_myState type="a">40960</_myState>
