@@ -15,13 +15,12 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
-					<_hsubsystem type="a">TUesla</_hsubsystem>
 					<_hname type="a">ModelStructure</_hname>
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTime type="a">6.13.2020::10:8:5</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">6.13.2020::9:50:8</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:39:30</strongCGTime>
 			<_defaultComposite type="s">GUID a5791b6e-b31f-4d6f-b621-b7dce5a2ac09</_defaultComposite>

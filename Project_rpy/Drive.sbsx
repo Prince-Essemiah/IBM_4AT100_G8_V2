@@ -11,14 +11,21 @@
 			<_id type="a">GUID 6d2b4f74-6b22-48ad-b9af-fd5acfa10740</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Drive</_name>
-			<_modifiedTimeWeak type="a">6.13.2020::9:8:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::10:2:43</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.13.2020::10:2:43</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.13.2020::9:8:6</weakCGTime>
+			<weakCGTime type="a">6.13.2020::10:2:43</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:21:32</strongCGTime>
 			<_defaultComposite type="s">GUID 44ed66b1-3a40-45f5-9eca-a1f7e5faccc1</_defaultComposite>
 			<_eventsBaseID type="a">16001</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 03131291-c407-4c05-9cd5-1b84bfff5ff1</value>
 				<value>GUID 44ed66b1-3a40-45f5-9eca-a1f7e5faccc1</value>
@@ -824,7 +831,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -885,7 +892,7 @@
 			<_id type="a">GUID 78f22389-dcf2-46be-b010-06385ca21c92</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -903,7 +910,7 @@
 			<_id type="a">GUID 65537d8d-103f-41fa-a49a-ab45f1e23733</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -921,7 +928,7 @@
 			<_id type="a">GUID 9ed26346-aeac-4974-b22b-7bb01acc628e</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -1123,7 +1130,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">9</_defNumber>
 			<_version type="a">6.13.2020::11:43:55</_version>
-			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
+			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 356fde29-16c6-4e60-94c0-fb863fec7f8e</_diagram>
 			<AggregatesList type="e">
 				<value>GUID 9f90349a-e950-4b6b-b2d0-ae7dec1d70ce</value>
@@ -1165,7 +1172,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID b9526e69-f78b-40fe-b685-bf046bb09ca5</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1196,7 +1203,7 @@
 		<IInterfaceItemTrigger type="e">
 			<_id type="a">GUID b9ae2302-2b81-4292-8814-7d31df18d1f3</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">inputReceived</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
@@ -1231,7 +1238,7 @@
 		<IInterfaceItemTrigger type="e">
 			<_id type="a">GUID 3fcb90ca-c182-4b9b-b2b4-cd444f38003d</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">driveDCT</_body>
 			<_itsInterfaceItem type="r">
 				<IHandle type="e">
@@ -1266,7 +1273,7 @@
 		<IGuard type="e">
 			<_id type="a">GUID c1808f01-ba04-4261-99f2-71f8fbe415b3</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">stop</_body>
 		</IGuard>
 		<ITransition type="e">
@@ -1285,7 +1292,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID d37f3f06-7187-4b10-8376-7768e3f9cb5b</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1316,7 +1323,7 @@
 		<IGuard type="e">
 			<_id type="a">GUID 3b3a89e1-8e33-4b97-a569-5ea0494d95e6</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">else</_body>
 		</IGuard>
 		<ITransition type="e">
@@ -1345,7 +1352,7 @@
 		<IGuard type="e">
 			<_id type="a">GUID b3b1338d-14c9-4ebb-b655-c90bb9c6c755</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">destinationReached</_body>
 		</IGuard>
 		<ITransition type="e">
@@ -1364,7 +1371,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID 20c6a281-4a90-416f-8bc3-4f19eae22cc5</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1385,7 +1392,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID ea644e6e-a6d9-47ea-b1b6-4d30d0fa6538</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -1406,7 +1413,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID 4ac02bf0-5a45-4078-8563-6e07affd7693</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -3146,7 +3153,7 @@ velocity--;</_body>
 			<_myState type="a">8192</_myState>
 			<_name type="a">inputReceived</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -3159,7 +3166,7 @@ velocity--;</_body>
 			<_myState type="a">8192</_myState>
 			<_name type="a">driveDCT</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -3172,7 +3179,7 @@ velocity--;</_body>
 			<_myState type="a">8192</_myState>
 			<_name type="a">stopDCT</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">

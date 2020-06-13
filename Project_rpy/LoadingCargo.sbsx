@@ -11,14 +11,21 @@
 			<_id type="a">GUID 12f28ee7-77a3-4a4c-b200-3aedb2bcdd0d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">LoadingCargo</_name>
-			<_modifiedTimeWeak type="a">6.13.2020::8:37:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::10:2:53</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.13.2020::10:2:53</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.13.2020::8:37:54</weakCGTime>
+			<weakCGTime type="a">6.13.2020::10:2:53</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:20:15</strongCGTime>
 			<_defaultComposite type="s">GUID 3e0161c0-2a60-4d5c-af6e-c32dacc23f19</_defaultComposite>
 			<_eventsBaseID type="a">7001</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 295660fe-73ff-4c31-b8bb-d4370d16f196</value>
 				<value>GUID 3e0161c0-2a60-4d5c-af6e-c32dacc23f19</value>
@@ -147,19 +154,19 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.AttributeListCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.OperationListCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -1669,7 +1676,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -1728,7 +1735,7 @@
 			<_id type="a">GUID 9c3bf379-9408-47d6-861a-7fe0aeeec8ed</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -1835,7 +1842,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">5</_defNumber>
 			<_version type="a">6.13.2020::11:38:8</_version>
-			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
+			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID c13c5cd7-758c-4480-8a5e-27ac308eb72c</_diagram>
 			<AggregatesList type="e">
 				<value>GUID ad75b37a-d1d5-40c7-acae-a81aebf1e837</value>

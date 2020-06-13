@@ -11,10 +11,17 @@
 			<_id type="a">GUID 9646b76a-e94e-457c-af8a-3c7b53288fce</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ManualOverride</_name>
-			<_modifiedTimeWeak type="a">6.13.2020::8:42:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::10:3:23</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.13.2020::10:3:23</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.13.2020::8:42:39</weakCGTime>
+			<weakCGTime type="a">6.13.2020::10:3:23</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:39:30</strongCGTime>
 			<_defaultComposite type="s">GUID 8a5aa8ad-7816-42ff-baee-99819876a2b0</_defaultComposite>
 			<_eventsBaseID type="a">25001</_eventsBaseID>
@@ -1144,7 +1151,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">6.13.2020::8:39:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">6.13.2020::8:39:30</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:39:30</strongCGTime>
 			<_itsStateChart type="r">
@@ -1312,7 +1319,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">3</_defNumber>
 			<_version type="a">6.13.2020::11:41:28</_version>
-			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
+			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 9e97fef4-9938-4ea0-aded-f2a1390ff76a</_diagram>
 			<AggregatesList type="e">
 				<value>GUID 883803aa-6f05-4625-baea-76a9b4f2bfa8</value>

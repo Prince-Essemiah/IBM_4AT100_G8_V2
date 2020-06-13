@@ -11,14 +11,21 @@
 			<_id type="a">GUID 83537ed4-d4a4-46ff-bef9-6ef935dbff2d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">StopCrash</_name>
-			<_modifiedTimeWeak type="a">6.13.2020::8:52:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.13.2020::10:6:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">ModelStructure</_hname>
+					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">6.13.2020::10:6:0</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">6.13.2020::8:52:23</weakCGTime>
+			<weakCGTime type="a">6.13.2020::10:6:0</weakCGTime>
 			<strongCGTime type="a">6.13.2020::8:22:28</strongCGTime>
 			<_defaultComposite type="s">GUID 1cd62580-e85d-4161-8499-d4afc05d3ad6</_defaultComposite>
 			<_eventsBaseID type="a">13601</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID d2eec253-07e3-4d10-b2c4-2badab38a48a</value>
 				<value>GUID 1cd62580-e85d-4161-8499-d4afc05d3ad6</value>
@@ -1429,7 +1436,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -1577,7 +1584,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">6</_defNumber>
 			<_version type="a">6.13.2020::10:52:23</_version>
-			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
+			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 1c57e78b-30a8-44e0-84ab-e026befdff10</_diagram>
 			<AggregatesList type="e">
 				<value>GUID b3adbec4-c61e-4717-9c41-b685449cd078</value>
