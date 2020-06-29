@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,19 +11,17 @@
 			<_id type="a">GUID 0b5d63f4-6f26-48e6-8a61-6abb1bc76075</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NonFunctionalReqPkg</_name>
-			<_modifiedTimeWeak type="a">6.13.2020::8:23:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.29.2020::22:59:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hfilename type="a">.\TUesla.sbsx</_hfilename>
-					<_hsubsystem type="a">TUesla</_hsubsystem>
 					<_hname type="a">ModelStructure</_hname>
 					<_hid type="a">GUID 1712ed26-7d44-4aa1-88f5-65c69c511aab</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.13.2020::9:39:52</_modifiedTime>
+			<_modifiedTime type="a">6.29.2020::22:59:31</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">6.13.2020::8:23:52</weakCGTime>
+			<weakCGTime type="a">6.29.2020::22:59:31</weakCGTime>
 			<strongCGTime type="a">4.1.2020::13:16:32</strongCGTime>
 			<_defaultComposite type="s">GUID b7c0d6bc-03ab-40cc-b101-7bc463355942</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -38,8 +36,8 @@
 			<_id type="a">GUID ec7739b2-678e-4df4-a573-da0d68c33cb8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Non Functional Requirements</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:37:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:59:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:59:31</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<AggregatesList type="e">
 				<value>GUID 796a5c91-c2c1-4951-9d31-6a5fb7e1186d</value>
@@ -54,11 +52,11 @@
 			<_id type="a">GUID 796a5c91-c2c1-4951-9d31-6a5fb7e1186d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Weather conditions</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:37:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:40</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall function in all weather conditions.\par%0D
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall function in all weather conditions.\par%0D
 }%0D
 </_body>
 			<reqID type="a">34</reqID>
@@ -71,10 +69,10 @@
 			<_id type="a">GUID 428c7ea4-fa88-4286-819b-d4f7066ccc2d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Avoid wheel slip</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:51:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:51:6</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system should enable the DCT to avoid wheel slip when the road is wet.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:45:24</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla should enable the DCT to avoid wheel slip when the road is wet.\par%0D
 }%0D
 </_body>
 			<reqID type="a">341</reqID>
@@ -83,10 +81,10 @@
 			<_id type="a">GUID 4df38595-0496-4a75-972f-782dfe1124ca</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Reliable detection on foggy and rainy days</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:37:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:37:57</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall be equipped with radars to ensure reliable detection under any weather condition, especially on foggy and rainy days. \par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:40</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to be equipped with radars to ensure reliable detection under any weather condition, especially on foggy and rainy days. \par%0D
 }%0D
 </_body>
 			<reqID type="a">342</reqID>
@@ -95,11 +93,11 @@
 			<_id type="a">GUID a4e99a4b-565a-4c7a-8a29-bad8c0b974e6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Obstacles</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:37:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:37:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:57:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:57:52</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall be detect and control the DCT to avoid obstacles.\par%0D
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall be detect and control the DCT to avoid obstacles.\par%0D
 }%0D
 </_body>
 			<reqID type="a">33</reqID>
@@ -117,10 +115,10 @@
 			<_id type="a">GUID a10d9118-6561-40fa-97f2-6333c67f66bd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Detect obstables</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:37</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall detect obstacles using the localization system installed in the DC\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:22</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall detect obstacles using the localization system installed in the DC\par%0D
 \par%0D
 }%0D
 </_body>
@@ -130,10 +128,10 @@
 			<_id type="a">GUID 7d04ed01-cd7d-43f7-8c0f-2ee1d0839fb4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Stop the DCT</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:53</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall enable the DCT to brake to a halt\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall enable the DCT to brake to a halt\par%0D
 }%0D
 </_body>
 			<reqID type="a">335</reqID>
@@ -142,10 +140,10 @@
 			<_id type="a">GUID 07978ffb-503e-4e7e-96d3-ce71704aff55</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Recalculate a new path</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:47</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall recalculate a new path while maintaining the end point and kinematics of the DCT\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:28</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall recalculate a new path while maintaining the end point and kinematics of the DCT\par%0D
 }%0D
 </_body>
 			<reqID type="a">334</reqID>
@@ -154,10 +152,10 @@
 			<_id type="a">GUID 7b394aea-f254-466e-9086-f5a1d29faf61</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Alert DCT</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:29</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall alert the DCT visually with the hlp of the DCT's GUI.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:15</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall alert the DCT visually with the hlp of the DCT's GUI.\par%0D
 }%0D
 </_body>
 			<reqID type="a">331</reqID>
@@ -166,10 +164,10 @@
 			<_id type="a">GUID d8d893f0-3707-4d9f-ba31-bcec08588d6a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Display obstacle detection</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:42</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall display the detection of obstacles on it's GUI by means of pulsating red light.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:9</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall display the detection of obstacles on it's GUI by means of pulsating red light.\par%0D
 }%0D
 </_body>
 			<reqID type="a">333</reqID>
@@ -178,10 +176,10 @@
 			<_id type="a">GUID 0c5f2e56-7d12-4feb-9947-73269b22f355</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Cameras or radars on DCT</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:36:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:36:58</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall be equipped with cameras or radars to help detect other objects by itself in case there are some problems in communication system.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:57:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:57:31</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to be equipped with cameras or radars to help detect other objects by itself in case there are some problems in communication system.\par%0D
 }%0D
 </_body>
 			<reqID type="a">336</reqID>
@@ -190,10 +188,10 @@
 			<_id type="a">GUID 96c8ee1d-509a-43bc-87ab-4ccbd7b48294</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Object detection system</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:37:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:37:30</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The object detection system shall determine the type of objects very quickly so that DCT can have enough time to take corresponding actions.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:57:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:57:52</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he object detection system to determine the type of objects very quickly so that DCT can have enough time to take corresponding actions.\par%0D
 }%0D
 </_body>
 			<reqID type="a">337 </reqID>
@@ -202,11 +200,11 @@
 			<_id type="a">GUID b8a07cf8-4f05-46ff-9ed2-5ab159ad6e42</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Disengage autonomous mode</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.1.2020::0:6:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:54</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall allow a user at the DC to disengage autonomous mode and take control over the DCT.\par%0D
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall allow a user at the DC to disengage autonomous mode and take control over the DCT.\par%0D
 }%0D
 </_body>
 			<reqID type="a">32</reqID>
@@ -220,10 +218,10 @@
 			<_id type="a">GUID e4fa8400-dfc2-419c-aac9-9b48b7cf3143</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Crash</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:7</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall disengage autonomous driving in case of a crash.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:54</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall disengage autonomous driving in case of a crash.\par%0D
 }%0D
 </_body>
 			<reqID type="a">321</reqID>
@@ -232,10 +230,10 @@
 			<_id type="a">GUID 8457e897-e7fe-42fc-94d2-6ef05e51af06</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Maintenance</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:50:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:50:12</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall hand over control of the DCT to mechanics during maintenance.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:44:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:44:45</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall hand over control of the DCT to mechanics during maintenance.\par%0D
 }%0D
 </_body>
 			<reqID type="a">322</reqID>
@@ -256,11 +254,11 @@
 			<_id type="a">GUID b642bcdb-6725-4fbc-8a8a-fbdbb325be6c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Battery SOC</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:27:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:45:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:45:46</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall detect the DCT\rquote s state of charge (SOC) of the battery.\par%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall detect the DCT\rquote s state of charge (SOC) of the battery.\par%0D
 }%0D
 </_body>
 			<reqID type="a">31</reqID>
@@ -272,10 +270,10 @@
 			<_id type="a">GUID 614f2a68-9693-4149-aa7e-5e35caf69a1c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DCT to charging port</_name>
-			<_modifiedTimeWeak type="a">3.30.2020::17:49:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.30.2020::17:49:31</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall send the DCT to its charging area (CA) as soon as it is decoupled, when the SOC is below a threshold.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:45:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:45:41</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 TU/esla shall send the DCT to its charging area (CA) as soon as it is decoupled, when the SOC is below a threshold.\par%0D
 }%0D
 </_body>
 			<reqID type="a">311</reqID>
@@ -284,8 +282,8 @@
 			<_id type="a">GUID 15d00499-0938-4147-8c80-8c1fcc4a994f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Brake system</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:33:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:59:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:59:31</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\lang2052\fs20\par%0D
@@ -304,10 +302,10 @@
 			<_id type="a">GUID 1f6c6fcb-05ab-4e1d-8bf5-9b12d0050d0e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">An additional wheel to brake the DCT</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:32:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:32:4</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall be equipped with an additional wheel which is deployed in case of a brake failure and slows down the vehicle by means of friction.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:59:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:59:31</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to be equipped with an additional wheel which is deployed in case of a brake failure and slows down the vehicle by means of friction.\par%0D
 }%0D
 </_body>
 			<reqID type="a">365</reqID>
@@ -316,10 +314,10 @@
 			<_id type="a">GUID fc3fba26-0a78-4de3-9edc-1ea4e3feacea</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Brake sensor</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:32:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:32:23</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall have a sensor which monitors the width of the brake claws of the brakes that warns the user in case these become too thin.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:58:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:58:11</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to have a sensor which monitors the width of the brake claws of the brakes that warns the user in case these become too thin.\par%0D
 }%0D
 </_body>
 			<reqID type="a">361</reqID>
@@ -328,10 +326,10 @@
 			<_id type="a">GUID 267767a3-4892-4730-a4a3-fbc3420c6c9a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Brake the DCT</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:32:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:32:41</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall brake its other wheels in case one of the brakes fails.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:58:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:58:24</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to brake its other wheels in case one of the brakes fails.\par%0D
 }%0D
 </_body>
 			<reqID type="a">364</reqID>
@@ -340,10 +338,10 @@
 			<_id type="a">GUID 3be82b84-a6f0-4da0-b76b-ee7b46c451e9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Hydraulic pressure sensor</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:32:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:32:57</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall have a sensor to monitor the hydraulic pressure in the brake pipes that warns the user that the braking system cannot work properly.  \par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:58:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:58:51</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to have a sensor to monitor the hydraulic pressure in the brake pipes that warns the user that the braking system cannot work properly.  \par%0D
 }%0D
 </_body>
 			<reqID type="a">363</reqID>
@@ -352,10 +350,10 @@
 			<_id type="a">GUID aad762c6-c348-4c47-84a2-4819817eef49</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Temperature sensor</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:33:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:33:17</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall have a sensor to monitor the temperature of the brake disc that warns the user if the brakes get too hot.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:59:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:59:5</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he DCT to have a sensor to monitor the temperature of the brake disc that warns the user if the brakes get too hot.\par%0D
 \par%0D
 }%0D
 </_body>
@@ -365,9 +363,9 @@
 			<_id type="a">GUID 9e70ffae-361e-4ca8-b793-f46f27e00da6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Localization system</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:48:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:36:11</_modifiedTime>
-			<_lastID type="a">5</_lastID>
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:57</_modifiedTime>
+			<_lastID type="a">6</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\lang2052\fs20\par%0D
 }%0D
@@ -379,16 +377,17 @@
 				<value>GUID b8898c80-9e72-48e1-b967-e3a212340e1b</value>
 				<value>GUID bfca22e9-1830-4d94-8162-85eaf797e235</value>
 				<value>GUID 7533035c-4d04-4427-8369-ff68783621b9</value>
+				<value>GUID 286ba8b0-5fed-49a6-9cf3-701fc00d9c70</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 7f31eda2-bc14-4e16-9bfe-e786fe4117eb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Lidar</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:35:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:35:0</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The overhead localization system shall be equipped with a lidar to improve the resolution of the measured signal and as a backup measurement system.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:55:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:55:31</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he overhead localization system to be equipped with a lidar to improve the resolution of the measured signal and as a backup measurement system.\par%0D
 }%0D
 </_body>
 			<reqID type="a">354</reqID>
@@ -397,10 +396,10 @@
 			<_id type="a">GUID 334e33da-a2bc-43b9-b647-c250e9f6c2b5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Matainance of ArUco markers</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:35:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:35:17</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The ArUco markers shall be maintained properly to ensure the detection of the DCT by the localization system.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:55:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:55:46</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he ArUco markers to be maintained properly to ensure the detection of the DCT by the localization system.\par%0D
 }%0D
 </_body>
 			<reqID type="a">352</reqID>
@@ -409,10 +408,10 @@
 			<_id type="a">GUID b8898c80-9e72-48e1-b967-e3a212340e1b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Radar</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:35:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:35:34</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The overhead localization system shall be equipped with radars to detect objects.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:6</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he overhead localization system to be equipped with radars to detect objects.\par%0D
 }%0D
 </_body>
 			<reqID type="a">355</reqID>
@@ -421,10 +420,10 @@
 			<_id type="a">GUID bfca22e9-1830-4d94-8162-85eaf797e235</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Reference ArUco markers</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:35:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:35:56</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The reference ArUco markers shall always be visible to ensure the correct positioning of the reference coordinate system.\par%0D
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:22</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset134 Microsoft YaHei UI;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\f0\fs18 TU/esla shall enable \f1 t\f2\fs20 he reference ArUco markers always to be visible to ensure the correct positioning of the reference coordinate system.\par%0D
 }%0D
 </_body>
 			<reqID type="a">353</reqID>
@@ -433,13 +432,25 @@
 			<_id type="a">GUID 7533035c-4d04-4427-8369-ff68783621b9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Visible ArUco markers</_name>
-			<_modifiedTimeWeak type="a">6.9.2020::15:36:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.9.2020::15:36:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.29.2020::22:56:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:56:57</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\lang2052\fs20 The DCT shall be equipped with clearly visible ArUco markers so that it is easily recognized by the overhead localization system.\par%0D
+\viewkind4\uc1\pard\lang2052\fs20 TU/esla shall enable the DCT to be equipped with clearly visible ArUco markers so that it is easily recognized by the overhead localization system.\par%0D
 }%0D
 </_body>
 			<reqID type="a">351</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 286ba8b0-5fed-49a6-9cf3-701fc00d9c70</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Detect the location of obstacle</_name>
+			<_modifiedTimeWeak type="a">6.29.2020::22:23:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.29.2020::22:23:2</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\fs20 TU/esla shall detect the location of the stationary obstacle that lies in the DCT's path when a DCT starts off.\par%0D
+}%0D
+</_body>
+			<reqID type="a">356</reqID>
 		</IRequirement>
 		<IDiagram type="e">
 			<_id type="a">GUID d2eb4e5b-d547-4736-93a1-0dddb2d4db79</_id>
@@ -577,19 +588,19 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.AttributeListCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.OperationListCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -957,8 +968,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2020::9:2:56</_modifiedTime>
-			<_lastModifiedTime type="a">6.13.2020::9:2:56</_lastModifiedTime>
+			<_modifiedTime type="a">6.29.2020::22:59:31</_modifiedTime>
+			<_lastModifiedTime type="a">6.29.2020::22:59:31</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1001,7 +1012,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">61</elementList>
+			<elementList type="a">63</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -1075,6 +1086,8 @@
 				<value>GUID 7b7f1082-5ce5-44ff-96d6-64865019c692</value>
 				<value>GUID 130e1714-c66a-4c1a-bae0-b83e76d02513</value>
 				<value>GUID bd7754d1-6c43-47ff-83ad-616e8ebcdfd4</value>
+				<value>GUID 9ef4026a-d3c9-4e13-a7d6-79ee8c31b7d8</value>
+				<value>GUID 92924276-cc12-4660-9750-3933976dc1b8</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -1161,7 +1174,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.04167 0 0 6.75 -63 -166 </m_transform>
+			<m_transform type="a">5.04167 0 0 6.80303 -63 -166 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3386,7 +3399,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.0938577 14 374.226 </m_transform>
+			<m_transform type="a">0.107011 0 0 0.0938577 -53 352.226 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3479,12 +3492,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 164 426  164 440  </m_arrow>
+			<m_arrow type="a">2 102 404  102 422  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1084 552 </m_SourcePort>
-			<m_TargetPort type="a">0 550 </m_TargetPort>
+			<m_TargetPort type="a">0 305 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 90145bc1-688e-4e29-9975-32fbc45859b3</_id>
@@ -3546,7 +3559,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.118081 0 0 0.0871607 10 501.559 </m_transform>
+			<m_transform type="a">0.118081 0 0 0.0871607 -53 480.559 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3638,12 +3651,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 74 489  256 489  </m_arrow>
+			<m_arrow type="a">1 73 439  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 -6 </m_SourcePort>
-			<m_TargetPort type="a">542 1095 </m_TargetPort>
+			<m_SourcePort type="a">1067 -6 </m_SourcePort>
+			<m_TargetPort type="a">0 536 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 1bbf99fe-c04b-4636-9092-9c082f172d12</_id>
@@ -3705,7 +3718,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.0872461 130 612.466 </m_transform>
+			<m_transform type="a">0.107011 0 0 0.0872461 172 612.466 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3798,7 +3811,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 188 538  256 538  </m_arrow>
+			<m_arrow type="a">2 230 538  256 538  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3865,7 +3878,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.130074 0 0 0.08731 263 612.396 </m_transform>
+			<m_transform type="a">0.130074 0 0 0.08731 307 619.396 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3958,11 +3971,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 334 538  256 538  </m_arrow>
+			<m_arrow type="a">2 327 540  256 540  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">546 -5 </m_SourcePort>
+			<m_SourcePort type="a">154 -5 </m_SourcePort>
 			<m_TargetPort type="a">542 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
@@ -4025,7 +4038,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.114391 0 0 0.0873626 341 480.338 </m_transform>
+			<m_transform type="a">0.130996 0 0 0.0937328 341 480.363 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4047,7 +4060,7 @@
 			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=45%25,55%25&gt;
 &lt;frame name=IDTextCompartment&gt;
 &lt;frame name=SpecificationTextCompartment&gt;</frameset>
 			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
@@ -4118,11 +4131,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 256 529  </m_arrow>
+			<m_arrow type="a">1 256 533  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 557 </m_SourcePort>
+			<m_SourcePort type="a">0 562 </m_SourcePort>
 			<m_TargetPort type="a">542 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
@@ -4949,7 +4962,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.0874069 207 -138.71 </m_transform>
+			<m_transform type="a">0.136531 0 0 0.0874069 207 -138.71 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4971,7 +4984,7 @@
 			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=58%25,42%25&gt;
+			<frameset type="a">&lt;frameset rows=42%25,58%25&gt;
 &lt;frame name=IDTextCompartment&gt;
 &lt;frame name=SpecificationTextCompartment&gt;</frameset>
 			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
@@ -5109,7 +5122,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.0735418 56 -120.528 </m_transform>
+			<m_transform type="a">0.136531 0 0 0.0871606 24 -138.441 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5131,7 +5144,7 @@
 			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=59%25,41%25&gt;
+			<frameset type="a">&lt;frameset rows=37%25,63%25&gt;
 &lt;frame name=IDTextCompartment&gt;
 &lt;frame name=SpecificationTextCompartment&gt;</frameset>
 			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
@@ -5202,7 +5215,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 114 1  188 1  </m_arrow>
+			<m_arrow type="a">2 98 -17  188 -17  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -5527,6 +5540,165 @@
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1084 552 </m_SourcePort>
 			<m_TargetPort type="a">542 1095 </m_TargetPort>
+		</CGIContainArrow>
+		<CGIAnnotation type="e">
+			<_id type="a">GUID 9ef4026a-d3c9-4e13-a7d6-79ee8c31b7d8</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">176</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 286ba8b0-5fed-49a6-9cf3-701fc00d9c70</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 21e46984-eaa7-4be7-a775-d382cd1ef9d1</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Detect the location of obstacle</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.150369 0 0 0.0871607 -43 626.559 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=39%25,61%25&gt;
+&lt;frame name=IDTextCompartment&gt;
+&lt;frame name=SpecificationTextCompartment&gt;</frameset>
+			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
+			<m_bIsBoxStyle type="a">1</m_bIsBoxStyle>
+			<AggregatesList type="e">
+				<value>GUID 7a4351d1-3701-4076-b01b-f195cc379670</value>
+				<value>GUID aa62b8b5-7e88-4979-b49f-49d1e2d07251</value>
+			</AggregatesList>
+		</CGIAnnotation>
+		<CGICompartment type="e">
+			<_id type="a">GUID 7a4351d1-3701-4076-b01b-f195cc379670</_id>
+			<m_name type="a">ID</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID aa62b8b5-7e88-4979-b49f-49d1e2d07251</_id>
+			<m_name type="a">Specification</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIContainArrow type="e">
+			<_id type="a">GUID 92924276-cc12-4660-9750-3933976dc1b8</_id>
+			<m_type type="a">204</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 9ef4026a-d3c9-4e13-a7d6-79ee8c31b7d8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID ba18393c-19dd-46ce-bd0f-41a17b7b05db</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 99 558  215 558  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">944 -6 </m_SourcePort>
+			<m_TargetPort type="a">159 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<IClass type="e">
 			<_id type="a">GUID b7c0d6bc-03ab-40cc-b101-7bc463355942</_id>
